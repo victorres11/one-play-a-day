@@ -85,6 +85,27 @@ class PlayGallery {
       day: 'numeric'
     });
 
+    // Support both old and new data formats
+    const angles = play.angles || [play.play_video_angle_1, play.play_video_angle_2].filter(Boolean);
+    const angleCount = angles.length;
+    const containerClass = angleCount === 2 ? 'videos-container-two' : 'videos-container-multi';
+
+    const videoHTML = angles.map((anglePath, index) => `
+      <div class="video-wrapper">
+        <span class="video-label">Angle ${index + 1}</span>
+        <video 
+          data-src="${anglePath}"
+          autoplay 
+          loop 
+          muted 
+          playsinline
+          class="lazy-load"
+          preload="none">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    `).join('');
+
     return `
       <article class="play-card">
         <div class="card-header">
@@ -111,33 +132,8 @@ class PlayGallery {
         </div>
 
         <div class="video-section">
-          <div class="videos-container">
-            <div class="video-wrapper">
-              <span class="video-label">Angle 1</span>
-              <video 
-                data-src="${play.play_video_angle_1}"
-                autoplay 
-                loop 
-                muted 
-                playsinline
-                class="lazy-load"
-                preload="none">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="video-wrapper">
-              <span class="video-label">Angle 2</span>
-              <video 
-                data-src="${play.play_video_angle_2}"
-                autoplay 
-                loop 
-                muted 
-                playsinline
-                class="lazy-load"
-                preload="none">
-                Your browser does not support the video tag.
-              </video>
-            </div>
+          <div class="videos-container ${containerClass}">
+            ${videoHTML}
           </div>
 
           <div class="diagram-wrapper">

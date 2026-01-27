@@ -158,9 +158,23 @@ main {
 
 .videos-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 1rem;
   margin-bottom: 1.5rem;
+}
+
+.videos-container-two {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.videos-container-multi {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+@media (max-width: 768px) {
+  .videos-container-two,
+  .videos-container-multi {
+    grid-template-columns: 1fr;
+  }
 }
 
 .video-wrapper {
@@ -272,10 +286,6 @@ footer p {
 
   .play-title {
     font-size: 1.1rem;
-  }
-
-  .videos-container {
-    grid-template-columns: 1fr;
   }
 
   .play-details {
