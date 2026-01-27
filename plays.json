@@ -4,61 +4,61 @@
     "date": "2026-01-27",
     "title": "2025 Utah using 6OL to run a 2-Way Pin & Pull Midline Read",
     "angles": [
-      "media/737_angle1.mp4",
-      "media/737_angle2.mp4"
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/737_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/737_angle2.mp4"
     ],
     "play_details": {
       "down_and_distance": "2nd & 6",
       "personnel": "11p XL",
       "formation": "Thor Wing"
     },
-    "play_diagram": "media/737_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/737_diagram.png"
   },
   {
     "play_number": 736,
     "date": "2026-01-26",
     "title": "2025 Seahawks running RB Corner Scissors in the Red Zone",
     "angles": [
-      "media/736_angle1.mp4",
-      "media/736_angle2.mp4",
-      "media/736_angle3.mp4"
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/736_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/736_angle2.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/736_angle3.mp4"
     ],
     "play_details": {
       "down_and_distance": "2nd & GL",
       "personnel": "11p",
       "formation": "Deuce Rt to Split"
     },
-    "play_diagram": "media/736_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/736_diagram.jpg"
   },
   {
     "play_number": 735,
     "date": "2026-01-23",
     "title": "2023 Chiefs running 4-Strong Shallow Trail in the Red Zone",
     "angles": [
-      "media/735_angle1.mp4",
-      "media/735_angle2.mp4",
-      "media/735_angle3.mp4"
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/735_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/735_angle2.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/735_angle3.mp4"
     ],
     "play_details": {
       "down_and_distance": "3rd & GL",
       "personnel": "11p",
       "formation": "Empty Bunch Rt Rip"
     },
-    "play_diagram": "media/735_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/735_diagram.jpg"
   },
   {
     "play_number": 734,
     "date": "2026-01-22",
     "title": "2024 Texas State running Tunnel Screen on the Backside of GT Counter",
     "angles": [
-      "media/734_angle1.mp4",
-      "media/734_angle2.mp4"
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/734_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/734_angle2.mp4"
     ],
     "play_details": {
       "down_and_distance": "2nd & 10",
       "personnel": "10p",
       "formation": "Trips Lt Razor"
     },
-    "play_diagram": "media/734_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/734_diagram.png"
   }
 ]

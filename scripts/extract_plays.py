@@ -31,6 +31,12 @@ ORIGINALS_DIR = MEDIA_DIR / "originals"
 PLAYS_JSON = APP_DIR / "plays.json"
 VENV_PYTHON = Path.home() / "clawd" / "venv" / "bin" / "python"
 
+# R2 Configuration
+R2_BUCKET = "opad-media"
+R2_PUBLIC_URL = "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev"
+CF_TOKEN_PATH = Path.home() / ".clawdbot" / "credentials" / "cloudflare_api_token"
+CF_ACCOUNT_PATH = Path.home() / ".clawdbot" / "credentials" / "cloudflare_account_id"
+
 # Ensure directories exist
 MEDIA_DIR.mkdir(exist_ok=True)
 ORIGINALS_DIR.mkdir(exist_ok=True)
@@ -235,8 +241,32 @@ def convert_gif_to_mp4(gif_path, mp4_path):
         return False
 
 
+def upload_to_r2(local_path, r2_key):
+    """Upload a file to Cloudflare R2"""
+    if not CF_TOKEN_PATH.exists() or not CF_ACCOUNT_PATH.exists():
+        logger.warning("R2 credentials not found, skipping upload")
+        return False
+    
+    env = os.environ.copy()
+    env["CLOUDFLARE_API_TOKEN"] = CF_TOKEN_PATH.read_text().strip()
+    env["CLOUDFLARE_ACCOUNT_ID"] = CF_ACCOUNT_PATH.read_text().strip()
+    
+    try:
+        subprocess.run([
+            "wrangler", "r2", "object", "put",
+            f"{R2_BUCKET}/{r2_key}",
+            "--file", str(local_path),
+            "--remote"
+        ], check=True, capture_output=True, env=env)
+        logger.info(f"Uploaded {local_path.name} → R2: {r2_key}")
+        return True
+    except subprocess.CalledProcessError as e:
+        logger.error(f"Failed to upload {local_path.name} to R2: {e.stderr.decode('utf-8', errors='replace')}")
+        return False
+
+
 def process_media(play_number, media_urls):
-    """Download and convert media files"""
+    """Download, convert, and upload media files to R2"""
     result = {
         "angles": [],
         "diagram": None
@@ -255,7 +285,13 @@ def process_media(play_number, media_urls):
         if download_file(gif_url, gif_path):
             # Convert to MP4
             if convert_gif_to_mp4(gif_path, mp4_path):
-                result["angles"].append(f"media/{mp4_filename}")
+                # Upload to R2
+                r2_key = f"media/{mp4_filename}"
+                if upload_to_r2(mp4_path, r2_key):
+                    result["angles"].append(f"{R2_PUBLIC_URL}/{r2_key}")
+                else:
+                    # Fallback to local path
+                    result["angles"].append(f"media/{mp4_filename}")
         
         time.sleep(0.5)  # Rate limiting
     
@@ -267,7 +303,12 @@ def process_media(play_number, media_urls):
         diagram_path = MEDIA_DIR / diagram_filename
         
         if download_file(diagram_url, diagram_path):
-            result["diagram"] = f"media/{diagram_filename}"
+            # Upload to R2
+            r2_key = f"media/{diagram_filename}"
+            if upload_to_r2(diagram_path, r2_key):
+                result["diagram"] = f"{R2_PUBLIC_URL}/{r2_key}"
+            else:
+                result["diagram"] = f"media/{diagram_filename}"
         
         time.sleep(0.5)
     
