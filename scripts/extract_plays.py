@@ -151,6 +151,24 @@ def extract_title(html):
     return "Untitled Play"
 
 
+def clean_html_text(text):
+    """Clean HTML entities and tags from text"""
+    if not text:
+        return ""
+    # Decode HTML entities
+    text = text.replace('&amp;', '&')
+    text = text.replace('&lt;', '<')
+    text = text.replace('&gt;', '>')
+    text = text.replace('&quot;', '"')
+    text = text.replace('&#39;', "'")
+    text = text.replace('&nbsp;', ' ')
+    # Remove HTML tags
+    text = re.sub(r'<[^>]+>', '', text)
+    # Clean up whitespace
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+
 def extract_play_details(html):
     """Extract down & distance, personnel, formation"""
     details = {
@@ -159,20 +177,51 @@ def extract_play_details(html):
         "formation": ""
     }
     
-    # Look for pattern like "Down & Distance: 2nd & 6"
-    dd_match = re.search(r'Down\s*&\s*Distance[:\s]*([^\n<]+)', html, re.IGNORECASE)
+    # New format: single line with | separators
+    # "Down & Distance: 2nd & 10 | Personnel: 11p | Formation: Dual Rt"
+    
+    # Down & Distance - stop at | or < or end of content
+    dd_match = re.search(
+        r'Down\s*(?:&amp;|&)\s*Distance[:\s]*</strong>\s*([^|<\n]+)',
+        html, re.IGNORECASE
+    )
+    if not dd_match:
+        # Fallback: simpler pattern
+        dd_match = re.search(
+            r'Down\s*(?:&amp;|&)\s*Distance[:\s]*([^|<\n]+)',
+            html, re.IGNORECASE
+        )
     if dd_match:
-        details["down_and_distance"] = dd_match.group(1).strip()
+        details["down_and_distance"] = clean_html_text(dd_match.group(1))
     
-    # Personnel
-    pers_match = re.search(r'Personnel[:\s]*([^\n<]+)', html, re.IGNORECASE)
+    # Personnel - stop at | or < or end of content
+    # Format: "<strong>Personnel</strong>: 11p" - note the colon AFTER the closing tag
+    pers_match = re.search(
+        r'Personnel\s*</strong>\s*:?\s*([^|<\n]+)',
+        html, re.IGNORECASE
+    )
+    if not pers_match:
+        pers_match = re.search(
+            r'Personnel[:\s]*([^|<\n]+)',
+            html, re.IGNORECASE
+        )
     if pers_match:
-        details["personnel"] = pers_match.group(1).strip()
+        val = clean_html_text(pers_match.group(1))
+        # Remove leading colon if present
+        details["personnel"] = val.lstrip(': ')
     
-    # Formation
-    form_match = re.search(r'Formation[:\s]*([^\n<]+)', html, re.IGNORECASE)
+    # Formation - may be at end of line, stop at < or newline
+    form_match = re.search(
+        r'Formation[:\s]*</strong>\s*([^<\n]+)',
+        html, re.IGNORECASE
+    )
+    if not form_match:
+        form_match = re.search(
+            r'Formation[:\s]*([^<\n|]+)',
+            html, re.IGNORECASE
+        )
     if form_match:
-        details["formation"] = form_match.group(1).strip()
+        details["formation"] = clean_html_text(form_match.group(1))
     
     return details
 
@@ -566,6 +615,89 @@ def upload_local_media_mode(args):
     return 0
 
 
+def refresh_details_mode(args):
+    """Re-extract title and play_details from emails for existing plays"""
+    logger.info("=" * 60)
+    logger.info("One Play a Day - Refresh Details Mode")
+    logger.info("=" * 60)
+    
+    # Load existing plays
+    plays = load_plays_json()
+    logger.info(f"Loaded {len(plays)} plays")
+    
+    if not plays:
+        logger.error("No plays to refresh")
+        return 1
+    
+    updated_count = 0
+    failed_count = 0
+    
+    for i, play in enumerate(plays):
+        play_number = play["play_number"]
+        logger.info(f"\n[{i+1}/{len(plays)}] Refreshing Play #{play_number}")
+        
+        # Search for email
+        email = search_email_by_play_number(play_number)
+        if not email:
+            logger.warning(f"  Could not find email for Play #{play_number}")
+            failed_count += 1
+            continue
+        
+        # Get email content
+        html = get_email_content(email.get("id"))
+        if not html:
+            logger.warning(f"  Could not fetch email content")
+            failed_count += 1
+            continue
+        
+        # Re-extract details
+        new_title = extract_title(html)
+        new_details = extract_play_details(html)
+        new_date = extract_email_date(html)
+        
+        # Update play
+        old_title = play.get("title", "")
+        old_details = play.get("play_details", {})
+        
+        play["title"] = new_title
+        play["play_details"] = new_details
+        play["date"] = new_date
+        
+        # Log changes
+        if new_title != old_title:
+            logger.info(f"  Title: {old_title[:50]} → {new_title[:50]}")
+        if new_details != old_details:
+            logger.info(f"  Details: D&D={new_details.get('down_and_distance', '')}, "
+                       f"Pers={new_details.get('personnel', '')}, "
+                       f"Form={new_details.get('formation', '')}")
+        
+        updated_count += 1
+        
+        # Progress every 20
+        if updated_count % 20 == 0:
+            logger.info(f"\n📊 Progress: {updated_count}/{len(plays)} refreshed")
+            # Save incrementally
+            if not args.dry_run:
+                save_plays_json(plays)
+        
+        time.sleep(0.3)  # Rate limiting
+    
+    # Final save
+    if not args.dry_run:
+        save_plays_json(plays)
+    
+    # Summary
+    logger.info("")
+    logger.info("=" * 60)
+    logger.info("REFRESH SUMMARY")
+    logger.info("=" * 60)
+    logger.info(f"Updated: {updated_count}")
+    logger.info(f"Failed: {failed_count}")
+    logger.info("✅ Refresh complete!")
+    
+    return 0
+
+
 def main():
     parser = argparse.ArgumentParser(description="Extract One Play a Day emails")
     parser.add_argument("--max", type=int, default=50, help="Maximum emails to fetch from Gmail")
@@ -574,7 +706,12 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Don't save changes")
     parser.add_argument("--no-incremental", action="store_true", help="Disable incremental saves")
     parser.add_argument("--upload-local", action="store_true", help="Upload local media to R2 (skip download/convert)")
+    parser.add_argument("--refresh-details", action="store_true", help="Re-extract title/details for existing plays")
     args = parser.parse_args()
+    
+    # Handle refresh-details mode
+    if args.refresh_details:
+        return refresh_details_mode(args)
     
     # Handle upload-local mode
     if args.upload_local:
