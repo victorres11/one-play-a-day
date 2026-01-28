@@ -385,12 +385,16 @@ def extract_play_from_email(email_id, subject):
 
 def main():
     parser = argparse.ArgumentParser(description="Extract One Play a Day emails")
-    parser.add_argument("--max", type=int, default=50, help="Maximum emails to fetch")
+    parser.add_argument("--max", type=int, default=50, help="Maximum emails to fetch from Gmail")
+    parser.add_argument("--offset", type=int, default=0, help="Skip first N emails (for sharding)")
+    parser.add_argument("--batch", type=int, default=0, help="Process only N plays (0=all)")
     parser.add_argument("--dry-run", action="store_true", help="Don't save changes")
+    parser.add_argument("--no-incremental", action="store_true", help="Disable incremental saves")
     args = parser.parse_args()
     
     logger.info("=" * 60)
     logger.info("One Play a Day - Email Extraction")
+    logger.info(f"Config: max={args.max}, offset={args.offset}, batch={args.batch}")
     logger.info("=" * 60)
     
     # Load existing plays
@@ -404,36 +408,68 @@ def main():
         logger.error("No emails found")
         return 1
     
+    # Apply offset (skip first N emails)
+    if args.offset > 0:
+        logger.info(f"Skipping first {args.offset} emails (offset)")
+        emails = emails[args.offset:]
+    
+    logger.info(f"Processing {len(emails)} emails after offset")
+    
     # Process each email
-    new_plays = []
-    for email in emails:
+    new_plays_count = 0
+    processed_count = 0
+    skipped_count = 0
+    
+    for i, email in enumerate(emails):
+        # Check batch limit
+        if args.batch > 0 and new_plays_count >= args.batch:
+            logger.info(f"Batch limit ({args.batch}) reached, stopping")
+            break
+        
         email_id = email.get("id")
         subject = email.get("subject", "")
         
         play_number = extract_play_number(subject)
         if play_number and play_number in existing_numbers:
             logger.info(f"Play #{play_number} already exists, skipping")
+            skipped_count += 1
             continue
         
         play = extract_play_from_email(email_id, subject)
         if play:
-            new_plays.append(play)
+            new_plays_count += 1
             existing_numbers.add(play["play_number"])
+            
+            # Incremental save after each successful play
+            if not args.dry_run and not args.no_incremental:
+                # Reload to get any concurrent updates, add new play, save
+                current_plays = load_plays_json()
+                current_numbers = {p["play_number"] for p in current_plays}
+                if play["play_number"] not in current_numbers:
+                    current_plays.append(play)
+                    save_plays_json(current_plays)
+                    logger.info(f"💾 Saved incrementally ({len(current_plays)} total plays)")
+            
+            processed_count += 1
+            
+            # Progress report every 10 plays
+            if new_plays_count % 10 == 0:
+                logger.info(f"📊 Progress: {new_plays_count} new plays, {skipped_count} skipped, {i+1}/{len(emails)} emails")
         
         time.sleep(1)  # Rate limiting
     
-    # Merge and save
-    if new_plays:
-        logger.info(f"\nExtracted {len(new_plays)} new plays")
-        all_plays = existing_plays + new_plays
-        
-        if not args.dry_run:
-            save_plays_json(all_plays)
-            logger.info("✅ Extraction complete!")
-        else:
-            logger.info("DRY RUN - Changes not saved")
-    else:
-        logger.info("No new plays extracted")
+    # Final summary
+    logger.info("")
+    logger.info("=" * 60)
+    logger.info("EXTRACTION SUMMARY")
+    logger.info("=" * 60)
+    logger.info(f"New plays extracted: {new_plays_count}")
+    logger.info(f"Already existed (skipped): {skipped_count}")
+    logger.info(f"Emails processed: {processed_count + skipped_count}")
+    
+    final_plays = load_plays_json()
+    logger.info(f"Total plays in database: {len(final_plays)}")
+    logger.info("✅ Extraction complete!")
     
     return 0
 
