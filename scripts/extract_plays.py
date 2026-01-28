@@ -383,6 +383,189 @@ def extract_play_from_email(email_id, subject):
         return None
 
 
+def scan_local_media():
+    """Scan local media directory and group files by play number"""
+    plays_media = {}
+    
+    # Scan MP4 files
+    for mp4_file in MEDIA_DIR.glob("*.mp4"):
+        match = re.match(r'^(\d+)_angle(\d+)\.mp4$', mp4_file.name)
+        if match:
+            play_num = int(match.group(1))
+            angle_num = int(match.group(2))
+            if play_num not in plays_media:
+                plays_media[play_num] = {"angles": [], "diagram": None}
+            plays_media[play_num]["angles"].append((angle_num, mp4_file))
+    
+    # Sort angles by number
+    for play_num in plays_media:
+        plays_media[play_num]["angles"].sort(key=lambda x: x[0])
+        plays_media[play_num]["angles"] = [f for _, f in plays_media[play_num]["angles"]]
+    
+    # Scan for diagrams
+    for diagram_file in MEDIA_DIR.glob("*_diagram.*"):
+        match = re.match(r'^(\d+)_diagram\.', diagram_file.name)
+        if match:
+            play_num = int(match.group(1))
+            if play_num in plays_media:
+                plays_media[play_num]["diagram"] = diagram_file
+    
+    return plays_media
+
+
+def search_email_by_play_number(play_number):
+    """Search for a specific play's email"""
+    output = run_gog_command([
+        "gmail", "search",
+        f"from:dan@coachdancasey.com subject:'One Play a Day' subject:'{play_number}'",
+        "--max", "5",
+        "--json"
+    ])
+    
+    if not output:
+        return None
+    
+    try:
+        data = json.loads(output)
+        emails = data.get("threads", []) or data.get("messages", [])
+        
+        # Find exact match
+        for email in emails:
+            subject = email.get("subject", "")
+            num = extract_play_number(subject)
+            if num == play_number:
+                return email
+        
+        return emails[0] if emails else None
+    except json.JSONDecodeError:
+        return None
+
+
+def upload_local_media_mode(args):
+    """Upload existing local media files to R2 and rebuild plays.json"""
+    logger.info("=" * 60)
+    logger.info("One Play a Day - Upload Local Media Mode")
+    logger.info("=" * 60)
+    
+    # Scan local files
+    local_media = scan_local_media()
+    logger.info(f"Found {len(local_media)} plays with local media")
+    
+    # Load existing plays
+    existing_plays = load_plays_json()
+    existing_numbers = {p["play_number"] for p in existing_plays}
+    logger.info(f"Already in plays.json: {len(existing_numbers)} plays")
+    
+    # Find plays that need processing
+    to_process = sorted([p for p in local_media if p not in existing_numbers], reverse=True)
+    logger.info(f"Plays to upload: {len(to_process)}")
+    
+    if not to_process:
+        logger.info("Nothing to do!")
+        return 0
+    
+    # Apply batch limit
+    if args.batch > 0:
+        to_process = to_process[:args.batch]
+        logger.info(f"Batch limited to {len(to_process)} plays")
+    
+    uploaded_count = 0
+    failed_count = 0
+    
+    for i, play_number in enumerate(to_process):
+        media = local_media[play_number]
+        logger.info(f"\n[{i+1}/{len(to_process)}] Processing Play #{play_number}")
+        logger.info(f"  Local angles: {len(media['angles'])}")
+        
+        # Search email for metadata
+        email = search_email_by_play_number(play_number)
+        if not email:
+            logger.warning(f"  Could not find email for Play #{play_number}, using defaults")
+            title = "Untitled Play"
+            date = datetime.now().strftime("%Y-%m-%d")
+            details = {"down_and_distance": "", "personnel": "", "formation": ""}
+        else:
+            # Get full email content for metadata
+            html = get_email_content(email.get("id"))
+            if html:
+                title = extract_title(html)
+                date = extract_email_date(html)
+                details = extract_play_details(html)
+            else:
+                title = "Untitled Play"
+                date = datetime.now().strftime("%Y-%m-%d")
+                details = {"down_and_distance": "", "personnel": "", "formation": ""}
+        
+        logger.info(f"  Title: {title}")
+        
+        # Upload angles to R2
+        angle_urls = []
+        for mp4_path in media["angles"]:
+            r2_key = f"media/{mp4_path.name}"
+            if upload_to_r2(mp4_path, r2_key):
+                angle_urls.append(f"{R2_PUBLIC_URL}/{r2_key}")
+            else:
+                # Fallback to local
+                angle_urls.append(f"media/{mp4_path.name}")
+            time.sleep(0.3)  # Light rate limiting
+        
+        # Upload diagram if exists
+        diagram_url = ""
+        if media["diagram"]:
+            diagram_path = media["diagram"]
+            r2_key = f"media/{diagram_path.name}"
+            if upload_to_r2(diagram_path, r2_key):
+                diagram_url = f"{R2_PUBLIC_URL}/{r2_key}"
+            else:
+                diagram_url = f"media/{diagram_path.name}"
+        
+        if not angle_urls:
+            logger.error(f"  No angles uploaded for Play #{play_number}")
+            failed_count += 1
+            continue
+        
+        # Build play object
+        play = {
+            "play_number": play_number,
+            "date": date,
+            "title": title,
+            "angles": angle_urls,
+            "play_details": details,
+            "play_diagram": diagram_url
+        }
+        
+        # Save incrementally
+        if not args.dry_run:
+            current_plays = load_plays_json()
+            current_numbers = {p["play_number"] for p in current_plays}
+            if play["play_number"] not in current_numbers:
+                current_plays.append(play)
+                save_plays_json(current_plays)
+        
+        uploaded_count += 1
+        logger.info(f"  ✅ Uploaded ({uploaded_count} done, {len(to_process) - i - 1} remaining)")
+        
+        # Progress every 20
+        if uploaded_count % 20 == 0:
+            logger.info(f"\n📊 Progress: {uploaded_count}/{len(to_process)} uploaded, {failed_count} failed")
+        
+        time.sleep(0.5)  # Rate limiting between plays
+    
+    # Summary
+    logger.info("")
+    logger.info("=" * 60)
+    logger.info("UPLOAD SUMMARY")
+    logger.info("=" * 60)
+    logger.info(f"Uploaded: {uploaded_count}")
+    logger.info(f"Failed: {failed_count}")
+    
+    final_plays = load_plays_json()
+    logger.info(f"Total plays in database: {len(final_plays)}")
+    logger.info("✅ Upload complete!")
+    
+    return 0
+
+
 def main():
     parser = argparse.ArgumentParser(description="Extract One Play a Day emails")
     parser.add_argument("--max", type=int, default=50, help="Maximum emails to fetch from Gmail")
@@ -390,7 +573,12 @@ def main():
     parser.add_argument("--batch", type=int, default=0, help="Process only N plays (0=all)")
     parser.add_argument("--dry-run", action="store_true", help="Don't save changes")
     parser.add_argument("--no-incremental", action="store_true", help="Disable incremental saves")
+    parser.add_argument("--upload-local", action="store_true", help="Upload local media to R2 (skip download/convert)")
     args = parser.parse_args()
+    
+    # Handle upload-local mode
+    if args.upload_local:
+        return upload_local_media_mode(args)
     
     logger.info("=" * 60)
     logger.info("One Play a Day - Email Extraction")
