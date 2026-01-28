@@ -1,0 +1,11 @@
+# Local media files (served from R2 CDN)
+media/
+media/originals/
+
+# Git
+.git
+
+# Dev files
+scripts/
+*.py
+__pycache__/
