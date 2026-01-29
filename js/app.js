@@ -9,6 +9,7 @@ class PlayGallery {
     this.videoObserver = null;
     this.filters = {
       search: '',
+      source: '',
       down: '',
       personnel: '',
       formation: ''
@@ -67,6 +68,12 @@ class PlayGallery {
         this.filters.search = e.target.value.toLowerCase();
         this.applyFilters();
       }, 300);
+    });
+
+    // Source filter
+    document.getElementById('source-filter').addEventListener('change', (e) => {
+      this.filters.source = e.target.value;
+      this.applyFilters();
     });
 
     // Down filter
@@ -134,6 +141,13 @@ class PlayGallery {
         if (!titleMatch) return false;
       }
 
+      // Source filter
+      if (this.filters.source) {
+        const isTwitter = play.source === 'twitter' || (play.id && play.id.startsWith('x-'));
+        if (this.filters.source === 'twitter' && !isTwitter) return false;
+        if (this.filters.source === 'email' && isTwitter) return false;
+      }
+
       // Down filter
       if (this.filters.down) {
         const downMatch = play.play_details?.down_and_distance?.startsWith(this.filters.down);
@@ -159,9 +173,10 @@ class PlayGallery {
   }
 
   clearFilters() {
-    this.filters = { search: '', down: '', personnel: '', formation: '' };
+    this.filters = { search: '', source: '', down: '', personnel: '', formation: '' };
     
     document.getElementById('search-input').value = '';
+    document.getElementById('source-filter').value = '';
     document.getElementById('down-filter').value = '';
     document.getElementById('personnel-filter').value = '';
     document.getElementById('formation-filter').value = '';

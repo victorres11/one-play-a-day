@@ -16,3 +16,8 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Local media (served from R2)
+media/
+data/
+__pycache__/
