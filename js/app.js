@@ -2,17 +2,32 @@
 
 class PlayGallery {
   constructor() {
-    this.plays = [];
+    this.allPlays = [];
+    this.filteredPlays = [];
     this.currentPage = 1;
     this.playsPerPage = 10;
     this.videoObserver = null;
+    this.filters = {
+      search: '',
+      team: '',
+      down: '',
+      personnel: '',
+      formation: '',
+      dateFrom: '',
+      dateTo: ''
+    };
+    this.teamMap = new Map(); // Maps play_number to extracted team
     this.init();
   }
 
   async init() {
     try {
       await this.loadPlays();
+      this.extractTeams();
       this.setupVideoLazyLoading();
+      this.setupFilters();
+      this.populateFilterOptions();
+      this.applyFilters();
       this.renderPage();
       this.updatePlayCount();
     } catch (error) {
@@ -24,9 +39,257 @@ class PlayGallery {
 
   async loadPlays() {
     const response = await fetch('plays.json');
-    this.plays = await response.json();
+    this.allPlays = await response.json();
     // Sort by play number descending (most recent first)
-    this.plays.sort((a, b) => b.play_number - a.play_number);
+    this.allPlays.sort((a, b) => b.play_number - a.play_number);
+    this.filteredPlays = [...this.allPlays];
+  }
+
+  /**
+   * Extract team names from play titles
+   * Pattern: "YEAR Team doing..." e.g., "2025 Utah using...", "2025 Chiefs running..."
+   */
+  extractTeams() {
+    const teamSet = new Set();
+    
+    // Common action verbs that signal end of team name
+    const actionWords = ['running', 'using', 'keeping', 'lining', 'throwing', 'short', 
+                         'Defense', 'taking', 'getting', 'motioning'];
+    
+    this.allPlays.forEach(play => {
+      if (play.title && play.title !== 'Untitled Play') {
+        // Try to extract team: "YEAR TeamName action..."
+        const match = play.title.match(/^(\d{4})\s+(.+?)\s+(running|using|keeping|lining|throwing|short|Defense|taking|getting|motioning)/i);
+        
+        if (match) {
+          let team = match[2].trim();
+          // Normalize some team names
+          team = this.normalizeTeamName(team);
+          this.teamMap.set(play.play_number, team);
+          teamSet.add(team);
+        }
+      }
+    });
+
+    // Store sorted teams for dropdown
+    this.teams = [...teamSet].sort();
+  }
+
+  normalizeTeamName(team) {
+    // Handle some edge cases and normalize names
+    const normalizations = {
+      '49ers': 'San Francisco 49ers',
+      'Vikings Defense': 'Minnesota Vikings',
+      'Indiana Defense': 'Indiana',
+    };
+    
+    // Remove trailing "Defense" if present
+    team = team.replace(/\s+Defense$/i, '');
+    
+    return normalizations[team] || team;
+  }
+
+  getTeamForPlay(play) {
+    return this.teamMap.get(play.play_number) || '';
+  }
+
+  setupFilters() {
+    // Search input with debounce
+    const searchInput = document.getElementById('search-input');
+    let debounceTimer;
+    searchInput.addEventListener('input', (e) => {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(() => {
+        this.filters.search = e.target.value.toLowerCase();
+        this.applyFilters();
+      }, 300);
+    });
+
+    // Team filter
+    document.getElementById('team-filter').addEventListener('change', (e) => {
+      this.filters.team = e.target.value;
+      this.applyFilters();
+    });
+
+    // Down filter
+    document.getElementById('down-filter').addEventListener('change', (e) => {
+      this.filters.down = e.target.value;
+      this.applyFilters();
+    });
+
+    // Personnel filter
+    document.getElementById('personnel-filter').addEventListener('change', (e) => {
+      this.filters.personnel = e.target.value;
+      this.applyFilters();
+    });
+
+    // Formation filter
+    document.getElementById('formation-filter').addEventListener('change', (e) => {
+      this.filters.formation = e.target.value;
+      this.applyFilters();
+    });
+
+    // Date range filters
+    document.getElementById('date-from').addEventListener('change', (e) => {
+      this.filters.dateFrom = e.target.value;
+      this.applyFilters();
+    });
+
+    document.getElementById('date-to').addEventListener('change', (e) => {
+      this.filters.dateTo = e.target.value;
+      this.applyFilters();
+    });
+
+    // Clear filters button
+    document.getElementById('clear-filters').addEventListener('click', () => {
+      this.clearFilters();
+    });
+  }
+
+  populateFilterOptions() {
+    // Populate team dropdown
+    const teamSelect = document.getElementById('team-filter');
+    this.teams.forEach(team => {
+      const option = document.createElement('option');
+      option.value = team;
+      option.textContent = team;
+      teamSelect.appendChild(option);
+    });
+
+    // Extract unique personnel and formations
+    const personnelSet = new Set();
+    const formationSet = new Set();
+
+    this.allPlays.forEach(play => {
+      if (play.play_details?.personnel) {
+        personnelSet.add(play.play_details.personnel);
+      }
+      if (play.play_details?.formation) {
+        formationSet.add(play.play_details.formation);
+      }
+    });
+
+    // Sort and populate personnel dropdown
+    const personnelSelect = document.getElementById('personnel-filter');
+    [...personnelSet].sort().forEach(personnel => {
+      const option = document.createElement('option');
+      option.value = personnel;
+      option.textContent = personnel;
+      personnelSelect.appendChild(option);
+    });
+
+    // Sort and populate formation dropdown
+    const formationSelect = document.getElementById('formation-filter');
+    [...formationSet].sort().forEach(formation => {
+      const option = document.createElement('option');
+      option.value = formation;
+      option.textContent = formation;
+      formationSelect.appendChild(option);
+    });
+
+    // Set date range bounds based on data
+    this.setDateRangeBounds();
+  }
+
+  setDateRangeBounds() {
+    const dates = this.allPlays
+      .map(p => p.date)
+      .filter(d => d)
+      .sort();
+    
+    if (dates.length > 0) {
+      const dateFrom = document.getElementById('date-from');
+      const dateTo = document.getElementById('date-to');
+      
+      dateFrom.min = dates[0];
+      dateFrom.max = dates[dates.length - 1];
+      dateTo.min = dates[0];
+      dateTo.max = dates[dates.length - 1];
+    }
+  }
+
+  applyFilters() {
+    this.filteredPlays = this.allPlays.filter(play => {
+      // Search filter (title - searches full title for team names, play concepts, etc.)
+      if (this.filters.search) {
+        const searchTerm = this.filters.search;
+        const titleMatch = play.title.toLowerCase().includes(searchTerm);
+        const personnelMatch = play.play_details?.personnel?.toLowerCase().includes(searchTerm);
+        const formationMatch = play.play_details?.formation?.toLowerCase().includes(searchTerm);
+        
+        if (!titleMatch && !personnelMatch && !formationMatch) return false;
+      }
+
+      // Team filter
+      if (this.filters.team) {
+        const playTeam = this.getTeamForPlay(play);
+        if (playTeam !== this.filters.team) return false;
+      }
+
+      // Down filter
+      if (this.filters.down) {
+        const downMatch = play.play_details?.down_and_distance?.startsWith(this.filters.down);
+        if (!downMatch) return false;
+      }
+
+      // Personnel filter
+      if (this.filters.personnel) {
+        if (play.play_details?.personnel !== this.filters.personnel) return false;
+      }
+
+      // Formation filter
+      if (this.filters.formation) {
+        if (play.play_details?.formation !== this.filters.formation) return false;
+      }
+
+      // Date range filter
+      if (this.filters.dateFrom) {
+        if (!play.date || play.date < this.filters.dateFrom) return false;
+      }
+      if (this.filters.dateTo) {
+        if (!play.date || play.date > this.filters.dateTo) return false;
+      }
+
+      return true;
+    });
+
+    this.currentPage = 1;
+    this.renderPage();
+    this.updateFilterCount();
+  }
+
+  clearFilters() {
+    this.filters = { 
+      search: '', 
+      team: '',
+      down: '', 
+      personnel: '', 
+      formation: '',
+      dateFrom: '',
+      dateTo: ''
+    };
+    
+    document.getElementById('search-input').value = '';
+    document.getElementById('team-filter').value = '';
+    document.getElementById('down-filter').value = '';
+    document.getElementById('personnel-filter').value = '';
+    document.getElementById('formation-filter').value = '';
+    document.getElementById('date-from').value = '';
+    document.getElementById('date-to').value = '';
+    
+    this.applyFilters();
+  }
+
+  updateFilterCount() {
+    const countEl = document.getElementById('filter-count');
+    const isFiltered = Object.values(this.filters).some(v => v);
+    
+    if (isFiltered) {
+      countEl.textContent = `Showing ${this.filteredPlays.length} of ${this.allPlays.length} plays`;
+      countEl.style.display = 'block';
+    } else {
+      countEl.style.display = 'none';
+    }
   }
 
   setupVideoLazyLoading() {
@@ -59,10 +322,13 @@ class PlayGallery {
     const container = document.getElementById('plays-container');
     const start = (this.currentPage - 1) * this.playsPerPage;
     const end = start + this.playsPerPage;
-    const playsToShow = this.plays.slice(start, end);
+    const playsToShow = this.filteredPlays.slice(start, end);
 
     if (playsToShow.length === 0) {
-      container.innerHTML = '<div class="loading">No plays to display.</div>';
+      const isFiltered = Object.values(this.filters).some(v => v);
+      container.innerHTML = isFiltered 
+        ? '<div class="loading">No plays match your filters. Try adjusting your search.</div>'
+        : '<div class="loading">No plays to display.</div>';
       return;
     }
 
@@ -90,6 +356,9 @@ class PlayGallery {
     const angleCount = angles.length;
     const containerClass = angleCount === 2 ? 'videos-container-two' : 'videos-container-multi';
 
+    // Get team for badge display
+    const team = this.getTeamForPlay(play);
+
     const videoHTML = angles.map((anglePath, index) => `
       <div class="video-wrapper">
         <span class="video-label">Angle ${index + 1}</span>
@@ -111,6 +380,7 @@ class PlayGallery {
         <div class="card-header">
           <div class="play-meta">
             <span class="play-number">Play #${play.play_number}</span>
+            ${team ? `<span class="team-badge">${this.escapeHtml(team)}</span>` : ''}
             <span class="play-date">${date}</span>
           </div>
           <h2 class="play-title">${this.escapeHtml(play.title)}</h2>
@@ -150,21 +420,21 @@ class PlayGallery {
   }
 
   updatePagination() {
-    const totalPages = Math.ceil(this.plays.length / this.playsPerPage);
+    const totalPages = Math.ceil(this.filteredPlays.length / this.playsPerPage);
     
     document.getElementById('prev-btn').disabled = this.currentPage === 1;
-    document.getElementById('next-btn').disabled = this.currentPage === totalPages;
+    document.getElementById('next-btn').disabled = this.currentPage === totalPages || totalPages === 0;
     document.getElementById('page-info').textContent = 
-      `Page ${this.currentPage} of ${totalPages}`;
+      `Page ${this.currentPage} of ${totalPages || 1}`;
   }
 
   updatePlayCount() {
     document.getElementById('play-count').textContent = 
-      `${this.plays.length} ${this.plays.length === 1 ? 'Play' : 'Plays'}`;
+      `${this.allPlays.length} ${this.allPlays.length === 1 ? 'Play' : 'Plays'}`;
   }
 
   nextPage() {
-    const totalPages = Math.ceil(this.plays.length / this.playsPerPage);
+    const totalPages = Math.ceil(this.filteredPlays.length / this.playsPerPage);
     if (this.currentPage < totalPages) {
       this.currentPage++;
       this.renderPage();
@@ -180,7 +450,7 @@ class PlayGallery {
 
   escapeHtml(text) {
     const div = document.createElement('div');
-    div.textContent = text;
+    div.textContent = text || '';
     return div.innerHTML;
   }
 }
