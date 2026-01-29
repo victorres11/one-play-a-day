@@ -18,6 +18,32 @@
   </header>
 
   <main>
+    <!-- Filters Section -->
+    <section class="filters-section">
+      <div class="filters-container">
+        <div class="search-box">
+          <input type="text" id="search-input" placeholder="Search plays..." aria-label="Search plays">
+        </div>
+        <div class="filter-group">
+          <select id="down-filter" aria-label="Filter by down">
+            <option value="">All Downs</option>
+            <option value="1st">1st Down</option>
+            <option value="2nd">2nd Down</option>
+            <option value="3rd">3rd Down</option>
+            <option value="4th">4th Down</option>
+          </select>
+          <select id="personnel-filter" aria-label="Filter by personnel">
+            <option value="">All Personnel</option>
+          </select>
+          <select id="formation-filter" aria-label="Filter by formation">
+            <option value="">All Formations</option>
+          </select>
+        </div>
+        <button id="clear-filters" class="clear-btn">Clear Filters</button>
+      </div>
+      <div id="filter-count" class="filter-count"></div>
+    </section>
+
     <div id="plays-container" class="plays-grid">
       <div class="loading">Loading plays...</div>
     </div>
