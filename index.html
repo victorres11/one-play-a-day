@@ -22,9 +22,12 @@
     <section class="filters-section">
       <div class="filters-container">
         <div class="search-box">
-          <input type="text" id="search-input" placeholder="Search plays..." aria-label="Search plays">
+          <input type="text" id="search-input" placeholder="Search plays, teams, concepts..." aria-label="Search plays">
         </div>
         <div class="filter-group">
+          <select id="team-filter" aria-label="Filter by team">
+            <option value="">All Teams</option>
+          </select>
           <select id="source-filter" aria-label="Filter by source">
             <option value="">All Sources</option>
             <option value="email">📧 Email</option>
@@ -43,6 +46,16 @@
           <select id="formation-filter" aria-label="Filter by formation">
             <option value="">All Formations</option>
           </select>
+        </div>
+        <div class="date-filter-group">
+          <div class="date-input-wrapper">
+            <label for="date-from">From</label>
+            <input type="date" id="date-from" aria-label="Filter from date">
+          </div>
+          <div class="date-input-wrapper">
+            <label for="date-to">To</label>
+            <input type="date" id="date-to" aria-label="Filter to date">
+          </div>
         </div>
         <button id="clear-filters" class="clear-btn">Clear Filters</button>
       </div>
