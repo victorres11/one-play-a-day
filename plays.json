@@ -1,5 +1,21 @@
 [
   {
+    "play_number": 739,
+    "date": "2026-01-29",
+    "title": "2023 Michigan running RB Mesh Traffic",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/739_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/739_angle2.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/739_angle3.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 10",
+      "personnel": "11p",
+      "formation": "Dual Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/739_diagram.jpeg"
+  },
+  {
     "play_number": 738,
     "date": "2026-01-28",
     "title": "Untitled Play",
