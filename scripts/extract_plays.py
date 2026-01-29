@@ -125,27 +125,38 @@ def extract_email_date(html):
 
 def extract_title(html):
     """Extract play title from email content"""
-    # Look for bold text that's likely the title
-    # Usually after "This week's play:" or similar
     
-    # Try to find content between specific patterns
+    # Method 1: Look for preheader span (most reliable)
+    preheader_match = re.search(r'<span[^>]*class="preheader"[^>]*>(.*?)</span>', html, re.IGNORECASE | re.DOTALL)
+    if preheader_match:
+        title = preheader_match.group(1).strip()
+        # Clean up whitespace
+        title = re.sub(r'\s+', ' ', title).strip()
+        if len(title) > 10 and len(title) < 200:
+            return title
+    
+    # Method 2: Look for data-paragraph="true" div
+    para_match = re.search(r'<div[^>]*data-paragraph="true"[^>]*>(.*?)</div>', html, re.IGNORECASE | re.DOTALL)
+    if para_match:
+        title = para_match.group(1).strip()
+        title = re.sub(r'<[^>]+>', '', title)  # Remove any nested HTML
+        title = re.sub(r'\s+', ' ', title).strip()
+        if len(title) > 10 and len(title) < 200:
+            return title
+    
+    # Method 3: Fallback - look for bold text with year
     patterns = [
-        r'<b[^>]*>(.*?2025.*?)</b>',  # Bold text with year
-        r'<strong[^>]*>(.*?2025.*?)</strong>',
-        r'<b[^>]*>(.*?2024.*?)</b>',
-        r'<strong[^>]*>(.*?2024.*?)</strong>',
-        r'<b[^>]*>(.*?2023.*?)</b>',
-        r'<strong[^>]*>(.*?2023.*?)</strong>',
+        r'<b[^>]*>(.*?20\d{2}.*?)</b>',
+        r'<strong[^>]*>(.*?20\d{2}.*?)</strong>',
     ]
     
     for pattern in patterns:
         matches = re.findall(pattern, html, re.IGNORECASE | re.DOTALL)
         if matches:
             title = matches[0]
-            # Clean up HTML tags
             title = re.sub(r'<[^>]+>', '', title)
-            title = title.strip()
-            if len(title) > 20 and len(title) < 200:
+            title = re.sub(r'\s+', ' ', title).strip()
+            if len(title) > 10 and len(title) < 200:
                 return title
     
     return "Untitled Play"
@@ -231,29 +242,51 @@ def extract_media_urls(html):
     # Find all image URLs
     all_images = re.findall(r'https://[^"\s]+\.(?:gif|jpg|jpeg|png)', html, re.IGNORECASE)
     
-    # Filter out header/logo images
-    filtered = [
-        url for url in all_images 
-        if "Email-Header" not in url and "TeamWorks" not in url
+    # Known header logo patterns to skip
+    SKIP_PATTERNS = [
+        "87a13924-ec12-4c27-83d4-3c07bc431fe0",  # One Play a Day header logo
+        "assets/social/",  # Social media icons
+        "Email-Header",
+        "TeamWorks",
+        "flodesk.com/assets/",  # Flodesk system assets
     ]
     
-    # Split before the divider if present
+    # Filter out header/logo/social images
+    filtered = [
+        url for url in all_images 
+        if not any(skip in url for skip in SKIP_PATTERNS)
+    ]
+    
+    # Split before the divider if present (footer content)
     divider_pos = html.find('fd-divider')
     if divider_pos > 0:
         html_before_divider = html[:divider_pos]
         filtered = re.findall(r'https://[^"\s]+\.(?:gif|jpg|jpeg|png)', html_before_divider, re.IGNORECASE)
         filtered = [
             url for url in filtered 
-            if "Email-Header" not in url and "TeamWorks" not in url
+            if not any(skip in url for skip in SKIP_PATTERNS)
         ]
     
-    # Separate GIFs (angles) from static images (diagram)
+    # Separate GIFs (angles) from static images
     gifs = [url for url in filtered if url.lower().endswith('.gif')]
-    diagrams = [url for url in filtered if not url.lower().endswith('.gif')]
+    static_images = [url for url in filtered if not url.lower().endswith('.gif')]
+    
+    # The diagram is typically a static image that appears AFTER the GIFs
+    # or contains "CleanShot" in the filename (screenshot of the diagram)
+    diagram = None
+    if static_images:
+        # Prefer images with "CleanShot" or similar screenshot indicators
+        for img in static_images:
+            if 'cleanshot' in img.lower() or 'screenshot' in img.lower():
+                diagram = img
+                break
+        # Otherwise take the first static image that's not the header
+        if not diagram:
+            diagram = static_images[0]
     
     return {
         "angles": gifs,
-        "diagram": diagrams[0] if diagrams else None
+        "diagram": diagram
     }
 
 
