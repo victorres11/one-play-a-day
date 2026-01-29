@@ -35,16 +35,17 @@ class PlayGallery {
   async loadPlays() {
     const response = await fetch('plays.json');
     this.allPlays = await response.json();
-    // Sort: email plays by play_number desc, then twitter plays by ID desc
+    // Sort by date descending (newest first), then by play_number/id within same date
     this.allPlays.sort((a, b) => {
+      // Primary: sort by date descending
+      const dateA = new Date(a.date || '1970-01-01');
+      const dateB = new Date(b.date || '1970-01-01');
+      if (dateB - dateA !== 0) return dateB - dateA;
+      
+      // Secondary: within same date, sort by play_number or tweet id descending
       const aIsTwitter = a.source === 'twitter' || (a.id && a.id.startsWith('x-'));
       const bIsTwitter = b.source === 'twitter' || (b.id && b.id.startsWith('x-'));
       
-      // Email plays come first
-      if (!aIsTwitter && bIsTwitter) return -1;
-      if (aIsTwitter && !bIsTwitter) return 1;
-      
-      // Within same source, sort by number/id descending
       if (aIsTwitter && bIsTwitter) {
         const aId = a.id.replace('x-', '');
         const bId = b.id.replace('x-', '');
