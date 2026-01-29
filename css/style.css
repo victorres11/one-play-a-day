@@ -37,10 +37,11 @@ header {
 .header-content {
   max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
-}
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: relative;
+}
 
 .brand {
   display: flex;
@@ -62,10 +63,6 @@ h1 {
 }
 
 .play-count {
-  position: absolute;
-  right: 1rem;
-  top: 50%;
-  transform: translateY(-50%);
   background: rgba(255, 255, 255, 0.2);
   padding: 0.5rem 1rem;
   border-radius: 20px;
