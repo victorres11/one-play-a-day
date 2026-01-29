@@ -264,6 +264,10 @@ footer {
   text-align: center;
   padding: 2rem 1rem;
   margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 /* Built By Badge */
@@ -293,6 +297,22 @@ footer {
 .badge-logo {
   height: 28px;
   width: auto;
+}
+
+/* Footer meta */
+.footer-meta {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-meta a {
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-meta a:hover {
+  text-decoration: underline;
 }
 
 /* Loading State */
