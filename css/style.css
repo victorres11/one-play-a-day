@@ -43,8 +43,21 @@ header {
   gap: 1rem;
 }
 
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.header-logo {
+  height: 42px;
+  width: auto;
+  filter: brightness(0) invert(1);
+  opacity: 0.95;
+}
+
 h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 700;
   letter-spacing: -0.5px;
 }
@@ -257,41 +270,38 @@ video {
   color: var(--text-dark);
 }
 
-/* Footer */
-footer {
-  background: var(--slate);
-  color: var(--white);
-  text-align: center;
-  padding: 2rem 1rem;
-  margin-top: 3rem;
-}
-
-/* Built By Badge */
-.built-by-badge {
-  display: inline-flex;
+/* Floating Badge */
+.floating-badge {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 40;
+  display: flex;
   align-items: center;
-  gap: 0.75rem;
-  padding: 0.75rem 1.25rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 8px;
+  gap: 0.5rem;
+  padding: 0.5rem 0.875rem;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border-radius: 9999px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.08);
   text-decoration: none;
-  color: var(--white);
-  transition: background 0.2s, transform 0.2s;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.built-by-badge:hover {
-  background: rgba(255, 255, 255, 0.2);
+.floating-badge:hover {
   transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
-.badge-text {
-  font-size: 0.85rem;
+.floating-badge span {
+  font-size: 0.7rem;
+  color: #64748b;
   font-weight: 500;
-  opacity: 0.9;
 }
 
-.badge-logo {
-  height: 28px;
+.floating-badge img {
+  height: 14px;
   width: auto;
 }
 
