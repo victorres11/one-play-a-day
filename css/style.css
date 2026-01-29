@@ -440,3 +440,30 @@ footer {
     width: 100%;
   }
 }
+
+/* Twitter/X source styling */
+.play-card.source-twitter {
+  border-left: 4px solid #1da1f2;
+}
+
+.play-card.source-twitter .play-number {
+  background: linear-gradient(135deg, #1da1f2, #0d8ecf);
+}
+
+.twitter-link {
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-left: 8px;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.twitter-link:hover {
+  opacity: 1;
+}
+
+.play-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

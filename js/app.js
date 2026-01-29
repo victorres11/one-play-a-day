@@ -35,8 +35,24 @@ class PlayGallery {
   async loadPlays() {
     const response = await fetch('plays.json');
     this.allPlays = await response.json();
-    // Sort by play number descending (most recent first)
-    this.allPlays.sort((a, b) => b.play_number - a.play_number);
+    // Sort: email plays by play_number desc, then twitter plays by ID desc
+    this.allPlays.sort((a, b) => {
+      const aIsTwitter = a.source === 'twitter' || (a.id && a.id.startsWith('x-'));
+      const bIsTwitter = b.source === 'twitter' || (b.id && b.id.startsWith('x-'));
+      
+      // Email plays come first
+      if (!aIsTwitter && bIsTwitter) return -1;
+      if (aIsTwitter && !bIsTwitter) return 1;
+      
+      // Within same source, sort by number/id descending
+      if (aIsTwitter && bIsTwitter) {
+        const aId = a.id.replace('x-', '');
+        const bId = b.id.replace('x-', '');
+        return bId.localeCompare(aId);
+      }
+      
+      return (b.play_number || 0) - (a.play_number || 0);
+    });
     this.filteredPlays = [...this.allPlays];
   }
 
@@ -244,12 +260,19 @@ class PlayGallery {
       </div>
     `).join('');
 
+    // Determine source and ID display
+    const isTwitter = play.source === 'twitter' || (play.id && play.id.startsWith('x-'));
+    const playIdDisplay = isTwitter ? 'X' : `#${play.play_number}`;
+    const sourceClass = isTwitter ? 'source-twitter' : 'source-email';
+    const twitterLink = play.twitter_url ? `<a href="${play.twitter_url}" target="_blank" class="twitter-link" title="View on X">🔗</a>` : '';
+
     return `
-      <article class="play-card">
+      <article class="play-card ${sourceClass}">
         <div class="card-header">
           <div class="play-meta">
-            <span class="play-number">Play #${play.play_number}</span>
+            <span class="play-number">${playIdDisplay}</span>
             <span class="play-date">${date}</span>
+            ${twitterLink}
           </div>
           <h2 class="play-title">${this.escapeHtml(play.title)}</h2>
         </div>
