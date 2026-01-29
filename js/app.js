@@ -10,6 +10,7 @@ class PlayGallery {
     this.filters = {
       search: '',
       team: '',
+      source: '',
       down: '',
       personnel: '',
       formation: '',
@@ -40,8 +41,25 @@ class PlayGallery {
   async loadPlays() {
     const response = await fetch('plays.json');
     this.allPlays = await response.json();
-    // Sort by play number descending (most recent first)
-    this.allPlays.sort((a, b) => b.play_number - a.play_number);
+    // Sort by date descending (newest first), then by play_number/id within same date
+    this.allPlays.sort((a, b) => {
+      // Primary: sort by date descending
+      const dateA = new Date(a.date || '1970-01-01');
+      const dateB = new Date(b.date || '1970-01-01');
+      if (dateB - dateA !== 0) return dateB - dateA;
+      
+      // Secondary: within same date, sort by play_number or tweet id descending
+      const aIsTwitter = a.source === 'twitter' || (a.id && a.id.startsWith('x-'));
+      const bIsTwitter = b.source === 'twitter' || (b.id && b.id.startsWith('x-'));
+      
+      if (aIsTwitter && bIsTwitter) {
+        const aId = a.id.replace('x-', '');
+        const bId = b.id.replace('x-', '');
+        return bId.localeCompare(aId);
+      }
+      
+      return (b.play_number || 0) - (a.play_number || 0);
+    });
     this.filteredPlays = [...this.allPlays];
   }
 
@@ -108,6 +126,12 @@ class PlayGallery {
     // Team filter
     document.getElementById('team-filter').addEventListener('change', (e) => {
       this.filters.team = e.target.value;
+      this.applyFilters();
+    });
+
+    // Source filter
+    document.getElementById('source-filter').addEventListener('change', (e) => {
+      this.filters.source = e.target.value;
       this.applyFilters();
     });
 
@@ -226,6 +250,13 @@ class PlayGallery {
         if (playTeam !== this.filters.team) return false;
       }
 
+      // Source filter
+      if (this.filters.source) {
+        const isTwitter = play.source === 'twitter' || (play.id && play.id.startsWith('x-'));
+        if (this.filters.source === 'twitter' && !isTwitter) return false;
+        if (this.filters.source === 'email' && isTwitter) return false;
+      }
+
       // Down filter
       if (this.filters.down) {
         const downMatch = play.play_details?.down_and_distance?.startsWith(this.filters.down);
@@ -262,6 +293,7 @@ class PlayGallery {
     this.filters = { 
       search: '', 
       team: '',
+      source: '',
       down: '', 
       personnel: '', 
       formation: '',
@@ -271,6 +303,7 @@ class PlayGallery {
     
     document.getElementById('search-input').value = '';
     document.getElementById('team-filter').value = '';
+    document.getElementById('source-filter').value = '';
     document.getElementById('down-filter').value = '';
     document.getElementById('personnel-filter').value = '';
     document.getElementById('formation-filter').value = '';
@@ -375,13 +408,20 @@ class PlayGallery {
       </div>
     `).join('');
 
+    // Determine source and ID display
+    const isTwitter = play.source === 'twitter' || (play.id && play.id.startsWith('x-'));
+    const playIdDisplay = isTwitter ? 'X' : `#${play.play_number}`;
+    const sourceClass = isTwitter ? 'source-twitter' : 'source-email';
+    const twitterLink = play.twitter_url ? `<a href="${play.twitter_url}" target="_blank" class="twitter-link" title="View on X">🔗</a>` : '';
+
     return `
-      <article class="play-card">
+      <article class="play-card ${sourceClass}">
         <div class="card-header">
           <div class="play-meta">
-            <span class="play-number">Play #${play.play_number}</span>
+            <span class="play-number">${playIdDisplay}</span>
             ${team ? `<span class="team-badge">${this.escapeHtml(team)}</span>` : ''}
             <span class="play-date">${date}</span>
+            ${twitterLink}
           </div>
           <h2 class="play-title">${this.escapeHtml(play.title)}</h2>
         </div>
