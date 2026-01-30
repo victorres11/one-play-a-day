@@ -1,8 +1,26 @@
 [
   {
+    "play_number": 739,
+    "date": "2026-01-29",
+    "title": "2023 Michigan running RB Mesh Traffic",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/739_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/739_angle2.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/739_angle3.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 10",
+      "personnel": "11p",
+      "formation": "Dual Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/739_diagram.jpeg",
+    "id": "739",
+    "source": "email"
+  },
+  {
     "play_number": 738,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2020 Fresno State running an Orbit Throwback RB Slip Screen",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/738_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/738_angle2.mp4"
@@ -12,7 +30,9 @@
       "personnel": "11p",
       "formation": "Dual Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/738_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/738_diagram.jpg",
+    "id": "738",
+    "source": "email"
   },
   {
     "play_number": 737,
@@ -27,7 +47,9 @@
       "personnel": "11p XL",
       "formation": "Thor Wing"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/737_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/737_diagram.png",
+    "id": "737",
+    "source": "email"
   },
   {
     "play_number": 736,
@@ -43,7 +65,9 @@
       "personnel": "11p",
       "formation": "Deuce Rt to Split"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/736_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/736_diagram.jpg",
+    "id": "736",
+    "source": "email"
   },
   {
     "play_number": 735,
@@ -59,7 +83,9 @@
       "personnel": "11p",
       "formation": "Empty Bunch Rt Rip"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/735_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/735_diagram.jpg",
+    "id": "735",
+    "source": "email"
   },
   {
     "play_number": 734,
@@ -74,7 +100,9 @@
       "personnel": "10p",
       "formation": "Trips Lt Razor"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/734_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/734_diagram.png",
+    "id": "734",
+    "source": "email"
   },
   {
     "play_number": 733,
@@ -89,7 +117,9 @@
       "personnel": "11p",
       "formation": "Trio Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/733_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/733_diagram.jpg",
+    "id": "733",
+    "source": "email"
   },
   {
     "play_number": 732,
@@ -104,7 +134,9 @@
       "personnel": "12p",
       "formation": "Nub Trips Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/732_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/732_diagram.jpg",
+    "id": "732",
+    "source": "email"
   },
   {
     "play_number": 731,
@@ -120,12 +152,14 @@
       "personnel": "11p",
       "formation": "Ace Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/731_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/731_diagram.jpg",
+    "id": "731",
+    "source": "email"
   },
   {
     "play_number": 730,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2017 Wisconsin running RB Fast to Flat",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/730_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/730_angle2.mp4"
@@ -135,7 +169,9 @@
       "personnel": "22p",
       "formation": "I-Wing Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/730_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/730_diagram.jpg",
+    "id": "730",
+    "source": "email"
   },
   {
     "play_number": 729,
@@ -150,7 +186,9 @@
       "personnel": "12p",
       "formation": "TE-QB Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/729_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/729_diagram.jpg",
+    "id": "729",
+    "source": "email"
   },
   {
     "play_number": 728,
@@ -165,7 +203,9 @@
       "personnel": "11p",
       "formation": "Deuce Rt Orbit"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/728_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/728_diagram.jpg",
+    "id": "728",
+    "source": "email"
   },
   {
     "play_number": 727,
@@ -181,7 +221,9 @@
       "personnel": "21p",
       "formation": "Deuce Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/727_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/727_diagram.jpg",
+    "id": "727",
+    "source": "email"
   },
   {
     "play_number": 726,
@@ -197,7 +239,9 @@
       "personnel": "12p",
       "formation": "TUB Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/726_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/726_diagram.jpg",
+    "id": "726",
+    "source": "email"
   },
   {
     "play_number": 725,
@@ -212,7 +256,9 @@
       "personnel": "13p",
       "formation": "Trolly Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/725_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/725_diagram.jpg",
+    "id": "725",
+    "source": "email"
   },
   {
     "play_number": 724,
@@ -227,7 +273,9 @@
       "personnel": "12p",
       "formation": "Pistol Buddy Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/724_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/724_diagram.png",
+    "id": "724",
+    "source": "email"
   },
   {
     "play_number": 723,
@@ -242,7 +290,9 @@
       "personnel": "12p",
       "formation": "Deuce Lt Jet"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/723_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/723_diagram.jpg",
+    "id": "723",
+    "source": "email"
   },
   {
     "play_number": 722,
@@ -257,7 +307,9 @@
       "personnel": "11p",
       "formation": "Deuce Lt Jet"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/722_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/722_diagram.jpg",
+    "id": "722",
+    "source": "email"
   },
   {
     "play_number": 721,
@@ -272,7 +324,9 @@
       "personnel": "11p",
       "formation": "Double Wing Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/721_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/721_diagram.jpg",
+    "id": "721",
+    "source": "email"
   },
   {
     "play_number": 720,
@@ -288,7 +342,9 @@
       "personnel": "14p XL",
       "formation": "Big Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/720_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/720_diagram.jpg",
+    "id": "720",
+    "source": "email"
   },
   {
     "play_number": 719,
@@ -303,7 +359,9 @@
       "personnel": "12p",
       "formation": "TE/Wing Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/719_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/719_diagram.png",
+    "id": "719",
+    "source": "email"
   },
   {
     "play_number": 718,
@@ -318,7 +376,9 @@
       "personnel": "12p",
       "formation": "Deuce Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/718_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/718_diagram.png",
+    "id": "718",
+    "source": "email"
   },
   {
     "play_number": 717,
@@ -333,7 +393,9 @@
       "personnel": "11p",
       "formation": "Nub Bunch Lt Pluto"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/717_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/717_diagram.png",
+    "id": "717",
+    "source": "email"
   },
   {
     "play_number": 716,
@@ -348,7 +410,9 @@
       "personnel": "11p",
       "formation": "Dual Rt Yo-Yo"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/716_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/716_diagram.jpg",
+    "id": "716",
+    "source": "email"
   },
   {
     "play_number": 715,
@@ -363,7 +427,9 @@
       "personnel": "Nickel",
       "formation": "7-Up MUG"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/715_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/715_diagram.jpg",
+    "id": "715",
+    "source": "email"
   },
   {
     "play_number": 714,
@@ -378,7 +444,9 @@
       "personnel": "11p",
       "formation": "Deuce Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/714_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/714_diagram.jpg",
+    "id": "714",
+    "source": "email"
   },
   {
     "play_number": 713,
@@ -393,7 +461,9 @@
       "personnel": "11p",
       "formation": "Bunch Rt Rewind"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/713_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/713_diagram.jpg",
+    "id": "713",
+    "source": "email"
   },
   {
     "play_number": 712,
@@ -408,7 +478,9 @@
       "personnel": "6OL 12p",
       "formation": "XL Deuce Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/712_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/712_diagram.jpg",
+    "id": "712",
+    "source": "email"
   },
   {
     "play_number": 711,
@@ -423,7 +495,9 @@
       "personnel": "13p",
       "formation": "I Wing Lt Rip"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/711_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/711_diagram.jpg",
+    "id": "711",
+    "source": "email"
   },
   {
     "play_number": 710,
@@ -438,7 +512,9 @@
       "personnel": "12p",
       "formation": "Trips Lt Closer"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/710_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/710_diagram.jpg",
+    "id": "710",
+    "source": "email"
   },
   {
     "play_number": 709,
@@ -454,7 +530,9 @@
       "personnel": "21p",
       "formation": "Trey Rt Close"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/709_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/709_diagram.jpg",
+    "id": "709",
+    "source": "email"
   },
   {
     "play_number": 708,
@@ -469,7 +547,9 @@
       "personnel": "11p",
       "formation": "Truce Rt Return"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/708_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/708_diagram.jpg",
+    "id": "708",
+    "source": "email"
   },
   {
     "play_number": 707,
@@ -485,7 +565,9 @@
       "personnel": "21p",
       "formation": "Ace Rt Closer"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/707_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/707_diagram.jpg",
+    "id": "707",
+    "source": "email"
   },
   {
     "play_number": 706,
@@ -500,7 +582,9 @@
       "personnel": "11p",
       "formation": "Trips Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/706_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/706_diagram.jpg",
+    "id": "706",
+    "source": "email"
   },
   {
     "play_number": 705,
@@ -515,7 +599,9 @@
       "personnel": "10p",
       "formation": "Empty Lt Orbit"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/705_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/705_diagram.png",
+    "id": "705",
+    "source": "email"
   },
   {
     "play_number": 704,
@@ -530,7 +616,9 @@
       "personnel": "13p",
       "formation": "Tribe Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/704_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/704_diagram.jpg",
+    "id": "704",
+    "source": "email"
   },
   {
     "play_number": 703,
@@ -545,7 +633,9 @@
       "personnel": "Nickel (3-3-5)",
       "formation": "Dbl Mug"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/703_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/703_diagram.png",
+    "id": "703",
+    "source": "email"
   },
   {
     "play_number": 702,
@@ -560,7 +650,9 @@
       "personnel": "21p",
       "formation": "House Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/702_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/702_diagram.png",
+    "id": "702",
+    "source": "email"
   },
   {
     "play_number": 701,
@@ -575,7 +667,9 @@
       "personnel": "11p",
       "formation": "Bunch Lt Closer"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/701_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/701_diagram.png",
+    "id": "701",
+    "source": "email"
   },
   {
     "play_number": 700,
@@ -591,7 +685,9 @@
       "personnel": "11p",
       "formation": "Deuce Rt Razor"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/700_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/700_diagram.jpg",
+    "id": "700",
+    "source": "email"
   },
   {
     "play_number": 699,
@@ -606,7 +702,9 @@
       "personnel": "11p",
       "formation": "Dual Rt Orbit"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/699_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/699_diagram.jpg",
+    "id": "699",
+    "source": "email"
   },
   {
     "play_number": 698,
@@ -621,7 +719,9 @@
       "personnel": "31p",
       "formation": "LUB Flex Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/698_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/698_diagram.jpg",
+    "id": "698",
+    "source": "email"
   },
   {
     "play_number": 697,
@@ -636,7 +736,9 @@
       "personnel": "11p",
       "formation": "Trio Rt Short"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/697_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/697_diagram.jpg",
+    "id": "697",
+    "source": "email"
   },
   {
     "play_number": 696,
@@ -651,7 +753,9 @@
       "personnel": "12p",
       "formation": "Empty Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/696_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/696_diagram.jpg",
+    "id": "696",
+    "source": "email"
   },
   {
     "play_number": 695,
@@ -666,7 +770,9 @@
       "personnel": "Q-12p",
       "formation": "Empty Lt Close"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/695_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/695_diagram.jpg",
+    "id": "695",
+    "source": "email"
   },
   {
     "play_number": 694,
@@ -681,7 +787,9 @@
       "personnel": "12p",
       "formation": "Nub Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/694_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/694_diagram.jpg",
+    "id": "694",
+    "source": "email"
   },
   {
     "play_number": 693,
@@ -696,7 +804,9 @@
       "personnel": "13p",
       "formation": "Wing Rt Liz"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/693_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/693_diagram.png",
+    "id": "693",
+    "source": "email"
   },
   {
     "play_number": 692,
@@ -711,7 +821,9 @@
       "personnel": "11p",
       "formation": "Baylor Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/692_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/692_diagram.jpg",
+    "id": "692",
+    "source": "email"
   },
   {
     "play_number": 691,
@@ -726,7 +838,9 @@
       "personnel": "12p",
       "formation": "Deuce Lt Flex"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/691_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/691_diagram.png",
+    "id": "691",
+    "source": "email"
   },
   {
     "play_number": 690,
@@ -741,7 +855,9 @@
       "personnel": "30p",
       "formation": "Full House"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/690_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/690_diagram.jpg",
+    "id": "690",
+    "source": "email"
   },
   {
     "play_number": 689,
@@ -756,7 +872,9 @@
       "personnel": "11p",
       "formation": "FUB Rt Tear"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/689_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/689_diagram.jpg",
+    "id": "689",
+    "source": "email"
   },
   {
     "play_number": 688,
@@ -771,7 +889,9 @@
       "personnel": "11p",
       "formation": "Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/688_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/688_diagram.jpg",
+    "id": "688",
+    "source": "email"
   },
   {
     "play_number": 687,
@@ -786,7 +906,9 @@
       "personnel": "12p",
       "formation": "\u201cFord\u201d Lt (Formation Unbalanced + Double Wing)"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/687_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/687_diagram.jpg",
+    "id": "687",
+    "source": "email"
   },
   {
     "play_number": 686,
@@ -801,7 +923,9 @@
       "personnel": "23p",
       "formation": "LUB Rt Heavy"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/686_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/686_diagram.jpg",
+    "id": "686",
+    "source": "email"
   },
   {
     "play_number": 685,
@@ -816,7 +940,9 @@
       "personnel": "11p",
       "formation": "Nub Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/685_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/685_diagram.jpg",
+    "id": "685",
+    "source": "email"
   },
   {
     "play_number": 684,
@@ -831,7 +957,9 @@
       "personnel": "4-2-5",
       "formation": "A-B Mug"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/684_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/684_diagram.png",
+    "id": "684",
+    "source": "email"
   },
   {
     "play_number": 683,
@@ -846,7 +974,9 @@
       "personnel": "21p",
       "formation": "MT Gun I-Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/683_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/683_diagram.jpg",
+    "id": "683",
+    "source": "email"
   },
   {
     "play_number": 682,
@@ -861,7 +991,9 @@
       "personnel": "11p",
       "formation": "Empty Bunch Lt Laser"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/682_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/682_diagram.png",
+    "id": "682",
+    "source": "email"
   },
   {
     "play_number": 681,
@@ -876,7 +1008,9 @@
       "personnel": "12p",
       "formation": "Nub Empty Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/681_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/681_diagram.jpg",
+    "id": "681",
+    "source": "email"
   },
   {
     "play_number": 680,
@@ -891,7 +1025,9 @@
       "personnel": "21p",
       "formation": "Dual Rt Flip"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/680_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/680_diagram.jpg",
+    "id": "680",
+    "source": "email"
   },
   {
     "play_number": 679,
@@ -906,7 +1042,9 @@
       "personnel": "13p",
       "formation": "Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/679_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/679_diagram.jpg",
+    "id": "679",
+    "source": "email"
   },
   {
     "play_number": 678,
@@ -921,7 +1059,9 @@
       "personnel": "11p",
       "formation": "Nub Trips Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/678_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/678_diagram.jpg",
+    "id": "678",
+    "source": "email"
   },
   {
     "play_number": 677,
@@ -936,7 +1076,9 @@
       "personnel": "11p",
       "formation": "Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/677_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/677_diagram.jpg",
+    "id": "677",
+    "source": "email"
   },
   {
     "play_number": 676,
@@ -951,7 +1093,9 @@
       "personnel": "11p",
       "formation": "FUB Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/676_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/676_diagram.png",
+    "id": "676",
+    "source": "email"
   },
   {
     "play_number": 675,
@@ -966,7 +1110,9 @@
       "personnel": "11p",
       "formation": "Deuce Lt Close"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/675_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/675_diagram.jpg",
+    "id": "675",
+    "source": "email"
   },
   {
     "play_number": 674,
@@ -981,7 +1127,9 @@
       "personnel": "11p",
       "formation": "Dual Rt Close"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/674_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/674_diagram.jpg",
+    "id": "674",
+    "source": "email"
   },
   {
     "play_number": 673,
@@ -996,7 +1144,9 @@
       "personnel": "11p",
       "formation": "Dual Rt Close"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/673_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/673_diagram.jpg",
+    "id": "673",
+    "source": "email"
   },
   {
     "play_number": 672,
@@ -1011,7 +1161,9 @@
       "personnel": "11p",
       "formation": "Trey Rt Closer"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/672_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/672_diagram.jpg",
+    "id": "672",
+    "source": "email"
   },
   {
     "play_number": 671,
@@ -1026,7 +1178,9 @@
       "personnel": "11p",
       "formation": "FIB Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/671_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/671_diagram.jpg",
+    "id": "671",
+    "source": "email"
   },
   {
     "play_number": 670,
@@ -1041,7 +1195,9 @@
       "personnel": "11p",
       "formation": "Split Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/670_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/670_diagram.jpg",
+    "id": "670",
+    "source": "email"
   },
   {
     "play_number": 669,
@@ -1056,7 +1212,9 @@
       "personnel": "11p",
       "formation": "Trey Lt Off"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/669_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/669_diagram.jpg",
+    "id": "669",
+    "source": "email"
   },
   {
     "play_number": 668,
@@ -1071,7 +1229,9 @@
       "personnel": "21p",
       "formation": "Ace Closer"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/668_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/668_diagram.jpg",
+    "id": "668",
+    "source": "email"
   },
   {
     "play_number": 667,
@@ -1086,7 +1246,9 @@
       "personnel": "12p",
       "formation": "Polecat Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/667_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/667_diagram.jpg",
+    "id": "667",
+    "source": "email"
   },
   {
     "play_number": 666,
@@ -1101,7 +1263,9 @@
       "personnel": "11p",
       "formation": "Ace Flip Short"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/666_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/666_diagram.jpg",
+    "id": "666",
+    "source": "email"
   },
   {
     "play_number": 665,
@@ -1116,7 +1280,9 @@
       "personnel": "22p",
       "formation": "Wildcat TE/Wing Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/665_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/665_diagram.jpg",
+    "id": "665",
+    "source": "email"
   },
   {
     "play_number": 664,
@@ -1131,7 +1297,9 @@
       "personnel": "12p",
       "formation": "Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/664_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/664_diagram.jpg",
+    "id": "664",
+    "source": "email"
   },
   {
     "play_number": 663,
@@ -1146,7 +1314,9 @@
       "personnel": "12p",
       "formation": "Ace Dbl Wing"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/663_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/663_diagram.jpg",
+    "id": "663",
+    "source": "email"
   },
   {
     "play_number": 662,
@@ -1161,7 +1331,9 @@
       "personnel": "11p",
       "formation": "Dbl Stack"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/662_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/662_diagram.jpg",
+    "id": "662",
+    "source": "email"
   },
   {
     "play_number": 661,
@@ -1176,7 +1348,9 @@
       "personnel": "11p",
       "formation": "Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/661_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/661_diagram.jpg",
+    "id": "661",
+    "source": "email"
   },
   {
     "play_number": 660,
@@ -1192,7 +1366,9 @@
       "personnel": "11p",
       "formation": "Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/660_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/660_diagram.png",
+    "id": "660",
+    "source": "email"
   },
   {
     "play_number": 659,
@@ -1207,7 +1383,9 @@
       "personnel": "12p",
       "formation": "Bundle Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/659_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/659_diagram.jpg",
+    "id": "659",
+    "source": "email"
   },
   {
     "play_number": 658,
@@ -1222,7 +1400,9 @@
       "personnel": "11p",
       "formation": "Trips Rt (Early/Late)"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/658_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/658_diagram.jpg",
+    "id": "658",
+    "source": "email"
   },
   {
     "play_number": 657,
@@ -1237,7 +1417,9 @@
       "personnel": "20p",
       "formation": "Wing Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/657_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/657_diagram.png",
+    "id": "657",
+    "source": "email"
   },
   {
     "play_number": 656,
@@ -1252,7 +1434,9 @@
       "personnel": "12p",
       "formation": "TE/Wing Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/656_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/656_diagram.jpg",
+    "id": "656",
+    "source": "email"
   },
   {
     "play_number": 655,
@@ -1267,7 +1451,9 @@
       "personnel": "11p",
       "formation": "Trips Rt Push"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/655_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/655_diagram.png",
+    "id": "655",
+    "source": "email"
   },
   {
     "play_number": 654,
@@ -1283,7 +1469,9 @@
       "personnel": "11p",
       "formation": "Pistol Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/654_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/654_diagram.jpg",
+    "id": "654",
+    "source": "email"
   },
   {
     "play_number": 653,
@@ -1298,7 +1486,9 @@
       "personnel": "11p",
       "formation": "Pistol Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/653_diagram.png"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/653_diagram.png",
+    "id": "653",
+    "source": "email"
   },
   {
     "play_number": 652,
@@ -1313,7 +1503,9 @@
       "personnel": "*12p",
       "formation": "6OL FUB Double Wing Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/652_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/652_diagram.jpg",
+    "id": "652",
+    "source": "email"
   },
   {
     "play_number": 651,
@@ -1328,7 +1520,9 @@
       "personnel": "11p",
       "formation": "Deuce Rt Laser"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/651_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/651_diagram.jpg",
+    "id": "651",
+    "source": "email"
   },
   {
     "play_number": 650,
@@ -1343,7 +1537,9 @@
       "personnel": "12p",
       "formation": "Ace Wing Close"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/650_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/650_diagram.jpg",
+    "id": "650",
+    "source": "email"
   },
   {
     "play_number": 649,
@@ -1359,7 +1555,9 @@
       "personnel": "10p",
       "formation": "Ace Stack Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/649_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/649_diagram.jpg",
+    "id": "649",
+    "source": "email"
   },
   {
     "play_number": 648,
@@ -1374,7 +1572,9 @@
       "personnel": "11p",
       "formation": "RB Cluster"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/648_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/648_diagram.jpg",
+    "id": "648",
+    "source": "email"
   },
   {
     "play_number": 647,
@@ -1389,7 +1589,9 @@
       "personnel": "11p",
       "formation": "Short to Wide Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/647_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/647_diagram.jpg",
+    "id": "647",
+    "source": "email"
   },
   {
     "play_number": 646,
@@ -1405,7 +1607,9 @@
       "personnel": "11p",
       "formation": "Expand to Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/646_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/646_diagram.jpg",
+    "id": "646",
+    "source": "email"
   },
   {
     "play_number": 645,
@@ -1420,7 +1624,9 @@
       "personnel": "11p",
       "formation": "Loose Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/645_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/645_diagram.jpg",
+    "id": "645",
+    "source": "email"
   },
   {
     "play_number": 644,
@@ -1435,7 +1641,9 @@
       "personnel": "12p",
       "formation": "Pistol Ace Wing"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/644_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/644_diagram.jpg",
+    "id": "644",
+    "source": "email"
   },
   {
     "play_number": 643,
@@ -1450,7 +1658,9 @@
       "personnel": "*01p",
       "formation": "2-QB Quads Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/643_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/643_diagram.jpg",
+    "id": "643",
+    "source": "email"
   },
   {
     "play_number": 642,
@@ -1465,7 +1675,9 @@
       "personnel": "31p",
       "formation": "Nub Split Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/642_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/642_diagram.jpg",
+    "id": "642",
+    "source": "email"
   },
   {
     "play_number": 641,
@@ -1481,7 +1693,9 @@
       "personnel": "11p",
       "formation": "Deuce Lt Jet"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/641_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/641_diagram.jpg",
+    "id": "641",
+    "source": "email"
   },
   {
     "play_number": 640,
@@ -1497,7 +1711,9 @@
       "personnel": "12p",
       "formation": "Deuce Lt Razor"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/640_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/640_diagram.jpg",
+    "id": "640",
+    "source": "email"
   },
   {
     "play_number": 639,
@@ -1512,7 +1728,9 @@
       "personnel": "XL22p",
       "formation": "Heavy I Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/639_diagram.jpg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/639_diagram.jpg",
+    "id": "639",
+    "source": "email"
   },
   {
     "play_number": 638,
@@ -1527,7 +1745,9 @@
       "personnel": "31p",
       "formation": "Flex to Dual Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/638_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/638_diagram.png",
+    "id": "638",
+    "source": "email"
   },
   {
     "play_number": 637,
@@ -1542,7 +1762,9 @@
       "personnel": "11p",
       "formation": "Ace Lt Tear"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/637_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/637_diagram.jpg",
+    "id": "637",
+    "source": "email"
   },
   {
     "play_number": 636,
@@ -1557,7 +1779,9 @@
       "personnel": "11p",
       "formation": "Cluster Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/636_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/636_diagram.png",
+    "id": "636",
+    "source": "email"
   },
   {
     "play_number": 635,
@@ -1573,7 +1797,9 @@
       "personnel": "12p",
       "formation": "Deuce Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/635_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/635_diagram.jpg",
+    "id": "635",
+    "source": "email"
   },
   {
     "play_number": 634,
@@ -1588,7 +1814,9 @@
       "personnel": "11p",
       "formation": "Move to Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/634_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/634_diagram.jpg",
+    "id": "634",
+    "source": "email"
   },
   {
     "play_number": 633,
@@ -1603,7 +1831,9 @@
       "personnel": "11p",
       "formation": "Bunch Rt Laser"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/633_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/633_diagram.jpg",
+    "id": "633",
+    "source": "email"
   },
   {
     "play_number": 632,
@@ -1618,7 +1848,9 @@
       "personnel": "12p",
       "formation": "Bunch Rt to Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/632_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/632_diagram.jpg",
+    "id": "632",
+    "source": "email"
   },
   {
     "play_number": 631,
@@ -1633,7 +1865,9 @@
       "personnel": "Base",
       "formation": "4-3"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/631_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/631_diagram.jpg",
+    "id": "631",
+    "source": "email"
   },
   {
     "play_number": 630,
@@ -1648,7 +1882,9 @@
       "personnel": "11p",
       "formation": "Ace Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/630_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/630_diagram.jpg",
+    "id": "630",
+    "source": "email"
   },
   {
     "play_number": 629,
@@ -1663,7 +1899,9 @@
       "personnel": "12p",
       "formation": "Unbalanced Wildcat"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/629_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/629_diagram.png",
+    "id": "629",
+    "source": "email"
   },
   {
     "play_number": 628,
@@ -1678,7 +1916,9 @@
       "personnel": "11p",
       "formation": "Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/628_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/628_diagram.png",
+    "id": "628",
+    "source": "email"
   },
   {
     "play_number": 627,
@@ -1693,7 +1933,9 @@
       "personnel": "11p",
       "formation": "Dual Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/627_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/627_diagram.jpg",
+    "id": "627",
+    "source": "email"
   },
   {
     "play_number": 626,
@@ -1708,12 +1950,14 @@
       "personnel": "11p",
       "formation": "Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/626_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/626_diagram.jpg",
+    "id": "626",
+    "source": "email"
   },
   {
     "play_number": 625,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2018 Saints running Rail Spacing",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/625_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/625_angle2.mp4"
@@ -1723,7 +1967,9 @@
       "personnel": "11p",
       "formation": "Y-Home to Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/625_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/625_diagram.jpg",
+    "id": "625",
+    "source": "email"
   },
   {
     "play_number": 624,
@@ -1738,7 +1984,9 @@
       "personnel": "11p",
       "formation": "Dual Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/624_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/624_diagram.jpg",
+    "id": "624",
+    "source": "email"
   },
   {
     "play_number": 623,
@@ -1753,7 +2001,9 @@
       "personnel": "Nickel",
       "formation": "4-2-5"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/623_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/623_diagram.png",
+    "id": "623",
+    "source": "email"
   },
   {
     "play_number": 622,
@@ -1768,7 +2018,9 @@
       "personnel": "11p",
       "formation": "Tres Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/622_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/622_diagram.png",
+    "id": "622",
+    "source": "email"
   },
   {
     "play_number": 621,
@@ -1783,7 +2035,9 @@
       "personnel": "12p",
       "formation": "Move to Snug Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/621_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/621_diagram.jpg",
+    "id": "621",
+    "source": "email"
   },
   {
     "play_number": 620,
@@ -1798,7 +2052,9 @@
       "personnel": "11p",
       "formation": "Dual Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/620_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/620_diagram.jpg",
+    "id": "620",
+    "source": "email"
   },
   {
     "play_number": 619,
@@ -1813,7 +2069,9 @@
       "personnel": "Nickel",
       "formation": "4-2-5"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/619_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/619_diagram.png",
+    "id": "619",
+    "source": "email"
   },
   {
     "play_number": 618,
@@ -1828,7 +2086,9 @@
       "personnel": "11p",
       "formation": "Blue Z-Gone"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/618_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/618_diagram.jpg",
+    "id": "618",
+    "source": "email"
   },
   {
     "play_number": 617,
@@ -1843,7 +2103,9 @@
       "personnel": "11p",
       "formation": "Wide Bunch Liz"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/617_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/617_diagram.jpg",
+    "id": "617",
+    "source": "email"
   },
   {
     "play_number": 616,
@@ -1858,12 +2120,14 @@
       "personnel": "11p",
       "formation": "Dual Rt Close"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/616_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/616_diagram.jpg",
+    "id": "616",
+    "source": "email"
   },
   {
     "play_number": 615,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2010 Auburn running Tackle Over Fake Orbit Sweep + QB Pin &amp; Pull",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/615_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/615_angle2.mp4"
@@ -1873,12 +2137,14 @@
       "personnel": "12p",
       "formation": "Thor Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/615_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/615_diagram.jpg",
+    "id": "615",
+    "source": "email"
   },
   {
     "play_number": 614,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2021 UCLA running Duo with a Double Wrap from the WR&#39;s",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/614_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/614_angle2.mp4"
@@ -1888,12 +2154,14 @@
       "personnel": "12p",
       "formation": "Pro Green Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/614_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/614_diagram.jpg",
+    "id": "614",
+    "source": "email"
   },
   {
     "play_number": 613,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2021 Kansas State running G/F Counter to the 3-Technique",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/613_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/613_angle2.mp4"
@@ -1903,12 +2171,14 @@
       "personnel": "21p",
       "formation": "Pro Green Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/613_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/613_diagram.png",
+    "id": "613",
+    "source": "email"
   },
   {
     "play_number": 612,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2021 Oregon State getting a Pre-Snap ID before running Fly Sweep on the B/S of Wide Zone",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/612_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/612_angle2.mp4"
@@ -1918,12 +2188,14 @@
       "personnel": "11p",
       "formation": "Under Dual Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/612_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/612_diagram.jpg",
+    "id": "612",
+    "source": "email"
   },
   {
     "play_number": 611,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2021 Purdue running Double Post with a Shallow Sting",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/611_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/611_angle2.mp4"
@@ -1933,7 +2205,9 @@
       "personnel": "12p",
       "formation": "Big Ace Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/611_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/611_diagram.jpg",
+    "id": "611",
+    "source": "email"
   },
   {
     "play_number": 610,
@@ -1948,12 +2222,14 @@
       "personnel": "10p",
       "formation": "Ace Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/610_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/610_diagram.jpg",
+    "id": "610",
+    "source": "email"
   },
   {
     "play_number": 609,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2018 Buffalo running Same Side G/H Counter",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/609_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/609_angle2.mp4"
@@ -1963,12 +2239,14 @@
       "personnel": "11p",
       "formation": "FIB Trips Rt Scout"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/609_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/609_diagram.jpg",
+    "id": "609",
+    "source": "email"
   },
   {
     "play_number": 608,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2017 Oklahoma running a Jet Outside Zone Pop Pass to the Backside Wing",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/608_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/608_angle2.mp4"
@@ -1978,7 +2256,9 @@
       "personnel": "21p",
       "formation": "Deuce Lt Razor"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/608_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/608_diagram.png",
+    "id": "608",
+    "source": "email"
   },
   {
     "play_number": 607,
@@ -1993,12 +2273,14 @@
       "personnel": "11p",
       "formation": "Deuce Lt Razor"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/607_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/607_diagram.png",
+    "id": "607",
+    "source": "email"
   },
   {
     "play_number": 606,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2018 Chiefs shifting from Empty to run Deep Curls vs. Tampa 2",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/606_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/606_angle2.mp4"
@@ -2008,12 +2290,14 @@
       "personnel": "12p",
       "formation": "Empty \u201cHome\u201d Double Wing"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/606_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/606_diagram.jpg",
+    "id": "606",
+    "source": "email"
   },
   {
     "play_number": 605,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2012 Washington Redskins running a \u201cYankee\u201d Concept off SZR Play Action",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/605_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/605_angle2.mp4"
@@ -2023,7 +2307,9 @@
       "personnel": "11p",
       "formation": "Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/605_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/605_diagram.jpg",
+    "id": "605",
+    "source": "email"
   },
   {
     "play_number": 604,
@@ -2038,7 +2324,9 @@
       "personnel": "11p",
       "formation": "Trips & Bunch"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/604_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/604_diagram.jpg",
+    "id": "604",
+    "source": "email"
   },
   {
     "play_number": 603,
@@ -2054,7 +2342,9 @@
       "personnel": "12p",
       "formation": "Deuce Lt Razor"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/603_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/603_diagram.png",
+    "id": "603",
+    "source": "email"
   },
   {
     "play_number": 602,
@@ -2069,7 +2359,9 @@
       "personnel": "11p",
       "formation": "Deuce Lt Razor"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/602_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/602_diagram.png",
+    "id": "602",
+    "source": "email"
   },
   {
     "play_number": 601,
@@ -2084,7 +2376,9 @@
       "personnel": "21p",
       "formation": "Deuce Lt Orbit"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/601_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/601_diagram.jpg",
+    "id": "601",
+    "source": "email"
   },
   {
     "play_number": 600,
@@ -2099,7 +2393,9 @@
       "personnel": "12p",
       "formation": "Deuce Rt Laser"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/600_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/600_diagram.jpg",
+    "id": "600",
+    "source": "email"
   },
   {
     "play_number": 599,
@@ -2114,12 +2410,14 @@
       "personnel": "01p",
       "formation": "Dual Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/599_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/599_diagram.jpg",
+    "id": "599",
+    "source": "email"
   },
   {
     "play_number": 598,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2017 Wake Forest running an Insert Iso RPO + Slot Glance",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/598_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/598_angle2.mp4"
@@ -2129,7 +2427,9 @@
       "personnel": "11p",
       "formation": "Dual Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/598_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/598_diagram.jpg",
+    "id": "598",
+    "source": "email"
   },
   {
     "play_number": 597,
@@ -2144,12 +2444,14 @@
       "personnel": "13p",
       "formation": "Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/597_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/597_diagram.jpg",
+    "id": "597",
+    "source": "email"
   },
   {
     "play_number": 596,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2019 Auburn using Sugar Huddle to run a Tackle Flex Shallow Screen",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/596_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/596_angle2.mp4"
@@ -2159,7 +2461,9 @@
       "personnel": "12p",
       "formation": "Empty Tackle Flex Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/596_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/596_diagram.jpg",
+    "id": "596",
+    "source": "email"
   },
   {
     "play_number": 595,
@@ -2174,7 +2478,9 @@
       "personnel": "12p",
       "formation": "Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/595_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/595_diagram.png",
+    "id": "595",
+    "source": "email"
   },
   {
     "play_number": 594,
@@ -2189,7 +2495,9 @@
       "personnel": "11p",
       "formation": "Deuce Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/594_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/594_diagram.jpg",
+    "id": "594",
+    "source": "email"
   },
   {
     "play_number": 593,
@@ -2204,12 +2512,14 @@
       "personnel": "4-2-5",
       "formation": "3-Safety + Double Mug"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/593_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/593_diagram.jpg",
+    "id": "593",
+    "source": "email"
   },
   {
     "play_number": 592,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2015 Stanford running a Stretch (Center Fold) Locked RPO",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/592_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/592_angle2.mp4"
@@ -2219,7 +2529,9 @@
       "personnel": "12p",
       "formation": "Trips Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/592_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/592_diagram.jpg",
+    "id": "592",
+    "source": "email"
   },
   {
     "play_number": 591,
@@ -2234,12 +2546,14 @@
       "personnel": "11p",
       "formation": "Ace Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/591_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/591_diagram.jpg",
+    "id": "591",
+    "source": "email"
   },
   {
     "play_number": 590,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2022 North Dakota State running A-Gap Power out of 22p",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/590_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/590_angle2.mp4"
@@ -2249,7 +2563,9 @@
       "personnel": "22p",
       "formation": "I Wing Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/590_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/590_diagram.png",
+    "id": "590",
+    "source": "email"
   },
   {
     "play_number": 589,
@@ -2264,7 +2580,9 @@
       "personnel": "11p",
       "formation": "Trips Lt."
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/589_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/589_diagram.png",
+    "id": "589",
+    "source": "email"
   },
   {
     "play_number": 588,
@@ -2279,7 +2597,9 @@
       "personnel": "10p",
       "formation": "FUB Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/588_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/588_diagram.jpg",
+    "id": "588",
+    "source": "email"
   },
   {
     "play_number": 587,
@@ -2294,7 +2614,9 @@
       "personnel": "11p",
       "formation": "Loose Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/587_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/587_diagram.png",
+    "id": "587",
+    "source": "email"
   },
   {
     "play_number": 586,
@@ -2309,7 +2631,9 @@
       "personnel": "21p",
       "formation": "Green Rt Off"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/586_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/586_diagram.jpg",
+    "id": "586",
+    "source": "email"
   },
   {
     "play_number": 585,
@@ -2324,7 +2648,9 @@
       "personnel": "2-4-5",
       "formation": "Nickel Bear"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/585_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/585_diagram.jpg",
+    "id": "585",
+    "source": "email"
   },
   {
     "play_number": 584,
@@ -2339,7 +2665,9 @@
       "personnel": "11p",
       "formation": "Dual Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/584_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/584_diagram.jpg",
+    "id": "584",
+    "source": "email"
   },
   {
     "play_number": 583,
@@ -2354,12 +2682,14 @@
       "personnel": "Nickel",
       "formation": "Mint Front"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/583_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/583_diagram.jpg",
+    "id": "583",
+    "source": "email"
   },
   {
     "play_number": 582,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2018 Georgia Tech (Paul Johnson) running Flexbone Midline Option",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/582_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/582_angle2.mp4"
@@ -2369,7 +2699,9 @@
       "personnel": "30p",
       "formation": "Flexbone"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/582_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/582_diagram.png",
+    "id": "582",
+    "source": "email"
   },
   {
     "play_number": 581,
@@ -2384,7 +2716,9 @@
       "personnel": "Nickel",
       "formation": "2-4-5"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/581_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/581_diagram.png",
+    "id": "581",
+    "source": "email"
   },
   {
     "play_number": 580,
@@ -2399,12 +2733,14 @@
       "personnel": "11p",
       "formation": "Dual Rt Razor"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/580_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/580_diagram.jpg",
+    "id": "580",
+    "source": "email"
   },
   {
     "play_number": 579,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "1957 Michigan State running a Tackle Over Trap out of the T-Formation",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/579_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/579_angle2.mp4"
@@ -2414,7 +2750,9 @@
       "personnel": "32p",
       "formation": "Tackle Over T"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/579_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/579_diagram.png",
+    "id": "579",
+    "source": "email"
   },
   {
     "play_number": 578,
@@ -2429,12 +2767,14 @@
       "personnel": "11p",
       "formation": "Late (Trips Lt) Laser"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/578_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/578_diagram.jpg",
+    "id": "578",
+    "source": "email"
   },
   {
     "play_number": 577,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2021 Purdue running Boot to a \u201cSquirrel\u201d Route (Out &amp; Up + Comeback)",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/577_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/577_angle2.mp4"
@@ -2444,7 +2784,9 @@
       "personnel": "11p",
       "formation": "Dual Rt Shorty"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/577_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/577_diagram.png",
+    "id": "577",
+    "source": "email"
   },
   {
     "play_number": 576,
@@ -2459,7 +2801,9 @@
       "personnel": "11p",
       "formation": "Empty Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/576_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/576_diagram.jpg",
+    "id": "576",
+    "source": "email"
   },
   {
     "play_number": 575,
@@ -2474,12 +2818,14 @@
       "personnel": "11p",
       "formation": "Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/575_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/575_diagram.jpg",
+    "id": "575",
+    "source": "email"
   },
   {
     "play_number": 574,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2021 UCF using Sugar Huddle to run a RB Fast to Flat Flood + Fake Reverse",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/574_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/574_angle2.mp4"
@@ -2489,7 +2835,9 @@
       "personnel": "11p",
       "formation": "Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/574_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/574_diagram.jpg",
+    "id": "574",
+    "source": "email"
   },
   {
     "play_number": 573,
@@ -2504,7 +2852,9 @@
       "personnel": "13p",
       "formation": "Deuce Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/573_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/573_diagram.jpg",
+    "id": "573",
+    "source": "email"
   },
   {
     "play_number": 572,
@@ -2519,7 +2869,9 @@
       "personnel": "11p",
       "formation": "Deuce Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/572_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/572_diagram.jpg",
+    "id": "572",
+    "source": "email"
   },
   {
     "play_number": 571,
@@ -2534,12 +2886,14 @@
       "personnel": "13p",
       "formation": "Full House Nub Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/571_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/571_diagram.jpg",
+    "id": "571",
+    "source": "email"
   },
   {
     "play_number": 570,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "Reminder: I have an awesome 52-Minute Cut-Up (7.34GB) from my film study and research for Trends V2.",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/570_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/570_angle2.mp4"
@@ -2549,7 +2903,9 @@
       "personnel": "11p",
       "formation": "Trips Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/570_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/570_diagram.jpg",
+    "id": "570",
+    "source": "email"
   },
   {
     "play_number": 569,
@@ -2564,12 +2920,14 @@
       "personnel": "12p",
       "formation": "Nub Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/569_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/569_diagram.png",
+    "id": "569",
+    "source": "email"
   },
   {
     "play_number": 568,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2022 UCLA using Blast (or Escort) Motion on Stretch (Outside Zone)",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/568_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/568_angle2.mp4",
@@ -2580,12 +2938,14 @@
       "personnel": "11p",
       "formation": "FUB Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/568_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/568_diagram.jpg",
+    "id": "568",
+    "source": "email"
   },
   {
     "play_number": 567,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2022 Washington running TE Leak out of FIB Nub Trips",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/567_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/567_angle2.mp4"
@@ -2595,12 +2955,14 @@
       "personnel": "11p",
       "formation": "Nub Trips Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/567_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/567_diagram.png",
+    "id": "567",
+    "source": "email"
   },
   {
     "play_number": 566,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "Reminder: I have an awesome 52-Minute Cut-Up (7.34GB) from my film study and research for Trends V2.",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/566_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/566_angle2.mp4",
@@ -2611,7 +2973,9 @@
       "personnel": "12p",
       "formation": "Nub Trips Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/566_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/566_diagram.png",
+    "id": "566",
+    "source": "email"
   },
   {
     "play_number": 565,
@@ -2626,12 +2990,14 @@
       "personnel": "Nickel",
       "formation": "Nub Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/565_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/565_diagram.png",
+    "id": "565",
+    "source": "email"
   },
   {
     "play_number": 564,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2021 Virginia running a 2-QB Speed Option Post/Wheel",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/564_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/564_angle2.mp4"
@@ -2641,7 +3007,9 @@
       "personnel": "03p",
       "formation": "Nub Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/564_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/564_diagram.jpg",
+    "id": "564",
+    "source": "email"
   },
   {
     "play_number": 563,
@@ -2656,7 +3024,9 @@
       "personnel": "11p",
       "formation": "Bundle Rt Liz"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/563_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/563_diagram.png",
+    "id": "563",
+    "source": "email"
   },
   {
     "play_number": 562,
@@ -2671,7 +3041,9 @@
       "personnel": "31p",
       "formation": "Nub Split Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/562_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/562_diagram.png",
+    "id": "562",
+    "source": "email"
   },
   {
     "play_number": 554,
@@ -2686,7 +3058,9 @@
       "personnel": "12p",
       "formation": "FUB Trey Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/554_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/554_diagram.jpg",
+    "id": "554",
+    "source": "email"
   },
   {
     "play_number": 553,
@@ -2701,7 +3075,9 @@
       "personnel": "11p",
       "formation": "FIB Tres Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/553_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/553_diagram.png",
+    "id": "553",
+    "source": "email"
   },
   {
     "play_number": 552,
@@ -2716,7 +3092,9 @@
       "personnel": "12p",
       "formation": "Double Wing Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/552_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/552_diagram.png",
+    "id": "552",
+    "source": "email"
   },
   {
     "play_number": 551,
@@ -2730,12 +3108,14 @@
       "personnel": "11p",
       "formation": "Split Lt"
     },
-    "play_diagram": ""
+    "play_diagram": "",
+    "id": "551",
+    "source": "email"
   },
   {
     "play_number": 550,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2022 Rams running Fullback Sail from the I-Formation",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/550_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/550_angle2.mp4"
@@ -2745,7 +3125,9 @@
       "personnel": "11p",
       "formation": "I Nub Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/550_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/550_diagram.png",
+    "id": "550",
+    "source": "email"
   },
   {
     "play_number": 549,
@@ -2760,7 +3142,9 @@
       "personnel": "12p",
       "formation": "TE/Wing Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/549_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/549_diagram.png",
+    "id": "549",
+    "source": "email"
   },
   {
     "play_number": 548,
@@ -2775,7 +3159,9 @@
       "personnel": "11p",
       "formation": "Dual Rt Flip"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/548_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/548_diagram.png",
+    "id": "548",
+    "source": "email"
   },
   {
     "play_number": 547,
@@ -2790,7 +3176,9 @@
       "personnel": "11p",
       "formation": "Trey Rt FIB"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/547_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/547_diagram.png",
+    "id": "547",
+    "source": "email"
   },
   {
     "play_number": 546,
@@ -2805,7 +3193,9 @@
       "personnel": "Heavy 12p (6-OL)",
       "formation": "TE/Wing Trey Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/546_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/546_diagram.png",
+    "id": "546",
+    "source": "email"
   },
   {
     "play_number": 545,
@@ -2820,7 +3210,9 @@
       "personnel": "Base",
       "formation": "4-3"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/545_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/545_diagram.jpg",
+    "id": "545",
+    "source": "email"
   },
   {
     "play_number": 544,
@@ -2835,7 +3227,9 @@
       "personnel": "12p",
       "formation": "Wildcat (TE at QB)"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/544_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/544_diagram.jpg",
+    "id": "544",
+    "source": "email"
   },
   {
     "play_number": 543,
@@ -2850,7 +3244,9 @@
       "personnel": "10p",
       "formation": "Ace"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/543_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/543_diagram.jpg",
+    "id": "543",
+    "source": "email"
   },
   {
     "play_number": 542,
@@ -2865,7 +3261,9 @@
       "personnel": "11p",
       "formation": "Dual Rt Close"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/542_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/542_diagram.png",
+    "id": "542",
+    "source": "email"
   },
   {
     "play_number": 541,
@@ -2880,7 +3278,9 @@
       "personnel": "11p",
       "formation": "Trips Lt H-Short"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/541_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/541_diagram.png",
+    "id": "541",
+    "source": "email"
   },
   {
     "play_number": 540,
@@ -2895,7 +3295,9 @@
       "personnel": "2-QB 01p",
       "formation": "Ace to Empty"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/540_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/540_diagram.png",
+    "id": "540",
+    "source": "email"
   },
   {
     "play_number": 539,
@@ -2910,7 +3312,9 @@
       "personnel": "2-QB 11p",
       "formation": "Diamond Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/539_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/539_diagram.jpg",
+    "id": "539",
+    "source": "email"
   },
   {
     "play_number": 538,
@@ -2925,12 +3329,14 @@
       "personnel": "2-QB 11p",
       "formation": "Pistol I Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/538_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/538_diagram.jpg",
+    "id": "538",
+    "source": "email"
   },
   {
     "play_number": 537,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2022 William &amp; Mary running Freeze Speed Option into a Sail Concept",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/537_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/537_angle2.mp4"
@@ -2940,7 +3346,9 @@
       "personnel": "2-QB 11p",
       "formation": "Nub Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/537_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/537_diagram.jpg",
+    "id": "537",
+    "source": "email"
   },
   {
     "play_number": 536,
@@ -2955,12 +3363,14 @@
       "personnel": "2-QB 11p",
       "formation": "Stack Rt Flipd"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/536_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/536_diagram.jpg",
+    "id": "536",
+    "source": "email"
   },
   {
     "play_number": 535,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2019 Washington State running Mesh + Dagger",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/535_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/535_angle2.mp4"
@@ -2970,12 +3380,14 @@
       "personnel": "10p",
       "formation": "Trips Rt or \u201cEarly\u201d"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/535_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/535_diagram.jpg",
+    "id": "535",
+    "source": "email"
   },
   {
     "play_number": 534,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2019 San Diego State running a Pressure with the 3T dropping to Spy the QB",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/534_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/534_angle2.mp4"
@@ -2985,7 +3397,9 @@
       "personnel": "3-3-5",
       "formation": "4-Down Single High"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/534_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/534_diagram.jpg",
+    "id": "534",
+    "source": "email"
   },
   {
     "play_number": 533,
@@ -3000,7 +3414,9 @@
       "personnel": "11p",
       "formation": "Tackle Over Nub Wide Bunch"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/533_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/533_diagram.jpg",
+    "id": "533",
+    "source": "email"
   },
   {
     "play_number": 532,
@@ -3015,7 +3431,9 @@
       "personnel": "11p",
       "formation": "FUB Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/532_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/532_diagram.jpg",
+    "id": "532",
+    "source": "email"
   },
   {
     "play_number": 531,
@@ -3030,12 +3448,14 @@
       "personnel": "Nickel",
       "formation": "Mint Front + MOFO"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/531_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/531_diagram.png",
+    "id": "531",
+    "source": "email"
   },
   {
     "play_number": 530,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2022 North Dakota State running Toss G-Lead out of Heavy Personnel",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/530_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/530_angle2.mp4"
@@ -3045,12 +3465,14 @@
       "personnel": "32p",
       "formation": "Heavy I Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/530_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/530_diagram.png",
+    "id": "530",
+    "source": "email"
   },
   {
     "play_number": 529,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2008 Dolphins running Wildcat Tackle Over Boot into Flood",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/529_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/529_angle2.mp4"
@@ -3060,7 +3482,9 @@
       "personnel": "22p",
       "formation": "Wildcat Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/529_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/529_diagram.jpg",
+    "id": "529",
+    "source": "email"
   },
   {
     "play_number": 528,
@@ -3075,12 +3499,14 @@
       "personnel": "11p",
       "formation": "Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/528_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/528_diagram.jpg",
+    "id": "528",
+    "source": "email"
   },
   {
     "play_number": 527,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2021 Michigan running Nickel B-Gap Pressure with a 3 Deep, 3 Under Fire Zone",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/527_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/527_angle2.mp4"
@@ -3090,7 +3516,9 @@
       "personnel": "Nickel",
       "formation": "Dbl Mug + 1-High Rotation"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/527_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/527_diagram.jpg",
+    "id": "527",
+    "source": "email"
   },
   {
     "play_number": 526,
@@ -3105,7 +3533,9 @@
       "personnel": "11p",
       "formation": "Nub Trips Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/526_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/526_diagram.jpg",
+    "id": "526",
+    "source": "email"
   },
   {
     "play_number": 525,
@@ -3120,7 +3550,9 @@
       "personnel": "12p",
       "formation": "Polecat"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/525_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/525_diagram.png",
+    "id": "525",
+    "source": "email"
   },
   {
     "play_number": 524,
@@ -3135,7 +3567,9 @@
       "personnel": "21p",
       "formation": "I Rt Close"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/524_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/524_diagram.png",
+    "id": "524",
+    "source": "email"
   },
   {
     "play_number": 523,
@@ -3150,12 +3584,14 @@
       "personnel": "11p",
       "formation": "Double Rt Flip"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/523_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/523_diagram.png",
+    "id": "523",
+    "source": "email"
   },
   {
     "play_number": 522,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2021 Arkansas running Tempo Switch Verts with a RB Seam",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/522_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/522_angle2.mp4"
@@ -3165,12 +3601,14 @@
       "personnel": "11p",
       "formation": "Bunch Lt."
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/522_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/522_diagram.jpg",
+    "id": "522",
+    "source": "email"
   },
   {
     "play_number": 521,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2022 Tulane running G/Y Counter (pulling the On-Ball TE)",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/521_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/521_angle2.mp4"
@@ -3180,7 +3618,9 @@
       "personnel": "11p",
       "formation": "Trey Rt."
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/521_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/521_diagram.jpg",
+    "id": "521",
+    "source": "email"
   },
   {
     "play_number": 520,
@@ -3195,12 +3635,14 @@
       "personnel": "12p",
       "formation": "I-Lt Clamp to Snug Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/520_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/520_diagram.jpg",
+    "id": "520",
+    "source": "email"
   },
   {
     "play_number": 519,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2022 Western Kentucky running Boot Switch Y-Cross with a Z-CTR Slide Route",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/519_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/519_angle2.mp4"
@@ -3210,12 +3652,14 @@
       "personnel": "11p",
       "formation": "Deuce Rt Z-CTR"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/519_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/519_diagram.jpg",
+    "id": "519",
+    "source": "email"
   },
   {
     "play_number": 518,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2022 Wisconsin Defense running a \u201cSmack\u201d (Sam + Mike) Pressure with a",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/518_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/518_angle2.mp4"
@@ -3225,12 +3669,14 @@
       "personnel": "Turbo Dime",
       "formation": "3-2-6 or 1-4-6"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/518_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/518_diagram.jpg",
+    "id": "518",
+    "source": "email"
   },
   {
     "play_number": 517,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2021 Air Force running Midline Triple Option with a Tackle Arc to the CB",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/517_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/517_angle2.mp4"
@@ -3240,7 +3686,9 @@
       "personnel": "30p",
       "formation": "Flex Pro Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/517_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/517_diagram.jpg",
+    "id": "517",
+    "source": "email"
   },
   {
     "play_number": 516,
@@ -3255,7 +3703,9 @@
       "personnel": "11p",
       "formation": "West Lt Close"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/516_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/516_diagram.jpg",
+    "id": "516",
+    "source": "email"
   },
   {
     "play_number": 515,
@@ -3270,7 +3720,9 @@
       "personnel": "22p",
       "formation": "Green Rt Close"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/515_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/515_diagram.jpg",
+    "id": "515",
+    "source": "email"
   },
   {
     "play_number": 514,
@@ -3285,7 +3737,9 @@
       "personnel": "32p",
       "formation": "Heavy T-Formation"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/514_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/514_diagram.jpg",
+    "id": "514",
+    "source": "email"
   },
   {
     "play_number": 513,
@@ -3300,12 +3754,14 @@
       "personnel": "Nickel",
       "formation": "Even Double Mug"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/513_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/513_diagram.jpg",
+    "id": "513",
+    "source": "email"
   },
   {
     "play_number": 512,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "1970 Notre Dame running a NASTY Screen to the TE (Smash Tunnel?)",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/512_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/512_angle2.mp4",
@@ -3316,12 +3772,14 @@
       "personnel": "32p",
       "formation": "TE/Wing Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/512_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/512_diagram.png",
+    "id": "512",
+    "source": "email"
   },
   {
     "play_number": 511,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "1993 Fresno State shifting from T-Formation to Split Backs to run a RB Mesh + TE OTB",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/511_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/511_angle2.mp4"
@@ -3331,7 +3789,9 @@
       "personnel": "21p",
       "formation": "Split Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/511_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/511_diagram.png",
+    "id": "511",
+    "source": "email"
   },
   {
     "play_number": 510,
@@ -3346,7 +3806,9 @@
       "personnel": "11p",
       "formation": "Empty Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/510_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/510_diagram.png",
+    "id": "510",
+    "source": "email"
   },
   {
     "play_number": 509,
@@ -3361,7 +3823,9 @@
       "personnel": "Odd Nickel",
       "formation": "Bear/Jam + Shell"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/509_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/509_diagram.jpg",
+    "id": "509",
+    "source": "email"
   },
   {
     "play_number": 508,
@@ -3376,12 +3840,14 @@
       "personnel": "12p",
       "formation": "Nub Wing Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/508_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/508_diagram.jpg",
+    "id": "508",
+    "source": "email"
   },
   {
     "play_number": 507,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 Texas State running a couple fun Red Zone Concepts:",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/507_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/507_angle2.mp4"
@@ -3391,12 +3857,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/507_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/507_diagram.png",
+    "id": "507",
+    "source": "email"
   },
   {
     "play_number": 506,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2021 Coastal Carolina running Split Zone Bluff Triple Option",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/506_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/506_angle2.mp4"
@@ -3406,7 +3874,9 @@
       "personnel": "21p",
       "formation": "Gunbone Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/506_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/506_diagram.jpg",
+    "id": "506",
+    "source": "email"
   },
   {
     "play_number": 505,
@@ -3421,7 +3891,9 @@
       "personnel": "12p",
       "formation": "Deuce Rt Close"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/505_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/505_diagram.png",
+    "id": "505",
+    "source": "email"
   },
   {
     "play_number": 504,
@@ -3436,12 +3908,14 @@
       "personnel": "11p",
       "formation": "Wildcat Dbl Wing"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/504_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/504_diagram.jpg",
+    "id": "504",
+    "source": "email"
   },
   {
     "play_number": 503,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2019 Iowa State D running Inverted Cover 2 out of a 3 Safety Look",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/503_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/503_angle2.mp4"
@@ -3451,12 +3925,14 @@
       "personnel": "3-3-5",
       "formation": "Even Dbl Mug"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/503_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/503_diagram.jpg",
+    "id": "503",
+    "source": "email"
   },
   {
     "play_number": 502,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2013 49ers running a Wham Iso out of 22p",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/502_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/502_angle2.mp4"
@@ -3466,7 +3942,9 @@
       "personnel": "22p",
       "formation": "Green Rt Wing"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/502_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/502_diagram.jpg",
+    "id": "502",
+    "source": "email"
   },
   {
     "play_number": 501,
@@ -3481,12 +3959,14 @@
       "personnel": "2Q 11p",
       "formation": "2Q Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/501_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/501_diagram.jpg",
+    "id": "501",
+    "source": "email"
   },
   {
     "play_number": 499,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "1977 Delaware (Wing-T) with a 3-Play Sequence: Trap, Trap Option, Trap Option Pass",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/499_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/499_angle2.mp4",
@@ -3497,7 +3977,9 @@
       "personnel": "11p",
       "formation": "Pistol Ace Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/499_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/499_diagram.jpg",
+    "id": "499",
+    "source": "email"
   },
   {
     "play_number": 498,
@@ -3512,12 +3994,14 @@
       "personnel": "11p",
       "formation": "Pistol Ace Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/498_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/498_diagram.jpg",
+    "id": "498",
+    "source": "email"
   },
   {
     "play_number": 497,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2018 Princeton running Tempo to FIB Quads Double Pass",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/497_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/497_angle2.mp4",
@@ -3528,12 +4012,14 @@
       "personnel": "12p",
       "formation": "Nub Quads Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/497_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/497_diagram.jpeg",
+    "id": "497",
+    "source": "email"
   },
   {
     "play_number": 496,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2017 Louisville running a \u201cMills Concept\u201d (Post + Basic) with a Z-Shallow",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/496_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/496_angle2.mp4"
@@ -3543,12 +4029,14 @@
       "personnel": "11p",
       "formation": "Trey Lt Razor"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/496_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/496_diagram.jpg",
+    "id": "496",
+    "source": "email"
   },
   {
     "play_number": 495,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2022 Iowa State motioning to Wide Bunch to run Shallow Trail",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/495_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/495_angle2.mp4"
@@ -3558,7 +4046,9 @@
       "personnel": "11p",
       "formation": "Split Rt to Bunch"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/495_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/495_diagram.jpg",
+    "id": "495",
+    "source": "email"
   },
   {
     "play_number": 494,
@@ -3573,7 +4063,9 @@
       "personnel": "10p",
       "formation": "Ace Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/494_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/494_diagram.jpg",
+    "id": "494",
+    "source": "email"
   },
   {
     "play_number": 493,
@@ -3588,7 +4080,9 @@
       "personnel": "01p",
       "formation": "FIB Trey Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/493_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/493_diagram.jpg",
+    "id": "493",
+    "source": "email"
   },
   {
     "play_number": 492,
@@ -3603,7 +4097,9 @@
       "personnel": "30p",
       "formation": "Flexbone"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/492_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/492_diagram.jpg",
+    "id": "492",
+    "source": "email"
   },
   {
     "play_number": 491,
@@ -3618,7 +4114,9 @@
       "personnel": "11p",
       "formation": "Ace Razor"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/491_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/491_diagram.jpg",
+    "id": "491",
+    "source": "email"
   },
   {
     "play_number": 490,
@@ -3633,7 +4131,9 @@
       "personnel": "11p",
       "formation": "Ace Dbl Wing"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/490_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/490_diagram.jpeg",
+    "id": "490",
+    "source": "email"
   },
   {
     "play_number": 489,
@@ -3648,7 +4148,9 @@
       "personnel": "11p",
       "formation": "Wide Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/489_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/489_diagram.jpg",
+    "id": "489",
+    "source": "email"
   },
   {
     "play_number": 488,
@@ -3663,12 +4165,14 @@
       "personnel": "11p",
       "formation": "Ace Lt Snug"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/488_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/488_diagram.jpg",
+    "id": "488",
+    "source": "email"
   },
   {
     "play_number": 487,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2022 Gardner Webb (FCS) running a Triple Option Pass by the Pitch Man",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/487_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/487_angle2.mp4"
@@ -3678,7 +4182,9 @@
       "personnel": "11p",
       "formation": "Ace Rt Short"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/487_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/487_diagram.jpg",
+    "id": "487",
+    "source": "email"
   },
   {
     "play_number": 486,
@@ -3693,7 +4199,9 @@
       "personnel": "11p",
       "formation": "Ace Snug Flip Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/486_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/486_diagram.jpg",
+    "id": "486",
+    "source": "email"
   },
   {
     "play_number": 485,
@@ -3708,7 +4216,9 @@
       "personnel": "11p",
       "formation": "Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/485_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/485_diagram.jpg",
+    "id": "485",
+    "source": "email"
   },
   {
     "play_number": 484,
@@ -3723,7 +4233,9 @@
       "personnel": "11p",
       "formation": "Trips Lt Razor"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/484_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/484_diagram.jpg",
+    "id": "484",
+    "source": "email"
   },
   {
     "play_number": 483,
@@ -3738,7 +4250,9 @@
       "personnel": "12p",
       "formation": "TE/Wing Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/483_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/483_diagram.png",
+    "id": "483",
+    "source": "email"
   },
   {
     "play_number": 482,
@@ -3753,12 +4267,14 @@
       "personnel": "11p",
       "formation": "Nub Trips Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/482_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/482_diagram.jpeg",
+    "id": "482",
+    "source": "email"
   },
   {
     "play_number": 481,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2013 Broncos running a Rail + Swirl \u201cAnchor\u201d Concept out of Wide Bunch",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/481_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/481_angle2.mp4"
@@ -3768,7 +4284,9 @@
       "personnel": "11p",
       "formation": "Nub Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/481_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/481_diagram.jpg",
+    "id": "481",
+    "source": "email"
   },
   {
     "play_number": 480,
@@ -3783,7 +4301,9 @@
       "personnel": "12p",
       "formation": "Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/480_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/480_diagram.jpg",
+    "id": "480",
+    "source": "email"
   },
   {
     "play_number": 479,
@@ -3798,7 +4318,9 @@
       "personnel": "11p",
       "formation": "Deuce Rt Rewind"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/479_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/479_diagram.jpg",
+    "id": "479",
+    "source": "email"
   },
   {
     "play_number": 478,
@@ -3813,7 +4335,9 @@
       "personnel": "11p",
       "formation": "Ace Flip"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/478_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/478_diagram.jpg",
+    "id": "478",
+    "source": "email"
   },
   {
     "play_number": 477,
@@ -3829,7 +4353,9 @@
       "personnel": "11p",
       "formation": "Nub Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/477_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/477_diagram.png",
+    "id": "477",
+    "source": "email"
   },
   {
     "play_number": 476,
@@ -3844,7 +4370,9 @@
       "personnel": "PAT",
       "formation": "Swinging Gate (Snapper Eligible)"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/476_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/476_diagram.jpeg",
+    "id": "476",
+    "source": "email"
   },
   {
     "play_number": 475,
@@ -3859,7 +4387,9 @@
       "personnel": "11p",
       "formation": "Deuce Lt ZigZag"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/475_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/475_diagram.jpg",
+    "id": "475",
+    "source": "email"
   },
   {
     "play_number": 474,
@@ -3874,7 +4404,9 @@
       "personnel": "12p",
       "formation": "Nub Trips Lt Cheetah"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/474_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/474_diagram.jpg",
+    "id": "474",
+    "source": "email"
   },
   {
     "play_number": 473,
@@ -3888,12 +4420,14 @@
       "personnel": "11p",
       "formation": "Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/473_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/473_diagram.jpeg",
+    "id": "473",
+    "source": "email"
   },
   {
     "play_number": 472,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2021 UCLA (Chip Kelly) running 13p Duo and pulling the On-Ball WR to Wrap/Insert",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/472_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/472_angle2.mp4"
@@ -3903,7 +4437,9 @@
       "personnel": "13p",
       "formation": "Tribe Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/472_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/472_diagram.jpg",
+    "id": "472",
+    "source": "email"
   },
   {
     "play_number": 471,
@@ -3918,12 +4454,14 @@
       "personnel": "11p",
       "formation": "Deuce Rt Nail"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/471_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/471_diagram.jpg",
+    "id": "471",
+    "source": "email"
   },
   {
     "play_number": 470,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2019 LSU running a Switch Double Post \u201cYankee\u201d Concept vs. 2-Man Under",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/470_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/470_angle2.mp4"
@@ -3933,12 +4471,14 @@
       "personnel": "11p",
       "formation": "Trips Lt Stack"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/470_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/470_diagram.jpg",
+    "id": "470",
+    "source": "email"
   },
   {
     "play_number": 469,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2021 Virginia had a creative Motion to run Wide Zone Lead",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/469_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/469_angle2.mp4"
@@ -3948,7 +4488,9 @@
       "personnel": "11p",
       "formation": "Deuce Rt Rewind"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/469_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/469_diagram.jpg",
+    "id": "469",
+    "source": "email"
   },
   {
     "play_number": 468,
@@ -3963,7 +4505,9 @@
       "personnel": "11p",
       "formation": "Stack Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/468_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/468_diagram.jpg",
+    "id": "468",
+    "source": "email"
   },
   {
     "play_number": 467,
@@ -3978,7 +4522,9 @@
       "personnel": "13p",
       "formation": "TE/Wing Trey Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/467_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/467_diagram.png",
+    "id": "467",
+    "source": "email"
   },
   {
     "play_number": 466,
@@ -3993,7 +4539,9 @@
       "personnel": "21p",
       "formation": "Wildcat Stack Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/466_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/466_diagram.jpg",
+    "id": "466",
+    "source": "email"
   },
   {
     "play_number": 465,
@@ -4008,7 +4556,9 @@
       "personnel": "11p",
       "formation": "Empty Lt Laser"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/465_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/465_diagram.jpg",
+    "id": "465",
+    "source": "email"
   },
   {
     "play_number": 464,
@@ -4023,7 +4573,9 @@
       "personnel": "11p",
       "formation": "Empty Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/464_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/464_diagram.jpg",
+    "id": "464",
+    "source": "email"
   },
   {
     "play_number": 463,
@@ -4038,7 +4590,9 @@
       "personnel": "11p",
       "formation": "Trey Rt Snug"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/463_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/463_diagram.JPG",
+    "id": "463",
+    "source": "email"
   },
   {
     "play_number": 462,
@@ -4054,7 +4608,9 @@
       "personnel": "22p",
       "formation": "Deuce Rt Laser"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/462_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/462_diagram.png",
+    "id": "462",
+    "source": "email"
   },
   {
     "play_number": 461,
@@ -4070,7 +4626,9 @@
       "personnel": "11p",
       "formation": "Ace Snug Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/461_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/461_diagram.jpg",
+    "id": "461",
+    "source": "email"
   },
   {
     "play_number": 460,
@@ -4087,7 +4645,9 @@
       "personnel": "12p",
       "formation": "TE/Wing Trey Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/460_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/460_diagram.jpg",
+    "id": "460",
+    "source": "email"
   },
   {
     "play_number": 459,
@@ -4102,7 +4662,9 @@
       "personnel": "11p",
       "formation": "Slant Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/459_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/459_diagram.jpeg",
+    "id": "459",
+    "source": "email"
   },
   {
     "play_number": 458,
@@ -4117,7 +4679,9 @@
       "personnel": "11p",
       "formation": "Empty Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/458_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/458_diagram.jpg",
+    "id": "458",
+    "source": "email"
   },
   {
     "play_number": 457,
@@ -4132,7 +4696,9 @@
       "personnel": "31p",
       "formation": "Flexbone Tight Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/457_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/457_diagram.jpg",
+    "id": "457",
+    "source": "email"
   },
   {
     "play_number": 456,
@@ -4147,7 +4713,9 @@
       "personnel": "13p (extra OL)",
       "formation": "Heavy Ace Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/456_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/456_diagram.jpg",
+    "id": "456",
+    "source": "email"
   },
   {
     "play_number": 455,
@@ -4162,7 +4730,9 @@
       "personnel": "11p",
       "formation": "Trips Rt Laser"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/455_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/455_diagram.jpg",
+    "id": "455",
+    "source": "email"
   },
   {
     "play_number": 454,
@@ -4177,7 +4747,9 @@
       "personnel": "21p",
       "formation": "Bunch Lt Razor"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/454_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/454_diagram.jpg",
+    "id": "454",
+    "source": "email"
   },
   {
     "play_number": 453,
@@ -4192,7 +4764,9 @@
       "personnel": "13p",
       "formation": "Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/453_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/453_diagram.jpg",
+    "id": "453",
+    "source": "email"
   },
   {
     "play_number": 452,
@@ -4207,7 +4781,9 @@
       "personnel": "21p",
       "formation": "Nub I Rt."
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/452_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/452_diagram.jpg",
+    "id": "452",
+    "source": "email"
   },
   {
     "play_number": 451,
@@ -4222,7 +4798,9 @@
       "personnel": "11p",
       "formation": "Ace Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/451_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/451_diagram.jpg",
+    "id": "451",
+    "source": "email"
   },
   {
     "play_number": 450,
@@ -4237,7 +4815,9 @@
       "personnel": "12p",
       "formation": "Empty Quads Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/450_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/450_diagram.jpg",
+    "id": "450",
+    "source": "email"
   },
   {
     "play_number": 449,
@@ -4252,7 +4832,9 @@
       "personnel": "21p",
       "formation": "LUB Nub Trips Rt. Snug"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/449_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/449_diagram.jpg",
+    "id": "449",
+    "source": "email"
   },
   {
     "play_number": 448,
@@ -4267,7 +4849,9 @@
       "personnel": "11p",
       "formation": "Nub Wide Bunch Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/448_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/448_diagram.jpg",
+    "id": "448",
+    "source": "email"
   },
   {
     "play_number": 447,
@@ -4282,7 +4866,9 @@
       "personnel": "11p",
       "formation": "Empty Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/447_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/447_diagram.jpg",
+    "id": "447",
+    "source": "email"
   },
   {
     "play_number": 446,
@@ -4297,7 +4883,9 @@
       "personnel": "11p",
       "formation": "FUB Stack Lt Laser"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/446_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/446_diagram.jpg",
+    "id": "446",
+    "source": "email"
   },
   {
     "play_number": 445,
@@ -4312,7 +4900,9 @@
       "personnel": "11p",
       "formation": "Slant Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/445_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/445_diagram.JPG",
+    "id": "445",
+    "source": "email"
   },
   {
     "play_number": 444,
@@ -4328,7 +4918,9 @@
       "personnel": "21p",
       "formation": "Split Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/444_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/444_diagram.jpg",
+    "id": "444",
+    "source": "email"
   },
   {
     "play_number": 443,
@@ -4343,7 +4935,9 @@
       "personnel": "PUNT",
       "formation": "PUNT Trey Stack Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/443_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/443_diagram.jpg",
+    "id": "443",
+    "source": "email"
   },
   {
     "play_number": 442,
@@ -4358,7 +4952,9 @@
       "personnel": "11",
       "formation": "Empty Quads Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/442_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/442_diagram.jpg",
+    "id": "442",
+    "source": "email"
   },
   {
     "play_number": 441,
@@ -4373,7 +4969,9 @@
       "personnel": "31",
       "formation": "Tackle Over, but I don't know \ud83d\ude02"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/441_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/441_diagram.jpg",
+    "id": "441",
+    "source": "email"
   },
   {
     "play_number": 440,
@@ -4388,7 +4986,9 @@
       "personnel": "10",
       "formation": "Ace Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/440_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/440_diagram.jpg",
+    "id": "440",
+    "source": "email"
   },
   {
     "play_number": 439,
@@ -4403,7 +5003,9 @@
       "personnel": "12",
       "formation": "Pistol Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/439_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/439_diagram.jpg",
+    "id": "439",
+    "source": "email"
   },
   {
     "play_number": 438,
@@ -4418,7 +5020,9 @@
       "personnel": "11",
       "formation": "Slant Rt Flip"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/438_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/438_diagram.jpg",
+    "id": "438",
+    "source": "email"
   },
   {
     "play_number": 437,
@@ -4433,7 +5037,9 @@
       "personnel": "11",
       "formation": "Pistol Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/437_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/437_diagram.jpg",
+    "id": "437",
+    "source": "email"
   },
   {
     "play_number": 436,
@@ -4448,7 +5054,9 @@
       "personnel": "11",
       "formation": "Empty Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/436_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/436_diagram.jpg",
+    "id": "436",
+    "source": "email"
   },
   {
     "play_number": 435,
@@ -4463,7 +5071,9 @@
       "personnel": "11",
       "formation": "Ace Lt Flip"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/435_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/435_diagram.jpg",
+    "id": "435",
+    "source": "email"
   },
   {
     "play_number": 434,
@@ -4478,7 +5088,9 @@
       "personnel": "11",
       "formation": "Slant Trips Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/434_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/434_diagram.jpg",
+    "id": "434",
+    "source": "email"
   },
   {
     "play_number": 433,
@@ -4493,7 +5105,9 @@
       "personnel": "11",
       "formation": "Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/433_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/433_diagram.jpg",
+    "id": "433",
+    "source": "email"
   },
   {
     "play_number": 432,
@@ -4507,7 +5121,9 @@
       "personnel": "11",
       "formation": "Deuce Lt Razor"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/432_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/432_diagram.jpg",
+    "id": "432",
+    "source": "email"
   },
   {
     "play_number": 431,
@@ -4522,7 +5138,9 @@
       "personnel": "12",
       "formation": "Bunch Rip + Wildcat"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/431_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/431_diagram.jpg",
+    "id": "431",
+    "source": "email"
   },
   {
     "play_number": 430,
@@ -4537,7 +5155,9 @@
       "personnel": "12",
       "formation": "TE/Wing Lt."
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/430_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/430_diagram.png",
+    "id": "430",
+    "source": "email"
   },
   {
     "play_number": 429,
@@ -4552,7 +5172,9 @@
       "personnel": "12",
       "formation": "Bunch Lt."
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/429_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/429_diagram.jpg",
+    "id": "429",
+    "source": "email"
   },
   {
     "play_number": 428,
@@ -4567,7 +5189,9 @@
       "personnel": "12",
       "formation": "Bunch Lt."
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/428_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/428_diagram.jpg",
+    "id": "428",
+    "source": "email"
   },
   {
     "play_number": 427,
@@ -4582,7 +5206,9 @@
       "personnel": "11",
       "formation": "Bunch Rt."
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/427_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/427_diagram.jpg",
+    "id": "427",
+    "source": "email"
   },
   {
     "play_number": 426,
@@ -4597,7 +5223,9 @@
       "personnel": "21",
       "formation": "Deuce Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/426_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/426_diagram.jpg",
+    "id": "426",
+    "source": "email"
   },
   {
     "play_number": 425,
@@ -4612,7 +5240,9 @@
       "personnel": "11",
       "formation": "Slant Rt Trips"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/425_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/425_diagram.jpg",
+    "id": "425",
+    "source": "email"
   },
   {
     "play_number": 424,
@@ -4628,7 +5258,9 @@
       "personnel": "14",
       "formation": "Big Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/424_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/424_diagram.jpg",
+    "id": "424",
+    "source": "email"
   },
   {
     "play_number": 423,
@@ -4643,7 +5275,9 @@
       "personnel": "12",
       "formation": "TE/Wing Trey Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/423_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/423_diagram.jpg",
+    "id": "423",
+    "source": "email"
   },
   {
     "play_number": 422,
@@ -4660,7 +5294,9 @@
       "personnel": "12",
       "formation": "Shift to Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/422_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/422_diagram.png",
+    "id": "422",
+    "source": "email"
   },
   {
     "play_number": 421,
@@ -4675,7 +5311,9 @@
       "personnel": "11",
       "formation": "Nub Trips Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/421_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/421_diagram.jpg",
+    "id": "421",
+    "source": "email"
   },
   {
     "play_number": 420,
@@ -4690,7 +5328,9 @@
       "personnel": "21",
       "formation": "Split Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/420_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/420_diagram.jpg",
+    "id": "420",
+    "source": "email"
   },
   {
     "play_number": 419,
@@ -4706,7 +5346,9 @@
       "personnel": "11",
       "formation": "Ace Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/419_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/419_diagram.jpg",
+    "id": "419",
+    "source": "email"
   },
   {
     "play_number": 418,
@@ -4721,7 +5363,9 @@
       "personnel": "13",
       "formation": "Shift to Polecat"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/418_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/418_diagram.jpeg",
+    "id": "418",
+    "source": "email"
   },
   {
     "play_number": 417,
@@ -4736,7 +5380,9 @@
       "personnel": "11",
       "formation": "Deuce Lt Snug"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/417_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/417_diagram.png",
+    "id": "417",
+    "source": "email"
   },
   {
     "play_number": 416,
@@ -4752,7 +5398,9 @@
       "personnel": "11",
       "formation": "Slant Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/416_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/416_diagram.jpg",
+    "id": "416",
+    "source": "email"
   },
   {
     "play_number": 415,
@@ -4767,7 +5415,9 @@
       "personnel": "21",
       "formation": "Split Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/415_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/415_diagram.jpg",
+    "id": "415",
+    "source": "email"
   },
   {
     "play_number": 414,
@@ -4782,7 +5432,9 @@
       "personnel": "11",
       "formation": "Diamond Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/414_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/414_diagram.jpg",
+    "id": "414",
+    "source": "email"
   },
   {
     "play_number": 413,
@@ -4798,7 +5450,9 @@
       "personnel": "12",
       "formation": "Empty Rt Snug"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/413_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/413_diagram.jpg",
+    "id": "413",
+    "source": "email"
   },
   {
     "play_number": 412,
@@ -4813,7 +5467,9 @@
       "personnel": "11",
       "formation": "FIB Nub Trips Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/412_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/412_diagram.jpg",
+    "id": "412",
+    "source": "email"
   },
   {
     "play_number": 411,
@@ -4828,7 +5484,9 @@
       "personnel": "11",
       "formation": "Stack Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/411_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/411_diagram.jpg",
+    "id": "411",
+    "source": "email"
   },
   {
     "play_number": 410,
@@ -4843,7 +5501,9 @@
       "personnel": "11",
       "formation": "Trips Rt Flip"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/410_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/410_diagram.jpg",
+    "id": "410",
+    "source": "email"
   },
   {
     "play_number": 409,
@@ -4858,7 +5518,9 @@
       "personnel": "11",
       "formation": "Trips Rt Laser"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/409_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/409_diagram.jpg",
+    "id": "409",
+    "source": "email"
   },
   {
     "play_number": 408,
@@ -4874,7 +5536,9 @@
       "personnel": "31",
       "formation": "Gun Flexbone"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/408_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/408_diagram.jpg",
+    "id": "408",
+    "source": "email"
   },
   {
     "play_number": 407,
@@ -4889,7 +5553,9 @@
       "personnel": "11",
       "formation": "Deuce Lt Snug"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/407_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/407_diagram.jpg",
+    "id": "407",
+    "source": "email"
   },
   {
     "play_number": 406,
@@ -4905,7 +5571,9 @@
       "personnel": "22",
       "formation": "Maryland-I"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/406_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/406_diagram.jpg",
+    "id": "406",
+    "source": "email"
   },
   {
     "play_number": 405,
@@ -4920,7 +5588,9 @@
       "personnel": "11",
       "formation": "Nub Wide Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/405_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/405_diagram.jpg",
+    "id": "405",
+    "source": "email"
   },
   {
     "play_number": 404,
@@ -4935,7 +5605,9 @@
       "personnel": "12",
       "formation": "Bunch Rt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/404_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/404_diagram.jpg",
+    "id": "404",
+    "source": "email"
   },
   {
     "play_number": 403,
@@ -4950,7 +5622,9 @@
       "personnel": "11",
       "formation": "FUB Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/403_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/403_diagram.jpg",
+    "id": "403",
+    "source": "email"
   },
   {
     "play_number": 402,
@@ -4965,7 +5639,9 @@
       "personnel": "12",
       "formation": "Nub Trips Lt"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/402_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/402_diagram.JPG",
+    "id": "402",
+    "source": "email"
   },
   {
     "play_number": 401,
@@ -4981,7 +5657,9 @@
       "personnel": "12",
       "formation": "Pistol"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/401_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/401_diagram.png",
+    "id": "401",
+    "source": "email"
   },
   {
     "play_number": 400,
@@ -4996,7 +5674,9 @@
       "personnel": "11",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/400_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/400_diagram.jpg",
+    "id": "400",
+    "source": "email"
   },
   {
     "play_number": 399,
@@ -5011,7 +5691,9 @@
       "personnel": "31",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/399_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/399_diagram.jpg",
+    "id": "399",
+    "source": "email"
   },
   {
     "play_number": 398,
@@ -5026,7 +5708,9 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/398_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/398_diagram.png",
+    "id": "398",
+    "source": "email"
   },
   {
     "play_number": 397,
@@ -5041,7 +5725,9 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/397_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/397_diagram.jpg",
+    "id": "397",
+    "source": "email"
   },
   {
     "play_number": 396,
@@ -5056,7 +5742,9 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/396_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/396_diagram.png",
+    "id": "396",
+    "source": "email"
   },
   {
     "play_number": 395,
@@ -5071,7 +5759,9 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/395_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/395_diagram.jpg",
+    "id": "395",
+    "source": "email"
   },
   {
     "play_number": 394,
@@ -5086,7 +5776,9 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/394_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/394_diagram.jpg",
+    "id": "394",
+    "source": "email"
   },
   {
     "play_number": 393,
@@ -5102,7 +5794,9 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/393_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/393_diagram.JPG",
+    "id": "393",
+    "source": "email"
   },
   {
     "play_number": 392,
@@ -5117,7 +5811,9 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/392_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/392_diagram.jpg",
+    "id": "392",
+    "source": "email"
   },
   {
     "play_number": 391,
@@ -5132,7 +5828,9 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/391_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/391_diagram.jpg",
+    "id": "391",
+    "source": "email"
   },
   {
     "play_number": 390,
@@ -5147,7 +5845,9 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/390_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/390_diagram.png",
+    "id": "390",
+    "source": "email"
   },
   {
     "play_number": 389,
@@ -5162,7 +5862,9 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/389_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/389_diagram.jpg",
+    "id": "389",
+    "source": "email"
   },
   {
     "play_number": 388,
@@ -5177,7 +5879,9 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/388_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/388_diagram.jpg",
+    "id": "388",
+    "source": "email"
   },
   {
     "play_number": 387,
@@ -5192,12 +5896,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/387_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/387_diagram.png",
+    "id": "387",
+    "source": "email"
   },
   {
     "play_number": 386,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 Iowa State running 4-Strong Double Post + Sail",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/386_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/386_angle2.mp4"
@@ -5207,12 +5913,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/386_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/386_diagram.JPG",
+    "id": "386",
+    "source": "email"
   },
   {
     "play_number": 385,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 South Alabama running GT Counter Read with a Split Flow Bluff to Lead the QB",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/385_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/385_angle2.mp4"
@@ -5222,12 +5930,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/385_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/385_diagram.jpg",
+    "id": "385",
+    "source": "email"
   },
   {
     "play_number": 384,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 Saints running Max Protection PA &#34;Yankee&#34; Concept (Big Post + Deep Over)",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/384_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/384_angle2.mp4"
@@ -5237,12 +5947,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/384_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/384_diagram.jpg",
+    "id": "384",
+    "source": "email"
   },
   {
     "play_number": 383,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 Packers running Trap Crack Screen to a WR out of the Backfield",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/383_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/383_angle2.mp4",
@@ -5254,12 +5966,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/383_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/383_diagram.png",
+    "id": "383",
+    "source": "email"
   },
   {
     "play_number": 382,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 Texas A&amp;M running Post/Wheel + Slide",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/382_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/382_angle2.mp4",
@@ -5271,12 +5985,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/382_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/382_diagram.jpg",
+    "id": "382",
+    "source": "email"
   },
   {
     "play_number": 381,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 Toledo running Snag &amp; Go in the Red Zone",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/381_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/381_angle2.mp4"
@@ -5286,12 +6002,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/381_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/381_diagram.jpg",
+    "id": "381",
+    "source": "email"
   },
   {
     "play_number": 380,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 South Carolina running \u201cDash\u201d Flood (Peek Quick Game + Boot)",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/380_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/380_angle2.mp4"
@@ -5301,12 +6019,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/380_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/380_diagram.jpg",
+    "id": "380",
+    "source": "email"
   },
   {
     "play_number": 379,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 Syracuse (Jeff Nixon) running G/H Counter with a Frontside RB Rail Route",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/379_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/379_angle2.mp4"
@@ -5316,12 +6036,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/379_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/379_diagram.jpg",
+    "id": "379",
+    "source": "email"
   },
   {
     "play_number": 378,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 UC-Davis running TE Leak with a RB B-Gap Wheel",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/378_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/378_angle2.mp4",
@@ -5333,12 +6055,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/378_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/378_diagram.jpg",
+    "id": "378",
+    "source": "email"
   },
   {
     "play_number": 377,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 Lions (Ben Johnson) with a creative way to run TE Leak (Jet to Orbit PA + RB Wheel)",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/377_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/377_angle2.mp4"
@@ -5348,12 +6072,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/377_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/377_diagram.jpg",
+    "id": "377",
+    "source": "email"
   },
   {
     "play_number": 376,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 Texas State running the \u201cSark Screen&#34; Half-Boot RB Throwback Screen",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/376_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/376_angle2.mp4",
@@ -5364,12 +6090,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/376_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/376_diagram.jpg",
+    "id": "376",
+    "source": "email"
   },
   {
     "play_number": 375,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 Georgia using Quick Return Motion to run Boot with Post/Wheel + Slide",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/375_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/375_angle2.mp4"
@@ -5379,12 +6107,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/375_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/375_diagram.jpg",
+    "id": "375",
+    "source": "email"
   },
   {
     "play_number": 374,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 Georgia Southern running Power Flea Flicker with a TE Screen",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/374_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/374_angle2.mp4"
@@ -5394,12 +6124,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/374_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/374_diagram.jpg",
+    "id": "374",
+    "source": "email"
   },
   {
     "play_number": 373,
     "date": "2026-01-28",
-    "title": "Untitled Play",
+    "title": "2024 Washington running a creative Play Action with a Post + FB Wheel",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/373_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/373_angle2.mp4"
@@ -5409,12 +6141,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/373_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/373_diagram.jpg",
+    "id": "373",
+    "source": "email"
   },
   {
     "play_number": 372,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2024 Boston College running Jet Same-Side G/Y Counter + pulling the on-ball TE",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/372_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/372_angle2.mp4"
@@ -5424,12 +6158,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/372_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/372_diagram.jpg",
+    "id": "372",
+    "source": "email"
   },
   {
     "play_number": 371,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2024 Penn State (Andy Kotelnicki) running 2-QB Empty Jet Power Read + Switch Verts",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/371_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/371_angle2.mp4"
@@ -5439,12 +6175,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/371_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/371_diagram.jpg",
+    "id": "371",
+    "source": "email"
   },
   {
     "play_number": 370,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2024 Mizzou (Kirby Moore) running \u201cDash\u201d Flood (Boot without Play Action)",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/370_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/370_angle2.mp4"
@@ -5454,12 +6192,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/370_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/370_diagram.jpg",
+    "id": "370",
+    "source": "email"
   },
   {
     "play_number": 369,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2024 Georgia Tech using a creative Shift from Unbalanced to 2x2 to run Jet Power Read",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/369_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/369_angle2.mp4",
@@ -5470,12 +6210,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/369_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/369_diagram.jpg",
+    "id": "369",
+    "source": "email"
   },
   {
     "play_number": 368,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2024 New Mexico running Formation Unbalanced Jet Boot with a Fake Reverse",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/368_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/368_angle2.mp4"
@@ -5485,12 +6227,14 @@
       "personnel": "",
       "formation": "Unbalanced Jet Boot with a Fake Reverse \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/368_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/368_diagram.jpg",
+    "id": "368",
+    "source": "email"
   },
   {
     "play_number": 367,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2024 SEMO (FCS) running Formation Unbalanced H-Back Cheat Arrow + RB Slip Screen",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/367_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/367_angle2.mp4"
@@ -5500,12 +6244,14 @@
       "personnel": "",
       "formation": "Unbalanced H-Back Arrow + RB Slip Screen \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/367_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/367_diagram.jpg",
+    "id": "367",
+    "source": "email"
   },
   {
     "play_number": 366,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2024 Georgia Tech using FIB (Formation into the Boundary) to motion into G/H Counter",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/366_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/366_angle2.mp4"
@@ -5515,12 +6261,14 @@
       "personnel": "",
       "formation": "into the Boundary) to motion into G/H Counter \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c"
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/366_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/366_diagram.jpg",
+    "id": "366",
+    "source": "email"
   },
   {
     "play_number": 365,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2023 Ole Miss running Quads Bubble + QB G/H Counter",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/365_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/365_angle2.mp4"
@@ -5530,12 +6278,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/365_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/365_diagram.jpg",
+    "id": "365",
+    "source": "email"
   },
   {
     "play_number": 364,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2023 Packers running 4-Strong Dagger with a Lead Swing",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/364_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/364_angle2.mp4"
@@ -5545,12 +6295,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/364_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/364_diagram.jpg",
+    "id": "364",
+    "source": "email"
   },
   {
     "play_number": 363,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2023 Chiefs running a 4-Strong Sail/Flood Concept",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/363_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/363_angle2.mp4"
@@ -5560,12 +6312,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/363_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/363_diagram.jpg",
+    "id": "363",
+    "source": "email"
   },
   {
     "play_number": 362,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2023 West Virginia running 4-Strong RB Scissors off Jet Power Read",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/362_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/362_angle2.mp4"
@@ -5575,12 +6329,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/362_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/362_diagram.jpg",
+    "id": "362",
+    "source": "email"
   },
   {
     "play_number": 361,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2024 Colts running one of my favorite Trends: 4-Strong Flood",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/361_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/361_angle2.mp4"
@@ -5590,12 +6346,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/361_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/361_diagram.png",
+    "id": "361",
+    "source": "email"
   },
   {
     "play_number": 360,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2023 Texas running a \u201cBash\u201d Touch Pass + Crack/Arc for a 2-pt Play",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/360_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/360_angle2.mp4"
@@ -5605,12 +6363,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/360_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/360_diagram.png",
+    "id": "360",
+    "source": "email"
   },
   {
     "play_number": 359,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2024 Bengals running an Insert Iso Locked RPO",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/359_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/359_angle2.mp4"
@@ -5620,12 +6380,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/359_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/359_diagram.png",
+    "id": "359",
+    "source": "email"
   },
   {
     "play_number": 358,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2021 Iowa State using a \u201cFalse Pull\u201d to run Speed Option off the 4i",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/358_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/358_angle2.mp4"
@@ -5635,7 +6397,9 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/358_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/358_diagram.jpeg",
+    "id": "358",
+    "source": "email"
   },
   {
     "play_number": 357,
@@ -5650,12 +6414,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/357_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/357_diagram.png",
+    "id": "357",
+    "source": "email"
   },
   {
     "play_number": 356,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2024 Jaguars (Press Taylor) had a creative way to get to Flood Spacing",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/356_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/356_angle2.mp4"
@@ -5665,12 +6431,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/356_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/356_diagram.png",
+    "id": "356",
+    "source": "email"
   },
   {
     "play_number": 355,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2020 Oklahoma State running a Tunnel Screen on the Backside of Wide Zone Lead",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/355_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/355_angle2.mp4"
@@ -5680,12 +6448,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/355_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/355_diagram.png",
+    "id": "355",
+    "source": "email"
   },
   {
     "play_number": 354,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2020 UCLA (Chip Kelly) using TE Fast Motion to run a Swing/Tunnel Screen",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/354_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/354_angle2.mp4"
@@ -5695,12 +6465,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/354_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/354_diagram.png",
+    "id": "354",
+    "source": "email"
   },
   {
     "play_number": 353,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2020 Fresno State (Kalen DeBoer + Ryan Grubb) running an Orbit Throwback RB Slip Screen",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/353_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/353_angle2.mp4"
@@ -5710,12 +6482,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/353_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/353_diagram.png",
+    "id": "353",
+    "source": "email"
   },
   {
     "play_number": 352,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2021 South Alabama running a Shallow Screen",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/352_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/352_angle2.mp4"
@@ -5725,12 +6499,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/352_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/352_diagram.png",
+    "id": "352",
+    "source": "email"
   },
   {
     "play_number": 351,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2023 Oregon (Will Stein) running a TE Slip Screen on the Backside of Power Read PA",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/351_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/351_angle2.mp4"
@@ -5740,12 +6516,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/351_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/351_diagram.png",
+    "id": "351",
+    "source": "email"
   },
   {
     "play_number": 350,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2023 Montana running Empty Play Action Power Read with a Stalk &amp; Go Follow",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/350_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/350_angle2.mp4"
@@ -5755,12 +6533,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/350_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/350_diagram.png",
+    "id": "350",
+    "source": "email"
   },
   {
     "play_number": 349,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2023 Mizzou (Kirby Moore) with a creative way to get to the first read on Y-Cross out of Split Backs (using the McCaffery-style Shuffle Motion)",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/349_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/349_angle2.mp4"
@@ -5770,12 +6550,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/349_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/349_diagram.png",
+    "id": "349",
+    "source": "email"
   },
   {
     "play_number": 348,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2021 Western Kentucky (Zach Kittley) running Empty Wide Bunch + Orbit Switch 4-Verts",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/348_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/348_angle2.mp4"
@@ -5785,12 +6567,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/348_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/348_diagram.png",
+    "id": "348",
+    "source": "email"
   },
   {
     "play_number": 347,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2022 Purdue (Jeff Brohm) running Tear Motion with a TE Shallow Trail on 4th &amp; 1",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/347_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/347_angle2.mp4"
@@ -5800,12 +6584,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/347_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/347_diagram.png",
+    "id": "347",
+    "source": "email"
   },
   {
     "play_number": 346,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2023 Washington State (Ben Arbuckle) running Max Protection Post/Wheel Sail",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/346_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/346_angle2.mp4"
@@ -5815,12 +6601,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/346_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/346_diagram.png",
+    "id": "346",
+    "source": "email"
   },
   {
     "play_number": 345,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2023 Incarnate Word (Conner McQueen) running GT Counter Triple (Bubble) with Slot Vertical Relief",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/345_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/345_angle2.mp4"
@@ -5830,12 +6618,14 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/345_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/345_diagram.png",
+    "id": "345",
+    "source": "email"
   },
   {
     "play_number": 344,
     "date": "2026-01-29",
-    "title": "Untitled Play",
+    "title": "2020 Coastal Carolina (Willy Korn &amp; Newland Isaac) running Freeze Option with a Tackle Arc and pitching off the 4-Technique",
     "angles": [
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/344_angle1.mp4",
       "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/344_angle2.mp4"
@@ -5845,6 +6635,72 @@
       "personnel": "",
       "formation": ""
     },
-    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/344_diagram.jpeg"
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/344_diagram.png",
+    "id": "344",
+    "source": "email"
+  },
+  {
+    "id": "x-2016895160508940779",
+    "source": "twitter",
+    "title": "Empty QB Counter RPO",
+    "date": "2026-01-29",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/x-2016895160508940779.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "",
+    "twitter_url": "https://x.com/CoachDanCasey/status/2016895160508940779"
+  },
+  {
+    "id": "x-2016576799249973252",
+    "source": "twitter",
+    "title": "1992 Packers were Locking the Tackles and Popping the Guards vs. the 3-4",
+    "date": "2026-01-29",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/x-2016576799249973252.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "",
+    "twitter_url": "https://x.com/CoachDanCasey/status/2016576799249973252"
+  },
+  {
+    "id": "x-2016563960007315833",
+    "source": "twitter",
+    "title": "1979 Houston running \"Spinner\" Counter Option",
+    "date": "2026-01-29",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/x-2016563960007315833.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "",
+    "twitter_url": "https://x.com/CoachDanCasey/status/2016563960007315833"
+  },
+  {
+    "id": "x-2015908918547857613",
+    "source": "twitter",
+    "title": "2016 Falcons",
+    "date": "2026-01-29",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/x-2015908918547857613.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "",
+    "twitter_url": "https://x.com/CoachDanCasey/status/2015908918547857613"
   }
 ]
