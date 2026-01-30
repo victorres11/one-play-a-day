@@ -14,17 +14,21 @@ class PlayGallery {
       down: '',
       personnel: '',
       formation: '',
+      playCaller: '',
       dateFrom: '',
       dateTo: ''
     };
     this.teamMap = new Map(); // Maps play_number to extracted team
+    this.playCallerLookup = new Map(); // Maps year|team to play caller
     this.init();
   }
 
   async init() {
     try {
       await this.loadPlays();
+      await this.loadPlayCallers();
       this.extractTeams();
+      this.buildPlayCallerLookup();
       this.setupVideoLazyLoading();
       this.setupFilters();
       this.populateFilterOptions();
@@ -61,6 +65,16 @@ class PlayGallery {
       return (b.play_number || 0) - (a.play_number || 0);
     });
     this.filteredPlays = [...this.allPlays];
+  }
+
+  async loadPlayCallers() {
+    try {
+      const response = await fetch('data/play-callers.json');
+      this.playCallersData = await response.json();
+    } catch (error) {
+      console.warn('Play caller data unavailable, continuing without it.', error);
+      this.playCallersData = null;
+    }
   }
 
   /**
@@ -111,6 +125,61 @@ class PlayGallery {
     return this.teamMap.get(play.play_number) || '';
   }
 
+  buildPlayCallerLookup() {
+    if (!this.playCallersData) return;
+
+    const leagues = ['nfl', 'college'];
+    leagues.forEach(league => {
+      const leagueData = this.playCallersData[league] || {};
+      Object.entries(leagueData).forEach(([year, teams]) => {
+        Object.entries(teams || {}).forEach(([team, info]) => {
+          if (!info || !info.playCaller) return;
+          const normalizedTeam = this.normalizeTeamName(team);
+          const key = `${year}|${normalizedTeam}`;
+          this.playCallerLookup.set(key, info.playCaller);
+        });
+      });
+    });
+  }
+
+  getPlayYear(play) {
+    if (play.date) return play.date.slice(0, 4);
+    const match = play.title?.match(/^(\d{4})/);
+    return match ? match[1] : '';
+  }
+
+  extractPlayCallerFromTitle(title) {
+    if (!title) return '';
+
+    // Only capture parenthetical that appears before the action verb.
+    const match = title.match(
+      /^\d{4}\s+.+?\s+\(([^)]+)\)\s+(running|using|keeping|lining|throwing|short|Defense|taking|getting|motioning)\b/i
+    );
+
+    if (!match) return '';
+
+    const candidate = match[1].trim();
+
+    // Exclude all-caps or shorthand qualifiers like (FL), (OK), (FCS - NC).
+    if (/^[A-Z0-9\s&/.-]+$/.test(candidate)) return '';
+
+    return candidate;
+  }
+
+  getPlayCallerForPlay(play) {
+    const directCaller = play.play_caller || play.playCaller || play.play_details?.play_caller;
+    if (directCaller) return directCaller;
+
+    const titleCaller = this.extractPlayCallerFromTitle(play.title);
+    if (titleCaller) return titleCaller;
+
+    const year = this.getPlayYear(play);
+    const team = this.getTeamForPlay(play);
+    if (!year || !team) return '';
+
+    return this.playCallerLookup.get(`${year}|${team}`) || '';
+  }
+
   setupFilters() {
     // Search input with debounce
     const searchInput = document.getElementById('search-input');
@@ -153,6 +222,12 @@ class PlayGallery {
       this.applyFilters();
     });
 
+    // Play caller filter
+    document.getElementById('caller-filter').addEventListener('change', (e) => {
+      this.filters.playCaller = e.target.value;
+      this.applyFilters();
+    });
+
     // Date range filters
     document.getElementById('date-from').addEventListener('change', (e) => {
       this.filters.dateFrom = e.target.value;
@@ -183,6 +258,7 @@ class PlayGallery {
     // Extract unique personnel and formations
     const personnelSet = new Set();
     const formationSet = new Set();
+    const playCallerSet = new Set();
 
     this.allPlays.forEach(play => {
       if (play.play_details?.personnel) {
@@ -190,6 +266,10 @@ class PlayGallery {
       }
       if (play.play_details?.formation) {
         formationSet.add(play.play_details.formation);
+      }
+      const playCaller = this.getPlayCallerForPlay(play);
+      if (playCaller) {
+        playCallerSet.add(playCaller);
       }
     });
 
@@ -209,6 +289,15 @@ class PlayGallery {
       option.value = formation;
       option.textContent = formation;
       formationSelect.appendChild(option);
+    });
+
+    // Sort and populate play caller dropdown
+    const callerSelect = document.getElementById('caller-filter');
+    [...playCallerSet].sort().forEach(playCaller => {
+      const option = document.createElement('option');
+      option.value = playCaller;
+      option.textContent = playCaller;
+      callerSelect.appendChild(option);
     });
 
     // Set date range bounds based on data
@@ -273,6 +362,12 @@ class PlayGallery {
         if (play.play_details?.formation !== this.filters.formation) return false;
       }
 
+      // Play caller filter
+      if (this.filters.playCaller) {
+        const playCaller = this.getPlayCallerForPlay(play);
+        if (playCaller !== this.filters.playCaller) return false;
+      }
+
       // Date range filter
       if (this.filters.dateFrom) {
         if (!play.date || play.date < this.filters.dateFrom) return false;
@@ -297,6 +392,7 @@ class PlayGallery {
       down: '', 
       personnel: '', 
       formation: '',
+      playCaller: '',
       dateFrom: '',
       dateTo: ''
     };
@@ -307,6 +403,7 @@ class PlayGallery {
     document.getElementById('down-filter').value = '';
     document.getElementById('personnel-filter').value = '';
     document.getElementById('formation-filter').value = '';
+    document.getElementById('caller-filter').value = '';
     document.getElementById('date-from').value = '';
     document.getElementById('date-to').value = '';
     
