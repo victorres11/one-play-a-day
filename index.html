@@ -53,6 +53,17 @@
             <option value="">All Play Callers</option>
           </select>
         </div>
+        <div class="tag-filter" aria-label="Filter by tags">
+          <div class="tag-filter-header">
+            <span class="tag-filter-label">Tags</span>
+            <span class="tag-filter-helper">Matches any selected tag</span>
+          </div>
+          <div class="tag-filter-selected" id="tag-filter-selected"></div>
+          <div class="tag-filter-controls">
+            <input type="text" id="tag-filter-input" placeholder="Type to filter tags..." aria-label="Search tags">
+            <div class="tag-filter-options" id="tag-filter-options"></div>
+          </div>
+        </div>
         <div class="date-filter-group">
           <div class="date-input-wrapper">
             <label for="date-from">From</label>
@@ -84,6 +95,42 @@
     <span>made with ❤️ by</span>
     <img src="assets/vt-logo-text.png" alt="VT Sports Solutions">
   </a>
+
+  <!-- Tagging Modal -->
+  <div class="modal-backdrop" id="tag-modal-backdrop" aria-hidden="true">
+    <div class="tag-modal" role="dialog" aria-modal="true" aria-labelledby="tag-modal-title">
+      <div class="tag-modal-header">
+        <div>
+          <h3 id="tag-modal-title">Tag this play</h3>
+          <p id="tag-modal-subtitle" class="tag-modal-subtitle"></p>
+        </div>
+        <button class="tag-modal-close" id="tag-modal-close" aria-label="Close tagging modal">✕</button>
+      </div>
+      <div class="tag-modal-body">
+        <div class="tag-modal-section">
+          <span class="tag-modal-label">Auto tags</span>
+          <div class="tag-pill-group" id="tag-modal-auto-tags"></div>
+        </div>
+        <div class="tag-modal-section">
+          <span class="tag-modal-label">Your tags</span>
+          <div class="tag-pill-group" id="tag-modal-selected"></div>
+        </div>
+        <div class="tag-modal-section">
+          <label class="tag-modal-label" for="tag-modal-search">Find or add tags</label>
+          <input type="text" id="tag-modal-search" placeholder="Search tags or type a new one..." aria-label="Search tags">
+          <div class="tag-modal-actions">
+            <button class="tag-modal-add" id="tag-modal-add" type="button">Add tag</button>
+          </div>
+          <div class="tag-modal-options" id="tag-modal-options"></div>
+          <p class="tag-modal-footnote">Tags are saved locally in this browser.</p>
+        </div>
+      </div>
+      <div class="tag-modal-footer">
+        <button class="tag-modal-secondary" id="tag-modal-cancel" type="button">Cancel</button>
+        <button class="tag-modal-primary" id="tag-modal-save" type="button">Save tags</button>
+      </div>
+    </div>
+  </div>
 
   <script src="js/app.js"></script>
 </body>
