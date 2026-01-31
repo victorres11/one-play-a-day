@@ -90,7 +90,7 @@ def main():
     
     # Load existing plays
     existing_plays = load_plays_json()
-    existing_numbers = {p["play_number"] for p in existing_plays}
+    existing_numbers = {p.get("play_number") or p.get("id") for p in existing_plays}
     logger.info(f"Loaded {len(existing_plays)} existing plays")
     
     # Search for labeled emails

@@ -1,5 +1,11 @@
 // One Play a Day - App Logic
 
+// Default tags for the system
+const DEFAULT_TAGS = [
+  'RZ', 'Trick Play', 'OZ', 'IZ', 'RPO', 
+  'Lateral', 'Pylon Sail', 'QB Run', 'Scissors'
+];
+
 class PlayGallery {
   constructor() {
     this.allPlays = [];
@@ -14,19 +20,30 @@ class PlayGallery {
       down: '',
       personnel: '',
       formation: '',
+      playCaller: '',
       dateFrom: '',
-      dateTo: ''
+      dateTo: '',
+      tags: [] // Selected tags for filtering
     };
     this.teamMap = new Map(); // Maps play_number to extracted team
+    this.playCallerLookup = new Map(); // Maps year|team to play caller
+    this.userTags = this.loadUserTags(); // Load user tags from localStorage
+    this.allTags = [...DEFAULT_TAGS]; // Will be populated with user-created tags too
+    this.currentTaggingPlay = null; // Track which play is being tagged
     this.init();
   }
 
   async init() {
     try {
       await this.loadPlays();
+      await this.loadPlayCallers();
       this.extractTeams();
+      this.buildPlayCallerLookup();
+      this.collectAllTags();
       this.setupVideoLazyLoading();
       this.setupFilters();
+      this.setupTagging();
+      this.setupTagFilter();
       this.populateFilterOptions();
       this.applyFilters();
       this.renderPage();
@@ -36,6 +53,302 @@ class PlayGallery {
       document.getElementById('plays-container').innerHTML = 
         '<div class="loading">Error loading plays. Please refresh the page.</div>';
     }
+  }
+
+  // ========== Tagging System ==========
+
+  loadUserTags() {
+    try {
+      return JSON.parse(localStorage.getItem('opad-user-tags') || '{}');
+    } catch {
+      return {};
+    }
+  }
+
+  saveUserTags() {
+    localStorage.setItem('opad-user-tags', JSON.stringify(this.userTags));
+  }
+
+  collectAllTags() {
+    // Combine default tags with any user-created tags
+    const customTags = new Set();
+    Object.values(this.userTags).forEach(tags => {
+      tags.forEach(tag => customTags.add(tag));
+    });
+    
+    // Merge with defaults, keeping unique
+    const allTagsSet = new Set([...DEFAULT_TAGS, ...customTags]);
+    this.allTags = [...allTagsSet].sort();
+  }
+
+  getPlayId(play) {
+    // Get unique ID for a play (for localStorage key)
+    return play.id || `play-${play.play_number}`;
+  }
+
+  getTagsForPlay(play) {
+    const playId = this.getPlayId(play);
+    return this.userTags[playId] || [];
+  }
+
+  fuzzyMatch(text, query) {
+    if (!query) return true;
+    const q = query.toLowerCase();
+    const t = text.toLowerCase();
+    return t.includes(q) || t.split(' ').some(word => word.startsWith(q));
+  }
+
+  setupTagging() {
+    const backdrop = document.getElementById('tag-modal-backdrop');
+    const closeBtn = document.getElementById('tag-modal-close');
+    const cancelBtn = document.getElementById('tag-modal-cancel');
+    const saveBtn = document.getElementById('tag-modal-save');
+    const searchInput = document.getElementById('tag-modal-search');
+    const addBtn = document.getElementById('tag-modal-add');
+    const optionsContainer = document.getElementById('tag-modal-options');
+
+    // Close modal handlers
+    const closeModal = () => {
+      backdrop.setAttribute('aria-hidden', 'true');
+      this.currentTaggingPlay = null;
+    };
+
+    backdrop.addEventListener('click', (e) => {
+      if (e.target === backdrop) closeModal();
+    });
+    closeBtn.addEventListener('click', closeModal);
+    cancelBtn.addEventListener('click', closeModal);
+
+    // Search/filter tags in modal
+    searchInput.addEventListener('input', () => {
+      this.renderTagModalOptions(searchInput.value);
+    });
+
+    // Add new tag
+    addBtn.addEventListener('click', () => {
+      const newTag = searchInput.value.trim();
+      if (newTag && !this.allTags.includes(newTag)) {
+        this.allTags.push(newTag);
+        this.allTags.sort();
+      }
+      if (newTag) {
+        this.toggleTagInModal(newTag);
+        searchInput.value = '';
+        this.renderTagModalOptions('');
+      }
+    });
+
+    // Enter to add tag
+    searchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        addBtn.click();
+      }
+    });
+
+    // Save tags
+    saveBtn.addEventListener('click', () => {
+      if (this.currentTaggingPlay) {
+        const playId = this.getPlayId(this.currentTaggingPlay);
+        const selectedTags = this.getModalSelectedTags();
+        
+        if (selectedTags.length > 0) {
+          this.userTags[playId] = selectedTags;
+        } else {
+          delete this.userTags[playId];
+        }
+        
+        this.saveUserTags();
+        this.collectAllTags();
+        this.renderPage(); // Re-render to show tags
+        this.updateTagFilterOptions();
+      }
+      closeModal();
+    });
+
+    // Delegate click on tag options
+    optionsContainer.addEventListener('click', (e) => {
+      const pill = e.target.closest('.tag-pill');
+      if (pill) {
+        this.toggleTagInModal(pill.dataset.tag);
+      }
+    });
+  }
+
+  openTagModal(play) {
+    this.currentTaggingPlay = play;
+    const backdrop = document.getElementById('tag-modal-backdrop');
+    const subtitle = document.getElementById('tag-modal-subtitle');
+    const searchInput = document.getElementById('tag-modal-search');
+    
+    // Set subtitle to play title
+    subtitle.textContent = play.title || 'Untitled Play';
+    
+    // Clear search
+    searchInput.value = '';
+    
+    // Render current state
+    this.renderTagModalSelected();
+    this.renderTagModalOptions('');
+    
+    // Show modal
+    backdrop.setAttribute('aria-hidden', 'false');
+    searchInput.focus();
+  }
+
+  renderTagModalSelected() {
+    const container = document.getElementById('tag-modal-selected');
+    const tags = this.currentTaggingPlay ? this.getTagsForPlay(this.currentTaggingPlay) : [];
+    
+    if (tags.length === 0) {
+      container.innerHTML = '<span class="tag-modal-empty">No tags selected</span>';
+      return;
+    }
+    
+    container.innerHTML = tags.map(tag => `
+      <span class="tag-pill tag-pill-selected" data-tag="${this.escapeHtml(tag)}">
+        ${this.escapeHtml(tag)} <span class="tag-remove">×</span>
+      </span>
+    `).join('');
+    
+    // Handle remove clicks
+    container.querySelectorAll('.tag-pill').forEach(pill => {
+      pill.addEventListener('click', () => {
+        this.toggleTagInModal(pill.dataset.tag);
+      });
+    });
+  }
+
+  renderTagModalOptions(query) {
+    const container = document.getElementById('tag-modal-options');
+    const currentTags = this.currentTaggingPlay ? this.getTagsForPlay(this.currentTaggingPlay) : [];
+    
+    const filtered = this.allTags.filter(tag => 
+      this.fuzzyMatch(tag, query) && !currentTags.includes(tag)
+    );
+    
+    if (filtered.length === 0) {
+      container.innerHTML = query 
+        ? '<span class="tag-modal-empty">No matching tags. Press Enter to create.</span>'
+        : '<span class="tag-modal-empty">All tags selected</span>';
+      return;
+    }
+    
+    container.innerHTML = filtered.map(tag => `
+      <span class="tag-pill" data-tag="${this.escapeHtml(tag)}">${this.escapeHtml(tag)}</span>
+    `).join('');
+  }
+
+  toggleTagInModal(tag) {
+    if (!this.currentTaggingPlay) return;
+    
+    const playId = this.getPlayId(this.currentTaggingPlay);
+    const currentTags = this.userTags[playId] || [];
+    
+    if (currentTags.includes(tag)) {
+      this.userTags[playId] = currentTags.filter(t => t !== tag);
+    } else {
+      this.userTags[playId] = [...currentTags, tag];
+    }
+    
+    this.renderTagModalSelected();
+    this.renderTagModalOptions(document.getElementById('tag-modal-search').value);
+  }
+
+  getModalSelectedTags() {
+    if (!this.currentTaggingPlay) return [];
+    return this.userTags[this.getPlayId(this.currentTaggingPlay)] || [];
+  }
+
+  // ========== Tag Filter ==========
+
+  setupTagFilter() {
+    const input = document.getElementById('tag-filter-input');
+    const optionsContainer = document.getElementById('tag-filter-options');
+    const selectedContainer = document.getElementById('tag-filter-selected');
+
+    // Show options on focus
+    input.addEventListener('focus', () => {
+      this.renderTagFilterOptions(input.value);
+      optionsContainer.style.display = 'block';
+    });
+
+    // Hide options on blur (with delay for click)
+    input.addEventListener('blur', () => {
+      setTimeout(() => {
+        optionsContainer.style.display = 'none';
+      }, 200);
+    });
+
+    // Filter as user types
+    input.addEventListener('input', () => {
+      this.renderTagFilterOptions(input.value);
+    });
+
+    // Handle option clicks
+    optionsContainer.addEventListener('click', (e) => {
+      const pill = e.target.closest('.tag-pill');
+      if (pill) {
+        this.toggleFilterTag(pill.dataset.tag);
+        input.value = '';
+      }
+    });
+
+    // Handle selected tag removal
+    selectedContainer.addEventListener('click', (e) => {
+      const pill = e.target.closest('.tag-pill');
+      if (pill) {
+        this.toggleFilterTag(pill.dataset.tag);
+      }
+    });
+
+    this.updateTagFilterOptions();
+  }
+
+  renderTagFilterOptions(query) {
+    const container = document.getElementById('tag-filter-options');
+    const filtered = this.allTags.filter(tag => 
+      this.fuzzyMatch(tag, query) && !this.filters.tags.includes(tag)
+    );
+    
+    if (filtered.length === 0) {
+      container.innerHTML = '<span class="tag-filter-empty">No matching tags</span>';
+      return;
+    }
+    
+    container.innerHTML = filtered.map(tag => `
+      <span class="tag-pill" data-tag="${this.escapeHtml(tag)}">${this.escapeHtml(tag)}</span>
+    `).join('');
+  }
+
+  updateTagFilterOptions() {
+    this.renderTagFilterSelected();
+    this.renderTagFilterOptions('');
+  }
+
+  renderTagFilterSelected() {
+    const container = document.getElementById('tag-filter-selected');
+    
+    if (this.filters.tags.length === 0) {
+      container.innerHTML = '';
+      return;
+    }
+    
+    container.innerHTML = this.filters.tags.map(tag => `
+      <span class="tag-pill tag-pill-selected" data-tag="${this.escapeHtml(tag)}">
+        ${this.escapeHtml(tag)} <span class="tag-remove">×</span>
+      </span>
+    `).join('');
+  }
+
+  toggleFilterTag(tag) {
+    if (this.filters.tags.includes(tag)) {
+      this.filters.tags = this.filters.tags.filter(t => t !== tag);
+    } else {
+      this.filters.tags.push(tag);
+    }
+    this.updateTagFilterOptions();
+    this.applyFilters();
   }
 
   async loadPlays() {
@@ -61,6 +374,16 @@ class PlayGallery {
       return (b.play_number || 0) - (a.play_number || 0);
     });
     this.filteredPlays = [...this.allPlays];
+  }
+
+  async loadPlayCallers() {
+    try {
+      const response = await fetch('data/play-callers.json');
+      this.playCallersData = await response.json();
+    } catch (error) {
+      console.warn('Play caller data unavailable, continuing without it.', error);
+      this.playCallersData = null;
+    }
   }
 
   /**
@@ -111,6 +434,61 @@ class PlayGallery {
     return this.teamMap.get(play.play_number) || '';
   }
 
+  buildPlayCallerLookup() {
+    if (!this.playCallersData) return;
+
+    const leagues = ['nfl', 'college'];
+    leagues.forEach(league => {
+      const leagueData = this.playCallersData[league] || {};
+      Object.entries(leagueData).forEach(([year, teams]) => {
+        Object.entries(teams || {}).forEach(([team, info]) => {
+          if (!info || !info.playCaller) return;
+          const normalizedTeam = this.normalizeTeamName(team);
+          const key = `${year}|${normalizedTeam}`;
+          this.playCallerLookup.set(key, info.playCaller);
+        });
+      });
+    });
+  }
+
+  getPlayYear(play) {
+    if (play.date) return play.date.slice(0, 4);
+    const match = play.title?.match(/^(\d{4})/);
+    return match ? match[1] : '';
+  }
+
+  extractPlayCallerFromTitle(title) {
+    if (!title) return '';
+
+    // Only capture parenthetical that appears before the action verb.
+    const match = title.match(
+      /^\d{4}\s+.+?\s+\(([^)]+)\)\s+(running|using|keeping|lining|throwing|short|Defense|taking|getting|motioning)\b/i
+    );
+
+    if (!match) return '';
+
+    const candidate = match[1].trim();
+
+    // Exclude all-caps or shorthand qualifiers like (FL), (OK), (FCS - NC).
+    if (/^[A-Z0-9\s&/.-]+$/.test(candidate)) return '';
+
+    return candidate;
+  }
+
+  getPlayCallerForPlay(play) {
+    const directCaller = play.play_caller || play.playCaller || play.play_details?.play_caller;
+    if (directCaller) return directCaller;
+
+    const titleCaller = this.extractPlayCallerFromTitle(play.title);
+    if (titleCaller) return titleCaller;
+
+    const year = this.getPlayYear(play);
+    const team = this.getTeamForPlay(play);
+    if (!year || !team) return '';
+
+    return this.playCallerLookup.get(`${year}|${team}`) || '';
+  }
+
   setupFilters() {
     // Search input with debounce
     const searchInput = document.getElementById('search-input');
@@ -153,6 +531,12 @@ class PlayGallery {
       this.applyFilters();
     });
 
+    // Play caller filter
+    document.getElementById('caller-filter').addEventListener('change', (e) => {
+      this.filters.playCaller = e.target.value;
+      this.applyFilters();
+    });
+
     // Date range filters
     document.getElementById('date-from').addEventListener('change', (e) => {
       this.filters.dateFrom = e.target.value;
@@ -183,6 +567,7 @@ class PlayGallery {
     // Extract unique personnel and formations
     const personnelSet = new Set();
     const formationSet = new Set();
+    const playCallerSet = new Set();
 
     this.allPlays.forEach(play => {
       if (play.play_details?.personnel) {
@@ -190,6 +575,10 @@ class PlayGallery {
       }
       if (play.play_details?.formation) {
         formationSet.add(play.play_details.formation);
+      }
+      const playCaller = this.getPlayCallerForPlay(play);
+      if (playCaller) {
+        playCallerSet.add(playCaller);
       }
     });
 
@@ -209,6 +598,15 @@ class PlayGallery {
       option.value = formation;
       option.textContent = formation;
       formationSelect.appendChild(option);
+    });
+
+    // Sort and populate play caller dropdown
+    const callerSelect = document.getElementById('caller-filter');
+    [...playCallerSet].sort().forEach(playCaller => {
+      const option = document.createElement('option');
+      option.value = playCaller;
+      option.textContent = playCaller;
+      callerSelect.appendChild(option);
     });
 
     // Set date range bounds based on data
@@ -273,12 +671,25 @@ class PlayGallery {
         if (play.play_details?.formation !== this.filters.formation) return false;
       }
 
+      // Play caller filter
+      if (this.filters.playCaller) {
+        const playCaller = this.getPlayCallerForPlay(play);
+        if (playCaller !== this.filters.playCaller) return false;
+      }
+
       // Date range filter
       if (this.filters.dateFrom) {
         if (!play.date || play.date < this.filters.dateFrom) return false;
       }
       if (this.filters.dateTo) {
         if (!play.date || play.date > this.filters.dateTo) return false;
+      }
+
+      // Tag filter - match ANY selected tag
+      if (this.filters.tags.length > 0) {
+        const playTags = this.getTagsForPlay(play);
+        const hasMatchingTag = this.filters.tags.some(tag => playTags.includes(tag));
+        if (!hasMatchingTag) return false;
       }
 
       return true;
@@ -297,8 +708,10 @@ class PlayGallery {
       down: '', 
       personnel: '', 
       formation: '',
+      playCaller: '',
       dateFrom: '',
-      dateTo: ''
+      dateTo: '',
+      tags: []
     };
     
     document.getElementById('search-input').value = '';
@@ -307,9 +720,12 @@ class PlayGallery {
     document.getElementById('down-filter').value = '';
     document.getElementById('personnel-filter').value = '';
     document.getElementById('formation-filter').value = '';
+    document.getElementById('caller-filter').value = '';
     document.getElementById('date-from').value = '';
     document.getElementById('date-to').value = '';
+    document.getElementById('tag-filter-input').value = '';
     
+    this.updateTagFilterOptions();
     this.applyFilters();
   }
 
@@ -371,6 +787,18 @@ class PlayGallery {
     const videos = container.querySelectorAll('video[data-src]');
     videos.forEach(video => this.videoObserver.observe(video));
 
+    // Set up tag button handlers
+    container.querySelectorAll('.tag-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const playId = btn.dataset.playId;
+        const play = this.allPlays.find(p => this.getPlayId(p) === playId);
+        if (play) {
+          this.openTagModal(play);
+        }
+      });
+    });
+
     this.updatePagination();
     
     // Scroll to top of plays
@@ -414,16 +842,26 @@ class PlayGallery {
     const sourceClass = isTwitter ? 'source-twitter' : 'source-email';
     const twitterLink = play.twitter_url ? `<a href="${play.twitter_url}" target="_blank" class="twitter-link" title="View on X">🔗</a>` : '';
 
+    // Get user tags for this play
+    const userTags = this.getTagsForPlay(play);
+    const tagsHTML = userTags.length > 0 
+      ? `<div class="play-tags">${userTags.map(t => `<span class="tag-pill tag-pill-small">${this.escapeHtml(t)}</span>`).join('')}</div>`
+      : '';
+    
+    const playId = this.getPlayId(play);
+
     return `
-      <article class="play-card ${sourceClass}">
+      <article class="play-card ${sourceClass}" data-play-id="${playId}">
         <div class="card-header">
           <div class="play-meta">
             <span class="play-number">${playIdDisplay}</span>
             ${team ? `<span class="team-badge">${this.escapeHtml(team)}</span>` : ''}
             <span class="play-date">${date}</span>
             ${twitterLink}
+            <button class="tag-btn" data-play-id="${playId}" title="Tag this play">🏷️</button>
           </div>
           <h2 class="play-title">${this.escapeHtml(play.title)}</h2>
+          ${tagsHTML}
         </div>
 
         <div class="play-details">
