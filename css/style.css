@@ -925,3 +925,18 @@ video {
   gap: 0.35rem;
   margin-top: 0.5rem;
 }
+/* Site Footer */
+.site-footer {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  background: none;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+}
+.site-footer-version {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
