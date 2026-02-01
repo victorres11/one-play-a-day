@@ -15,7 +15,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/739_diagram.jpeg",
     "id": "739",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Mesh",
+      "OZ",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 738,
@@ -32,7 +39,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/738_diagram.jpg",
     "id": "738",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Motion",
+      "Trick"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 737,
@@ -49,7 +63,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/737_diagram.png",
     "id": "737",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Option",
+      "QB Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 736,
@@ -67,7 +88,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/736_diagram.jpg",
     "id": "736",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Scissors",
+      "RZ",
+      "GL",
+      "Counter",
+      "11p"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 735,
@@ -85,7 +115,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/735_diagram.jpg",
     "id": "735",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Shallow",
+      "RZ",
+      "GL",
+      "3rd Down",
+      "Empty"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 734,
@@ -102,7 +141,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/734_diagram.png",
     "id": "734",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Counter"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 733,
@@ -119,7 +164,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/733_diagram.jpg",
     "id": "733",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RPO",
+      "Iso",
+      "Trio Lt"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 732,
@@ -136,7 +188,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/732_diagram.jpg",
     "id": "732",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Counter"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 731,
@@ -154,7 +212,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/731_diagram.jpg",
     "id": "731",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trick",
+      "Gadget"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 730,
@@ -171,7 +235,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/730_diagram.jpg",
     "id": "730",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Quick Game",
+      "Curl/Flat"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 729,
@@ -188,7 +258,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/729_diagram.jpg",
     "id": "729",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "QB Run",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 728,
@@ -205,7 +282,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/728_diagram.jpg",
     "id": "728",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Motion",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 727,
@@ -223,7 +307,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/727_diagram.jpg",
     "id": "727",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Mesh",
+      "3rd Down",
+      "Short Yardage"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 726,
@@ -241,7 +332,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/726_diagram.jpg",
     "id": "726",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Bunch",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 725,
@@ -258,7 +356,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/725_diagram.jpg",
     "id": "725",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Power",
+      "C-Gap"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 724,
@@ -275,7 +380,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/724_diagram.png",
     "id": "724",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Iso",
+      "Power",
+      "Duo",
+      "12p",
+      "Pistol"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 723,
@@ -292,7 +406,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/723_diagram.jpg",
     "id": "723",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RZ",
+      "GL",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 722,
@@ -309,7 +430,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/722_diagram.jpg",
     "id": "722",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Trick",
+      "Gadget",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 721,
@@ -326,7 +455,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/721_diagram.jpg",
     "id": "721",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RPO",
+      "Motion",
+      "Quick Game",
+      "Vertical"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 720,
@@ -344,7 +481,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/720_diagram.jpg",
     "id": "720",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "RZ",
+      "GL",
+      "Bunch",
+      "Toss"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 719,
@@ -361,7 +507,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/719_diagram.png",
     "id": "719",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "3rd Down",
+      "Short Yardage"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 718,
@@ -378,7 +531,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/718_diagram.png",
     "id": "718",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Curl/Flat",
+      "Bench",
+      "Motion",
+      "12p",
+      "Deuce"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 717,
@@ -395,7 +557,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/717_diagram.png",
     "id": "717",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Flood",
+      "Motion",
+      "Bunch",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 716,
@@ -412,7 +583,12 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/716_diagram.jpg",
     "id": "716",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 715,
@@ -429,7 +605,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/715_diagram.jpg",
     "id": "715",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Nickel",
+      "3rd Down",
+      "Heavy"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 714,
@@ -446,7 +629,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/714_diagram.jpg",
     "id": "714",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trick",
+      "Gadget",
+      "Motion",
+      "Screen",
+      "PA"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 713,
@@ -463,7 +655,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/713_diagram.jpg",
     "id": "713",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Quick Game",
+      "Bunch",
+      "PA"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 712,
@@ -480,7 +679,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/712_diagram.jpg",
     "id": "712",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Vertical",
+      "Heavy"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 711,
@@ -497,7 +703,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/711_diagram.jpg",
     "id": "711",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Vertical",
+      "Max Protection"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 710,
@@ -514,7 +727,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/710_diagram.jpg",
     "id": "710",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "PA",
+      "TE",
+      "Vertical",
+      "Trips"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 709,
@@ -532,7 +754,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/709_diagram.jpg",
     "id": "709",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "RPO",
+      "Screen"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 708,
@@ -549,7 +778,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/708_diagram.jpg",
     "id": "708",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Boot",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 707,
@@ -567,7 +803,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/707_diagram.jpg",
     "id": "707",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Dig"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 706,
@@ -584,7 +826,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/706_diagram.jpg",
     "id": "706",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trips",
+      "3rd Down",
+      "Gadget",
+      "Quick Game",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 705,
@@ -601,7 +852,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/705_diagram.png",
     "id": "705",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "Motion",
+      "Empty"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 704,
@@ -618,7 +876,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/704_diagram.jpg",
     "id": "704",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "TE",
+      "Boot",
+      "Vertical"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 703,
@@ -635,7 +901,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/703_diagram.png",
     "id": "703",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "3rd Down",
+      "Nickel",
+      "Dbl Mug"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 702,
@@ -652,7 +925,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/702_diagram.png",
     "id": "702",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Trick",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 701,
@@ -669,7 +949,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/701_diagram.png",
     "id": "701",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Duo",
+      "GL",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 700,
@@ -687,7 +974,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/700_diagram.jpg",
     "id": "700",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "RPO",
+      "Short Yardage"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 699,
@@ -704,7 +998,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/699_diagram.jpg",
     "id": "699",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Orbit",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 698,
@@ -721,7 +1022,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/698_diagram.jpg",
     "id": "698",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Smash",
+      "Scissors",
+      "Option"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 697,
@@ -738,7 +1046,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/697_diagram.jpg",
     "id": "697",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Motion",
+      "Flood",
+      "Quick Game",
+      "Trips"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 696,
@@ -755,7 +1071,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/696_diagram.jpg",
     "id": "696",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RPO",
+      "Empty",
+      "Trap",
+      "QB Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 695,
@@ -772,7 +1096,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/695_diagram.jpg",
     "id": "695",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trick",
+      "Gadget",
+      "PA"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 694,
@@ -789,7 +1120,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/694_diagram.jpg",
     "id": "694",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Mesh",
+      "2PT",
+      "Trips"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 693,
@@ -806,7 +1144,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/693_diagram.png",
     "id": "693",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Vertical",
+      "Dagger"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 692,
@@ -823,7 +1168,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/692_diagram.jpg",
     "id": "692",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Screen"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 691,
@@ -840,7 +1191,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/691_diagram.png",
     "id": "691",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "C-Gap Insert",
+      "Crossing Route",
+      "Short Yardage"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 690,
@@ -857,7 +1216,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/690_diagram.jpg",
     "id": "690",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "QB Run",
+      "Heavy"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 689,
@@ -874,7 +1240,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/689_diagram.jpg",
     "id": "689",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "Post",
+      "Checkdown",
+      "Vertical"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 688,
@@ -891,7 +1265,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/688_diagram.jpg",
     "id": "688",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trips",
+      "Flood",
+      "PA",
+      "Vertical",
+      "Quick Game"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 687,
@@ -908,7 +1291,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/687_diagram.jpg",
     "id": "687",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "QB Run",
+      "Power",
+      "Trick",
+      "Vertical"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 686,
@@ -925,7 +1316,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/686_diagram.jpg",
     "id": "686",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "PA",
+      "RPO",
+      "Trick",
+      "Short Yardage"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 685,
@@ -942,7 +1342,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/685_diagram.jpg",
     "id": "685",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Smash",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 684,
@@ -959,7 +1365,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/684_diagram.png",
     "id": "684",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "3rd Down",
+      "Bunch",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 683,
@@ -976,7 +1389,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/683_diagram.jpg",
     "id": "683",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Motion",
+      "Gadget"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 682,
@@ -993,7 +1413,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/682_diagram.png",
     "id": "682",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Empty",
+      "Bunch",
+      "Mesh"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 681,
@@ -1010,7 +1437,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/681_diagram.jpg",
     "id": "681",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Empty",
+      "Motion",
+      "Vertical"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 680,
@@ -1027,7 +1462,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/680_diagram.jpg",
     "id": "680",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 679,
@@ -1044,7 +1485,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/679_diagram.jpg",
     "id": "679",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Boot",
+      "3rd Down",
+      "GL",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 678,
@@ -1061,7 +1511,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/678_diagram.jpg",
     "id": "678",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "Vertical",
+      "Trips",
+      "PA"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 677,
@@ -1078,7 +1536,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/677_diagram.jpg",
     "id": "677",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Mesh",
+      "3rd Down",
+      "RZ",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 676,
@@ -1095,7 +1561,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/676_diagram.png",
     "id": "676",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "Bunch",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 675,
@@ -1112,7 +1585,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/675_diagram.jpg",
     "id": "675",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Smash",
+      "Shallow",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 674,
@@ -1129,7 +1609,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/674_diagram.jpg",
     "id": "674",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "RPO",
+      "Quick Game"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 673,
@@ -1146,7 +1633,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/673_diagram.jpg",
     "id": "673",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "3rd Down",
+      "Short Yardage"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 672,
@@ -1163,7 +1657,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/672_diagram.jpg",
     "id": "672",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "RZ",
+      "GL",
+      "Trick"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 671,
@@ -1180,7 +1682,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/671_diagram.jpg",
     "id": "671",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Trips",
+      "Short Yardage"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 670,
@@ -1197,7 +1706,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/670_diagram.jpg",
     "id": "670",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Vertical",
+      "Flood",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 669,
@@ -1214,7 +1730,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/669_diagram.jpg",
     "id": "669",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Power",
+      "Trey"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 668,
@@ -1231,7 +1754,12 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/668_diagram.jpg",
     "id": "668",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 667,
@@ -1248,7 +1776,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/667_diagram.jpg",
     "id": "667",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Jet Sweep",
+      "Motion",
+      "Trick",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 666,
@@ -1265,7 +1801,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/666_diagram.jpg",
     "id": "666",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Vertical",
+      "Switch",
+      "Y-Cross"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 665,
@@ -1282,7 +1825,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/665_diagram.jpg",
     "id": "665",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Short Yardage"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 664,
@@ -1299,7 +1848,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/664_diagram.jpg",
     "id": "664",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Bunch",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 663,
@@ -1316,7 +1872,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/663_diagram.jpg",
     "id": "663",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Vertical"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 662,
@@ -1333,7 +1895,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/662_diagram.jpg",
     "id": "662",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Duo",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 661,
@@ -1350,7 +1919,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/661_diagram.jpg",
     "id": "661",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "QB Run",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 660,
@@ -1368,7 +1944,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/660_diagram.png",
     "id": "660",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Motion",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 659,
@@ -1385,7 +1968,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/659_diagram.jpg",
     "id": "659",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RB Fast to the Flat",
+      "RZ",
+      "GL",
+      "Screen"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 658,
@@ -1402,7 +1993,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/658_diagram.jpg",
     "id": "658",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RPO",
+      "Trips",
+      "Vertical",
+      "Stick",
+      "Fade"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 657,
@@ -1419,7 +2019,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/657_diagram.png",
     "id": "657",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Draw",
+      "3rd Down",
+      "Short Yardage"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 656,
@@ -1436,7 +2043,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/656_diagram.jpg",
     "id": "656",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "3rd Down",
+      "Heavy"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 655,
@@ -1453,7 +2067,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/655_diagram.png",
     "id": "655",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Trips",
+      "3rd Down",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 654,
@@ -1471,7 +2093,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/654_diagram.jpg",
     "id": "654",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Vertical",
+      "Bunch",
+      "Deep Over"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 653,
@@ -1488,7 +2118,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/653_diagram.png",
     "id": "653",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Shallow",
+      "PA",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 652,
@@ -1505,7 +2143,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/652_diagram.jpg",
     "id": "652",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "QB Run",
+      "Short Yardage"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 651,
@@ -1522,7 +2167,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/651_diagram.jpg",
     "id": "651",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "3rd Down",
+      "QB Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 650,
@@ -1539,7 +2191,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/650_diagram.jpg",
     "id": "650",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Drive",
+      "TE",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 649,
@@ -1557,7 +2216,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/649_diagram.jpg",
     "id": "649",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Quick Game",
+      "Motion",
+      "Vertical"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 648,
@@ -1574,7 +2241,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/648_diagram.jpg",
     "id": "648",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "3rd Down",
+      "Trick",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 647,
@@ -1591,7 +2265,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/647_diagram.jpg",
     "id": "647",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Bunch",
+      "3rd Down",
+      "Motion",
+      "Switch"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 646,
@@ -1609,7 +2291,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/646_diagram.jpg",
     "id": "646",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "3rd Down",
+      "Trips",
+      "Vertical",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 645,
@@ -1626,7 +2316,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/645_diagram.jpg",
     "id": "645",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Motion",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 644,
@@ -1643,7 +2340,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/644_diagram.jpg",
     "id": "644",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RB",
+      "Screen",
+      "Curl/Flat"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 643,
@@ -1660,7 +2364,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/643_diagram.jpg",
     "id": "643",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "3rd Down",
+      "Bunch",
+      "QB Run",
+      "Gadget"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 642,
@@ -1677,7 +2390,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/642_diagram.jpg",
     "id": "642",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Option",
+      "QB Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 641,
@@ -1695,7 +2415,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/641_diagram.jpg",
     "id": "641",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trick",
+      "Gadget",
+      "Motion",
+      "PA"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 640,
@@ -1713,7 +2441,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/640_diagram.jpg",
     "id": "640",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Vertical",
+      "Flood",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 639,
@@ -1730,7 +2466,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/639_diagram.jpg",
     "id": "639",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Iso",
+      "PA",
+      "Flood"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 638,
@@ -1747,7 +2490,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/638_diagram.png",
     "id": "638",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "RPO",
+      "Motion",
+      "Trick"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 637,
@@ -1764,7 +2515,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/637_diagram.jpg",
     "id": "637",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "3rd Down",
+      "Gadget"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 636,
@@ -1781,7 +2539,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/636_diagram.png",
     "id": "636",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "3rd Down",
+      "Short Yardage"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 635,
@@ -1799,7 +2564,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/635_diagram.jpg",
     "id": "635",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Motion",
+      "Trick",
+      "Gadget"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 634,
@@ -1816,7 +2589,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/634_diagram.jpg",
     "id": "634",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Bunch",
+      "Dash",
+      "Counter"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 633,
@@ -1833,7 +2613,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/633_diagram.jpg",
     "id": "633",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Bunch",
+      "Trick",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 632,
@@ -1850,7 +2638,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/632_diagram.jpg",
     "id": "632",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Flood",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 631,
@@ -1867,7 +2662,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/631_diagram.jpg",
     "id": "631",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "3rd Down",
+      "Bunch"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 630,
@@ -1884,7 +2685,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/630_diagram.jpg",
     "id": "630",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Option",
+      "QB Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 629,
@@ -1901,7 +2709,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/629_diagram.png",
     "id": "629",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "3rd Down",
+      "Short Yardage"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 628,
@@ -1918,7 +2733,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/628_diagram.png",
     "id": "628",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Bunch",
+      "Screen",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 627,
@@ -1935,7 +2758,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/627_diagram.jpg",
     "id": "627",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 626,
@@ -1952,7 +2781,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/626_diagram.jpg",
     "id": "626",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RPO",
+      "Motion",
+      "Trips"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 625,
@@ -1969,7 +2805,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/625_diagram.jpg",
     "id": "625",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Bunch",
+      "RPO",
+      "Draw"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 624,
@@ -1986,7 +2829,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/624_diagram.jpg",
     "id": "624",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Power",
+      "Dual Rt"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 623,
@@ -2003,7 +2853,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/623_diagram.png",
     "id": "623",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "3rd Down",
+      "Nickel",
+      "Tampa 2"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 622,
@@ -2020,7 +2877,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/622_diagram.png",
     "id": "622",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Power",
+      "Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 621,
@@ -2037,7 +2901,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/621_diagram.jpg",
     "id": "621",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Shallow",
+      "Flood"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 620,
@@ -2054,7 +2925,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/620_diagram.jpg",
     "id": "620",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RZ",
+      "RPO",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 619,
@@ -2071,7 +2949,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/619_diagram.png",
     "id": "619",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Quick Game",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 618,
@@ -2088,7 +2973,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/618_diagram.jpg",
     "id": "618",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Drive",
+      "Motion",
+      "3rd Down",
+      "Vertical"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 617,
@@ -2105,7 +2998,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/617_diagram.jpg",
     "id": "617",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Quick Game",
+      "Curl/Flat",
+      "Bunch",
+      "Vertical"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 616,
@@ -2122,7 +3023,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/616_diagram.jpg",
     "id": "616",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Motion",
+      "Heavy"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 615,
@@ -2139,7 +3047,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/615_diagram.jpg",
     "id": "615",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Option",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 614,
@@ -2156,7 +3071,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/614_diagram.jpg",
     "id": "614",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Duo",
+      "Power",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 613,
@@ -2173,7 +3095,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/613_diagram.png",
     "id": "613",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 612,
@@ -2190,7 +3118,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/612_diagram.jpg",
     "id": "612",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 611,
@@ -2207,7 +3141,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/611_diagram.jpg",
     "id": "611",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Shallow",
+      "Post",
+      "Vertical",
+      "PA"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 610,
@@ -2224,7 +3166,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/610_diagram.jpg",
     "id": "610",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Quick Game",
+      "PA",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 609,
@@ -2241,7 +3190,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/609_diagram.jpg",
     "id": "609",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Power",
+      "11p"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 608,
@@ -2258,7 +3214,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/608_diagram.png",
     "id": "608",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "PA",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 607,
@@ -2275,7 +3238,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/607_diagram.png",
     "id": "607",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Delay",
+      "PA"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 606,
@@ -2292,7 +3262,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/606_diagram.jpg",
     "id": "606",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Empty",
+      "Curl/Flat",
+      "Vertical",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 605,
@@ -2309,7 +3287,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/605_diagram.jpg",
     "id": "605",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Bunch",
+      "ISO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 604,
@@ -2326,7 +3311,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/604_diagram.jpg",
     "id": "604",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trick",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 603,
@@ -2344,7 +3335,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/603_diagram.png",
     "id": "603",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Iso",
+      "OZ"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 602,
@@ -2361,7 +3359,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/602_diagram.png",
     "id": "602",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Power",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 601,
@@ -2378,7 +3383,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/601_diagram.jpg",
     "id": "601",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Motion",
+      "Sweep"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 600,
@@ -2395,7 +3407,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/600_diagram.jpg",
     "id": "600",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "RPO",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 599,
@@ -2412,7 +3431,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/599_diagram.jpg",
     "id": "599",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Motion",
+      "Vertical",
+      "3rd Down"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 598,
@@ -2429,7 +3455,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/598_diagram.jpg",
     "id": "598",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RPO",
+      "Iso",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 597,
@@ -2446,7 +3479,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/597_diagram.jpg",
     "id": "597",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Trick",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 596,
@@ -2463,7 +3503,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/596_diagram.jpg",
     "id": "596",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Shallow",
+      "Empty"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 595,
@@ -2480,7 +3527,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/595_diagram.png",
     "id": "595",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trick",
+      "Gadget",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 594,
@@ -2497,7 +3551,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/594_diagram.jpg",
     "id": "594",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RZ",
+      "Vertical",
+      "PA"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 593,
@@ -2514,7 +3575,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/593_diagram.jpg",
     "id": "593",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Power",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 592,
@@ -2531,7 +3599,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/592_diagram.jpg",
     "id": "592",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RPO",
+      "Stretch",
+      "Trips"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 591,
@@ -2548,7 +3623,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/591_diagram.jpg",
     "id": "591",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Mesh",
+      "3rd Down",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 590,
@@ -2565,7 +3647,12 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/590_diagram.png",
     "id": "590",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 589,
@@ -2582,7 +3669,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/589_diagram.png",
     "id": "589",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "RPO",
+      "Trips"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 588,
@@ -2599,7 +3693,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/588_diagram.jpg",
     "id": "588",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Option",
+      "Jet"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 587,
@@ -2616,7 +3717,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/587_diagram.png",
     "id": "587",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "Bunch",
+      "3rd Down",
+      "Option"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 586,
@@ -2633,7 +3742,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/586_diagram.jpg",
     "id": "586",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "21p",
+      "I-Formation"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 585,
@@ -2650,7 +3766,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/585_diagram.jpg",
     "id": "585",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RPO",
+      "Screen",
+      "Mesh"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 584,
@@ -2667,7 +3790,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/584_diagram.jpg",
     "id": "584",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "QB Run",
+      "Counter"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 583,
@@ -2684,7 +3814,12 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/583_diagram.jpg",
     "id": "583",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 582,
@@ -2701,7 +3836,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/582_diagram.png",
     "id": "582",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "QB Run",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 581,
@@ -2718,7 +3860,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/581_diagram.png",
     "id": "581",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "3rd Down",
+      "Nickel",
+      "Zone"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 580,
@@ -2735,7 +3884,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/580_diagram.jpg",
     "id": "580",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Jet",
+      "Motion",
+      "Trick"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 579,
@@ -2752,7 +3909,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/579_diagram.png",
     "id": "579",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trap",
+      "Power",
+      "IZ"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 578,
@@ -2769,7 +3933,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/578_diagram.jpg",
     "id": "578",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "3rd Down",
+      "Trips",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 577,
@@ -2786,7 +3957,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/577_diagram.png",
     "id": "577",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Vertical",
+      "Out & Up"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 576,
@@ -2803,7 +3981,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/576_diagram.jpg",
     "id": "576",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Empty",
+      "RZ",
+      "PA"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 575,
@@ -2820,7 +4005,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/575_diagram.jpg",
     "id": "575",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trick",
+      "Bunch",
+      "Gadget"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 574,
@@ -2837,7 +4029,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/574_diagram.jpg",
     "id": "574",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "Bunch",
+      "Trick",
+      "Short Yardage"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 573,
@@ -2854,7 +4054,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/573_diagram.jpg",
     "id": "573",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RPO",
+      "Short Yardage",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 572,
@@ -2871,7 +4078,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/572_diagram.jpg",
     "id": "572",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Short Yardage",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 571,
@@ -2888,7 +4102,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/571_diagram.jpg",
     "id": "571",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Short Yardage",
+      "Heavy"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 570,
@@ -2905,7 +4126,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/570_diagram.jpg",
     "id": "570",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "3rd Down",
+      "Trips",
+      "Quick Game"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 569,
@@ -2922,7 +4150,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/569_diagram.png",
     "id": "569",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Motion",
+      "Trips"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 568,
@@ -2940,7 +4175,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/568_diagram.jpg",
     "id": "568",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 567,
@@ -2957,7 +4198,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/567_diagram.png",
     "id": "567",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Boot",
+      "Shallow",
+      "Trips"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 566,
@@ -2975,7 +4224,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/566_diagram.png",
     "id": "566",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trip",
+      "RPO",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 565,
@@ -2992,7 +4248,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/565_diagram.png",
     "id": "565",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Nickel",
+      "Motion",
+      "Exotic",
+      "Cover 6"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 564,
@@ -3009,7 +4273,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/564_diagram.jpg",
     "id": "564",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "QB Run",
+      "Trips"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 563,
@@ -3026,7 +4297,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/563_diagram.png",
     "id": "563",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Choice",
+      "Backside",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 562,
@@ -3043,7 +4321,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/562_diagram.png",
     "id": "562",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Option",
+      "QB Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 554,
@@ -3060,7 +4345,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/554_diagram.jpg",
     "id": "554",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Fly Sweep",
+      "PA",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 553,
@@ -3077,7 +4369,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/553_diagram.png",
     "id": "553",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Counter"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 552,
@@ -3094,7 +4392,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/552_diagram.png",
     "id": "552",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Power",
+      "Counter",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 551,
@@ -3110,7 +4416,12 @@
     },
     "play_diagram": "",
     "id": "551",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 550,
@@ -3127,7 +4438,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/550_diagram.png",
     "id": "550",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "OZ",
+      "Iso"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 549,
@@ -3144,7 +4462,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/549_diagram.png",
     "id": "549",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trap",
+      "Power",
+      "OZ"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 548,
@@ -3161,7 +4486,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/548_diagram.png",
     "id": "548",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "3rd Down",
+      "Counter"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 547,
@@ -3178,7 +4510,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/547_diagram.png",
     "id": "547",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Mesh",
+      "RPO",
+      "Draw"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 546,
@@ -3195,7 +4534,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/546_diagram.png",
     "id": "546",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Heavy",
+      "RZ"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 545,
@@ -3212,7 +4558,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/545_diagram.jpg",
     "id": "545",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trap",
+      "Smash"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 544,
@@ -3229,7 +4581,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/544_diagram.jpg",
     "id": "544",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Wildcat",
+      "3rd Down"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 543,
@@ -3246,7 +4605,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/543_diagram.jpg",
     "id": "543",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Smash",
+      "Vertical",
+      "Slot",
+      "Fade"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 542,
@@ -3263,7 +4630,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/542_diagram.png",
     "id": "542",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trap",
+      "Power",
+      "Duo"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 541,
@@ -3280,7 +4654,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/541_diagram.png",
     "id": "541",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Power",
+      "Counter",
+      "Trips",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 540,
@@ -3297,7 +4680,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/540_diagram.png",
     "id": "540",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Motion",
+      "Smash",
+      "RPO",
+      "Empty"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 539,
@@ -3314,7 +4705,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/539_diagram.jpg",
     "id": "539",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "QB Run",
+      "Option"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 538,
@@ -3331,7 +4729,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/538_diagram.jpg",
     "id": "538",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Counter",
+      "Power"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 537,
@@ -3348,7 +4753,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/537_diagram.jpg",
     "id": "537",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "QB Run",
+      "Trips"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 536,
@@ -3365,7 +4777,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/536_diagram.jpg",
     "id": "536",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Flood",
+      "QB Run",
+      "Motion",
+      "Trick"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 535,
@@ -3382,7 +4803,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/535_diagram.jpg",
     "id": "535",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Mesh",
+      "Trips",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 534,
@@ -3399,7 +4827,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/534_diagram.jpg",
     "id": "534",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "QB Run",
+      "Pressure",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 533,
@@ -3416,7 +4851,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/533_diagram.jpg",
     "id": "533",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Trap",
+      "Bunch",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 532,
@@ -3433,7 +4876,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/532_diagram.jpg",
     "id": "532",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Vertical",
+      "Trips",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 531,
@@ -3450,7 +4901,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/531_diagram.png",
     "id": "531",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Pressure",
+      "3rd Down",
+      "Nickel"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 530,
@@ -3467,7 +4925,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/530_diagram.png",
     "id": "530",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Heavy",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 529,
@@ -3484,7 +4949,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/529_diagram.jpg",
     "id": "529",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Flood",
+      "QB Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 528,
@@ -3501,7 +4973,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/528_diagram.jpg",
     "id": "528",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Trick",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 527,
@@ -3518,7 +4997,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/527_diagram.jpg",
     "id": "527",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Pressure",
+      "3rd Down",
+      "Nickel",
+      "Dbl Mug",
+      "B-Gap"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 526,
@@ -3535,7 +5023,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/526_diagram.jpg",
     "id": "526",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RPO",
+      "Screen",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 525,
@@ -3552,7 +5047,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/525_diagram.png",
     "id": "525",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Motion",
+      "Trick"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 524,
@@ -3569,7 +5071,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/524_diagram.png",
     "id": "524",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Iso",
+      "OZ"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 523,
@@ -3586,7 +5094,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/523_diagram.png",
     "id": "523",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trap",
+      "Power",
+      "OZ"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 522,
@@ -3603,7 +5118,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/522_diagram.jpg",
     "id": "522",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Vertical",
+      "Bunch",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 521,
@@ -3620,7 +5142,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/521_diagram.jpg",
     "id": "521",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Power",
+      "Heavy"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 520,
@@ -3637,7 +5166,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/520_diagram.jpg",
     "id": "520",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "RZ",
+      "GL"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 519,
@@ -3654,7 +5190,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/519_diagram.jpg",
     "id": "519",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "PA",
+      "Z-CTR",
+      "Counter",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 518,
@@ -3671,7 +5216,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/518_diagram.jpg",
     "id": "518",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "3rd Down",
+      "Turbo Dime",
+      "Pressure"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 517,
@@ -3688,7 +5240,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/517_diagram.jpg",
     "id": "517",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "QB Run",
+      "Counter"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 516,
@@ -3705,7 +5264,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/516_diagram.jpg",
     "id": "516",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Duo",
+      "OZ",
+      "Nickel",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 515,
@@ -3722,7 +5289,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/515_diagram.jpg",
     "id": "515",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Boot",
+      "Flood"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 514,
@@ -3739,7 +5313,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/514_diagram.jpg",
     "id": "514",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Short Yardage",
+      "Heavy",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 513,
@@ -3756,7 +5337,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/513_diagram.jpg",
     "id": "513",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trick",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 512,
@@ -3774,7 +5361,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/512_diagram.png",
     "id": "512",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "TE",
+      "Smash"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 511,
@@ -3791,7 +5385,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/511_diagram.png",
     "id": "511",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Mesh",
+      "Power",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 510,
@@ -3808,7 +5409,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/510_diagram.png",
     "id": "510",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "QB Run",
+      "Empty",
+      "Bunch",
+      "Pin & Pull"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 509,
@@ -3825,7 +5434,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/509_diagram.jpg",
     "id": "509",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Quick Game"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 508,
@@ -3842,7 +5457,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/508_diagram.jpg",
     "id": "508",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "RZ",
+      "12p",
+      "Nub",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 507,
@@ -3859,7 +5483,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/507_diagram.png",
     "id": "507",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RZ",
+      "Red Zone",
+      "Power",
+      "Iso",
+      "Counter"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 506,
@@ -3876,7 +5509,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/506_diagram.jpg",
     "id": "506",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "QB Run",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 505,
@@ -3893,7 +5533,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/505_diagram.png",
     "id": "505",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "PA",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 504,
@@ -3910,7 +5557,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/504_diagram.jpg",
     "id": "504",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "QB Run",
+      "Boot",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 503,
@@ -3927,7 +5581,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/503_diagram.jpg",
     "id": "503",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "RPO",
+      "3rd Down"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 502,
@@ -3944,7 +5605,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/502_diagram.jpg",
     "id": "502",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Iso",
+      "Power",
+      "Heavy"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 501,
@@ -3961,7 +5629,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/501_diagram.jpg",
     "id": "501",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "2PT",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 499,
@@ -3979,7 +5654,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/499_diagram.jpg",
     "id": "499",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trap",
+      "Option",
+      "PA"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 498,
@@ -3996,7 +5678,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/498_diagram.jpg",
     "id": "498",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 497,
@@ -4014,7 +5702,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/497_diagram.jpeg",
     "id": "497",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trick",
+      "Gadget",
+      "Pass"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 496,
@@ -4031,7 +5726,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/496_diagram.jpg",
     "id": "496",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Mills",
+      "Shallow",
+      "PA",
+      "Play Action"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 495,
@@ -4048,7 +5751,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/495_diagram.jpg",
     "id": "495",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Motion",
+      "Shallow",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 494,
@@ -4065,7 +5775,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/494_diagram.jpg",
     "id": "494",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Quick Game"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 493,
@@ -4082,7 +5798,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/493_diagram.jpg",
     "id": "493",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Drive",
+      "Vertical",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 492,
@@ -4099,7 +5822,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/492_diagram.jpg",
     "id": "492",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "Iso",
+      "QB Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 491,
@@ -4116,7 +5846,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/491_diagram.jpg",
     "id": "491",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Quick Game",
+      "Bunch",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 490,
@@ -4133,7 +5871,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/490_diagram.jpeg",
     "id": "490",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Vertical",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 489,
@@ -4150,7 +5895,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/489_diagram.jpg",
     "id": "489",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Bunch",
+      "Blitz",
+      "2PT",
+      "3rd Down",
+      "Fire Zone"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 488,
@@ -4167,7 +5921,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/488_diagram.jpg",
     "id": "488",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "PA",
+      "RPO",
+      "Motion",
+      "Vertical"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 487,
@@ -4184,7 +5947,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/487_diagram.jpg",
     "id": "487",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "Pass",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 486,
@@ -4201,7 +5971,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/486_diagram.jpg",
     "id": "486",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Motion",
+      "Shallow",
+      "Cross",
+      "PA"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 485,
@@ -4218,7 +5996,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/485_diagram.jpg",
     "id": "485",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Bunch",
+      "Trick"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 484,
@@ -4235,7 +6020,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/484_diagram.jpg",
     "id": "484",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Power",
+      "Vertical",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 483,
@@ -4252,7 +6045,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/483_diagram.png",
     "id": "483",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Motion",
+      "Gadget"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 482,
@@ -4269,7 +6069,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/482_diagram.jpeg",
     "id": "482",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Option",
+      "QB Run",
+      "Short Yardage"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 481,
@@ -4286,7 +6094,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/481_diagram.jpg",
     "id": "481",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RPO",
+      "Bunch"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 480,
@@ -4303,7 +6117,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/480_diagram.jpg",
     "id": "480",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Flood",
+      "Bunch",
+      "PA"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 479,
@@ -4320,7 +6142,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/479_diagram.jpg",
     "id": "479",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "TE Delay",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 478,
@@ -4337,7 +6166,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/478_diagram.jpg",
     "id": "478",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Shallow",
+      "RPO",
+      "Quick Game"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 477,
@@ -4355,7 +6191,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/477_diagram.png",
     "id": "477",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Counter",
+      "RPO",
+      "Trips",
+      "Power"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 476,
@@ -4372,7 +6217,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/476_diagram.jpeg",
     "id": "476",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Trick",
+      "Gadget"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 475,
@@ -4389,7 +6241,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/475_diagram.jpg",
     "id": "475",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Cross",
+      "Deep",
+      "Mesh"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 474,
@@ -4406,7 +6266,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/474_diagram.jpg",
     "id": "474",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "PA",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 473,
@@ -4422,7 +6289,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/473_diagram.jpeg",
     "id": "473",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Bunch",
+      "Trick",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 472,
@@ -4439,7 +6314,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/472_diagram.jpg",
     "id": "472",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Duo",
+      "Power",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 471,
@@ -4456,7 +6338,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/471_diagram.jpg",
     "id": "471",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "QB Run",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 470,
@@ -4473,7 +6362,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/470_diagram.jpg",
     "id": "470",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Vertical",
+      "Trips",
+      "2PT"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 469,
@@ -4490,7 +6386,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/469_diagram.jpg",
     "id": "469",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Motion",
+      "Gadget"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 468,
@@ -4507,7 +6410,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/468_diagram.jpg",
     "id": "468",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Motion",
+      "Gadget"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 467,
@@ -4524,7 +6434,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/467_diagram.png",
     "id": "467",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Flood",
+      "Vertical",
+      "RZ"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 466,
@@ -4541,7 +6459,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/466_diagram.jpg",
     "id": "466",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "QB Run",
+      "Trick"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 465,
@@ -4558,7 +6483,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/465_diagram.jpg",
     "id": "465",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Mesh",
+      "Vertical",
+      "Empty",
+      "Quick Game"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 464,
@@ -4575,7 +6508,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/464_diagram.jpg",
     "id": "464",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Empty",
+      "Screen",
+      "RPO",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 463,
@@ -4592,7 +6533,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/463_diagram.JPG",
     "id": "463",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "RPO",
+      "Vertical",
+      "Flood"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 462,
@@ -4610,7 +6559,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/462_diagram.png",
     "id": "462",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trick",
+      "Motion",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 461,
@@ -4628,7 +6584,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/461_diagram.jpg",
     "id": "461",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Screen",
+      "Motion",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 460,
@@ -4647,7 +6611,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/460_diagram.jpg",
     "id": "460",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 459,
@@ -4664,7 +6634,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/459_diagram.jpeg",
     "id": "459",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "PA"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 458,
@@ -4681,7 +6657,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/458_diagram.jpg",
     "id": "458",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Empty",
+      "3rd Down",
+      "Trick",
+      "Gadget"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 457,
@@ -4698,7 +6682,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/457_diagram.jpg",
     "id": "457",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "QB Run",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 456,
@@ -4715,7 +6706,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/456_diagram.jpg",
     "id": "456",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trap",
+      "Power",
+      "Heavy"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 455,
@@ -4732,7 +6730,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/455_diagram.jpg",
     "id": "455",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Motion",
+      "Trips",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 454,
@@ -4749,7 +6754,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/454_diagram.jpg",
     "id": "454",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Trap",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 453,
@@ -4766,7 +6778,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/453_diagram.jpg",
     "id": "453",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Bunch",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 452,
@@ -4783,7 +6802,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/452_diagram.jpg",
     "id": "452",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Vertical",
+      "PA"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 451,
@@ -4800,7 +6825,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/451_diagram.jpg",
     "id": "451",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "PA",
+      "QB Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 450,
@@ -4817,7 +6849,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/450_diagram.jpg",
     "id": "450",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Empty",
+      "Bunch",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 449,
@@ -4834,7 +6874,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/449_diagram.jpg",
     "id": "449",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Option",
+      "Trick",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 448,
@@ -4851,7 +6899,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/448_diagram.jpg",
     "id": "448",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Bunch",
+      "Y-Cross",
+      "PA"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 447,
@@ -4868,7 +6923,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/447_diagram.jpg",
     "id": "447",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Empty",
+      "Quick Game",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 446,
@@ -4885,7 +6947,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/446_diagram.jpg",
     "id": "446",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Swing",
+      "Lead",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 445,
@@ -4902,7 +6971,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/445_diagram.JPG",
     "id": "445",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RZ",
+      "PA",
+      "Flood",
+      "Trips",
+      "TE Leak"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 444,
@@ -4920,7 +6998,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/444_diagram.jpg",
     "id": "444",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Power",
+      "Motion",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 443,
@@ -4937,7 +7023,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/443_diagram.jpg",
     "id": "443",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trick",
+      "Gadget",
+      "PA"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 442,
@@ -4954,7 +7047,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/442_diagram.jpg",
     "id": "442",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "Empty",
+      "3rd Down"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 441,
@@ -4971,7 +7071,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/441_diagram.jpg",
     "id": "441",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "QB Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 440,
@@ -4988,7 +7094,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/440_diagram.jpg",
     "id": "440",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Zone Read",
+      "QB Run",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 439,
@@ -5005,7 +7118,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/439_diagram.jpg",
     "id": "439",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Lead",
+      "Bunch"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 438,
@@ -5022,7 +7142,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/438_diagram.jpg",
     "id": "438",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Power",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 437,
@@ -5039,7 +7166,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/437_diagram.jpg",
     "id": "437",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Trick",
+      "Gadget",
+      "PA"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 436,
@@ -5056,7 +7190,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/436_diagram.jpg",
     "id": "436",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Empty",
+      "Bunch",
+      "Motion",
+      "Mesh"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 435,
@@ -5073,7 +7215,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/435_diagram.jpg",
     "id": "435",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Trick",
+      "Gadget"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 434,
@@ -5090,7 +7239,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/434_diagram.jpg",
     "id": "434",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "PA",
+      "Trips"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 433,
@@ -5107,7 +7263,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/433_diagram.jpg",
     "id": "433",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Trips",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 432,
@@ -5123,7 +7286,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/432_diagram.jpg",
     "id": "432",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Vertical",
+      "Flood",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 431,
@@ -5140,7 +7310,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/431_diagram.jpg",
     "id": "431",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Boot",
+      "PA",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 430,
@@ -5157,7 +7335,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/430_diagram.png",
     "id": "430",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Power",
+      "Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 429,
@@ -5174,7 +7359,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/429_diagram.jpg",
     "id": "429",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "PA",
+      "Smash",
+      "Bunch"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 428,
@@ -5191,7 +7384,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/428_diagram.jpg",
     "id": "428",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Toss",
+      "Pin & Pull",
+      "Bunch",
+      "Counter",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 427,
@@ -5208,7 +7410,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/427_diagram.jpg",
     "id": "427",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Bunch",
+      "Trick"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 426,
@@ -5225,7 +7434,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/426_diagram.jpg",
     "id": "426",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Motion",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 425,
@@ -5242,7 +7458,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/425_diagram.jpg",
     "id": "425",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Trips",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 424,
@@ -5260,7 +7483,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/424_diagram.jpg",
     "id": "424",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Bunch",
+      "Screen",
+      "RB Fast to Flat",
+      "TE Leak"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 423,
@@ -5277,7 +7508,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/423_diagram.jpg",
     "id": "423",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Mesh",
+      "Deep",
+      "TE Leak",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 422,
@@ -5296,7 +7536,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/422_diagram.png",
     "id": "422",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "RPO",
+      "Bunch"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 421,
@@ -5313,7 +7560,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/421_diagram.jpg",
     "id": "421",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Duo",
+      "QB Run",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 420,
@@ -5330,7 +7584,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/420_diagram.jpg",
     "id": "420",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Power",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 419,
@@ -5348,7 +7609,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/419_diagram.jpg",
     "id": "419",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Mesh",
+      "3rd Down"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 418,
@@ -5365,7 +7633,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/418_diagram.jpeg",
     "id": "418",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Motion",
+      "Trick"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 417,
@@ -5382,7 +7657,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/417_diagram.png",
     "id": "417",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Flood",
+      "Pass"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 416,
@@ -5400,7 +7682,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/416_diagram.jpg",
     "id": "416",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RPO",
+      "Iso",
+      "Insert"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 415,
@@ -5417,7 +7706,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/415_diagram.jpg",
     "id": "415",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Motion",
+      "Screen"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 414,
@@ -5434,7 +7730,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/414_diagram.jpg",
     "id": "414",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Bunch",
+      "Motion",
+      "PA",
+      "Stick"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 413,
@@ -5452,7 +7756,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/413_diagram.jpg",
     "id": "413",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Motion",
+      "Empty"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 412,
@@ -5469,7 +7780,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/412_diagram.jpg",
     "id": "412",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Vertical",
+      "Flood",
+      "Trips"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 411,
@@ -5486,7 +7805,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/411_diagram.jpg",
     "id": "411",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Motion",
+      "Vertical"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 410,
@@ -5503,7 +7829,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/410_diagram.jpg",
     "id": "410",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Flood",
+      "Motion",
+      "Trips"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 409,
@@ -5520,7 +7854,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/409_diagram.jpg",
     "id": "409",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Power",
+      "Trips",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 408,
@@ -5538,7 +7880,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/408_diagram.jpg",
     "id": "408",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Flood",
+      "Option"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 407,
@@ -5555,7 +7904,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/407_diagram.jpg",
     "id": "407",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Mesh",
+      "Vertical",
+      "Dagger"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 406,
@@ -5573,7 +7929,12 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/406_diagram.jpg",
     "id": "406",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 405,
@@ -5590,7 +7951,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/405_diagram.jpg",
     "id": "405",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Bunch",
+      "Mesh",
+      "RPO",
+      "Vertical",
+      "PA"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 404,
@@ -5607,7 +7977,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/404_diagram.jpg",
     "id": "404",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Mesh",
+      "Bunch",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 403,
@@ -5624,7 +8001,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/403_diagram.jpg",
     "id": "403",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Motion",
+      "Jet",
+      "Power",
+      "Gadget"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 402,
@@ -5641,7 +8026,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/402_diagram.JPG",
     "id": "402",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "Vertical",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 401,
@@ -5659,7 +8051,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/401_diagram.png",
     "id": "401",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Boot",
+      "Flood"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 400,
@@ -5676,7 +8075,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/400_diagram.jpg",
     "id": "400",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Empty",
+      "Vertical"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 399,
@@ -5693,7 +8098,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/399_diagram.jpg",
     "id": "399",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "QB Run",
+      "PA",
+      "RPO",
+      "TE Delay"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 398,
@@ -5710,7 +8123,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/398_diagram.png",
     "id": "398",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Vertical",
+      "TE Leak",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 397,
@@ -5727,7 +8148,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/397_diagram.jpg",
     "id": "397",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Vertical",
+      "PA",
+      "3rd Down"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 396,
@@ -5744,7 +8172,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/396_diagram.png",
     "id": "396",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Empty",
+      "Option",
+      "Power",
+      "QB Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 395,
@@ -5761,7 +8197,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/395_diagram.jpg",
     "id": "395",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Curl/Flat",
+      "Quick Game",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 394,
@@ -5778,7 +8221,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/394_diagram.jpg",
     "id": "394",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "Trips",
+      "PA"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 393,
@@ -5796,7 +8246,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/393_diagram.JPG",
     "id": "393",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Duo",
+      "C-Gap",
+      "Power"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 392,
@@ -5813,7 +8270,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/392_diagram.jpg",
     "id": "392",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "QB Run",
+      "Power",
+      "Midline",
+      "Center Fold"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 391,
@@ -5830,7 +8296,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/391_diagram.jpg",
     "id": "391",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Curl/Flat",
+      "Bunch"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 390,
@@ -5847,7 +8320,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/390_diagram.png",
     "id": "390",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Texas Trail",
+      "Return Route",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 389,
@@ -5864,7 +8344,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/389_diagram.jpg",
     "id": "389",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "QB Run",
+      "Power",
+      "Midline"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 388,
@@ -5881,7 +8369,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/388_diagram.jpg",
     "id": "388",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "QB Run",
+      "Trips"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 387,
@@ -5898,7 +8393,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/387_diagram.png",
     "id": "387",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RPO",
+      "Dig",
+      "Choice",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 386,
@@ -5915,7 +8418,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/386_diagram.JPG",
     "id": "386",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "Vertical",
+      "Curl/Flat",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 385,
@@ -5932,7 +8443,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/385_diagram.jpg",
     "id": "385",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "QB Run",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 384,
@@ -5949,7 +8467,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/384_diagram.jpg",
     "id": "384",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Vertical",
+      "Deep Over"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 383,
@@ -5968,7 +8493,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/383_diagram.png",
     "id": "383",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Trap",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 382,
@@ -5987,7 +8519,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/382_diagram.jpg",
     "id": "382",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RPO",
+      "Motion",
+      "Post",
+      "Vertical",
+      "Screen"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 381,
@@ -6004,7 +8545,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/381_diagram.jpg",
     "id": "381",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RZ",
+      "Snag & Go",
+      "PA",
+      "3rd Down"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 380,
@@ -6021,7 +8570,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/380_diagram.jpg",
     "id": "380",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "Boot",
+      "Quick Game"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 379,
@@ -6038,7 +8594,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/379_diagram.jpg",
     "id": "379",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Rail Route",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 378,
@@ -6057,7 +8620,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/378_diagram.jpg",
     "id": "378",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "RB B-Gap Wheel",
+      "Boot",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 377,
@@ -6074,7 +8644,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/377_diagram.jpg",
     "id": "377",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Jet",
+      "Motion",
+      "Gadget"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 376,
@@ -6092,7 +8670,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/376_diagram.jpg",
     "id": "376",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Boot",
+      "Pass"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 375,
@@ -6109,7 +8694,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/375_diagram.jpg",
     "id": "375",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Motion",
+      "PA",
+      "Post/Wheel"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 374,
@@ -6126,7 +8719,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/374_diagram.jpg",
     "id": "374",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Screen",
+      "Trick",
+      "Gadget"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 373,
@@ -6143,7 +8744,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/373_diagram.jpg",
     "id": "373",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Vertical",
+      "Boot",
+      "Trick"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 372,
@@ -6160,7 +8769,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/372_diagram.jpg",
     "id": "372",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Motion",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 371,
@@ -6177,7 +8793,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/371_diagram.jpg",
     "id": "371",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "QB Run",
+      "Empty",
+      "Motion",
+      "Option"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 370,
@@ -6194,7 +8819,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/370_diagram.jpg",
     "id": "370",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Flood",
+      "PA"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 369,
@@ -6212,7 +8844,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/369_diagram.jpg",
     "id": "369",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Jet",
+      "RPO",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 368,
@@ -6229,7 +8869,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/368_diagram.jpg",
     "id": "368",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Boot",
+      "Trick",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 367,
@@ -6246,7 +8893,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/367_diagram.jpg",
     "id": "367",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "RPO",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 366,
@@ -6263,7 +8917,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/366_diagram.jpg",
     "id": "366",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Motion",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 365,
@@ -6280,7 +8941,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/365_diagram.jpg",
     "id": "365",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "QB Run",
+      "Bubble"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 364,
@@ -6297,7 +8965,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/364_diagram.jpg",
     "id": "364",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "OZ",
+      "Lead",
+      "Swing",
+      "Power"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 363,
@@ -6314,7 +8990,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/363_diagram.jpg",
     "id": "363",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "PA",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 362,
@@ -6331,7 +9014,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/362_diagram.jpg",
     "id": "362",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "Option",
+      "Jet",
+      "Scissors"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 361,
@@ -6348,7 +9039,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/361_diagram.png",
     "id": "361",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "Short Yardage"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 360,
@@ -6365,7 +9062,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/360_diagram.png",
     "id": "360",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "2PT",
+      "Motion",
+      "Quick Game"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 359,
@@ -6382,7 +9086,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/359_diagram.png",
     "id": "359",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Iso",
+      "RPO",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 358,
@@ -6399,7 +9110,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/358_diagram.jpeg",
     "id": "358",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "QB Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 357,
@@ -6416,7 +9133,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/357_diagram.png",
     "id": "357",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Duo",
+      "C-Gap",
+      "Motion",
+      "Z-Receiver"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 356,
@@ -6433,7 +9158,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/356_diagram.png",
     "id": "356",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Flood",
+      "Motion",
+      "Quick Game"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 355,
@@ -6450,7 +9182,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/355_diagram.png",
     "id": "355",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "OZ",
+      "RPO"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 354,
@@ -6467,7 +9206,13 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/354_diagram.png",
     "id": "354",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 353,
@@ -6484,7 +9229,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/353_diagram.png",
     "id": "353",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "RPO",
+      "Motion"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 352,
@@ -6501,7 +9253,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/352_diagram.png",
     "id": "352",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "Shallow",
+      "Quick Game"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 351,
@@ -6518,7 +9277,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/351_diagram.png",
     "id": "351",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Screen",
+      "PA",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 350,
@@ -6535,7 +9301,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/350_diagram.png",
     "id": "350",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Power",
+      "PA",
+      "Empty",
+      "QB Run"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "play_number": 349,
@@ -6552,7 +9326,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/349_diagram.png",
     "id": "349",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Motion",
+      "PA",
+      "Y-Cross",
+      "3rd Down"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 348,
@@ -6569,7 +9351,16 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/348_diagram.png",
     "id": "348",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Empty",
+      "Bunch",
+      "Vertical",
+      "Orbit",
+      "4-Verts"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 347,
@@ -6586,7 +9377,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/347_diagram.png",
     "id": "347",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Motion",
+      "Short Yardage",
+      "Shallow",
+      "Draw"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "play_number": 346,
@@ -6603,7 +9402,14 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/346_diagram.png",
     "id": "346",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "PA",
+      "Vertical",
+      "Flood"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "pass"
   },
   {
     "play_number": 345,
@@ -6620,7 +9426,15 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/345_diagram.png",
     "id": "345",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Counter",
+      "Power",
+      "QB Run",
+      "RPO"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   },
   {
     "play_number": 344,
@@ -6637,7 +9451,78 @@
     },
     "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/344_diagram.png",
     "id": "344",
-    "source": "email"
+    "source": "email",
+    "auto_tags": [
+      "Option",
+      "QB Run",
+      "Power"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
+  },
+  {
+    "id": "x-2017714701350613382",
+    "source": "twitter",
+    "title": "Jim Johnson Triple Mugging the A-Gaps is why a generation of NFL Play Callers went to the Shotgun \ud83d\ude02",
+    "date": "2026-01-31",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/x-2017714701350613382.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "",
+    "twitter_url": "https://x.com/CoachDanCasey/status/2017714701350613382"
+  },
+  {
+    "id": "x-2017701757397168205",
+    "source": "twitter",
+    "title": "The Bills running TE Leak + RB B-Gap Wheel",
+    "date": "2026-01-31",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/x-2017701757397168205.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "",
+    "twitter_url": "https://x.com/CoachDanCasey/status/2017701757397168205"
+  },
+  {
+    "id": "x-2017320545973403798",
+    "source": "twitter",
+    "title": "Creative Mesh Checkdown Screen from Mike McDaniel  Cross-Blocking allows the RB to get Vertical",
+    "date": "2026-01-31",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/x-2017320545973403798.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "",
+    "twitter_url": "https://x.com/CoachDanCasey/status/2017320545973403798"
+  },
+  {
+    "id": "x-2017317972876870124",
+    "source": "twitter",
+    "title": "Split Back Option out of 22p",
+    "date": "2026-01-31",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/x-2017317972876870124.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "",
+    "twitter_url": "https://x.com/CoachDanCasey/status/2017317972876870124"
   },
   {
     "id": "x-2016895160508940779",
@@ -6653,7 +9538,14 @@
       "formation": ""
     },
     "play_diagram": "",
-    "twitter_url": "https://x.com/CoachDanCasey/status/2016895160508940779"
+    "twitter_url": "https://x.com/CoachDanCasey/status/2016895160508940779",
+    "auto_tags": [
+      "RPO",
+      "QB Run",
+      "Empty"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "rpo"
   },
   {
     "id": "x-2016576799249973252",
@@ -6669,7 +9561,15 @@
       "formation": ""
     },
     "play_diagram": "",
-    "twitter_url": "https://x.com/CoachDanCasey/status/2016576799249973252"
+    "twitter_url": "https://x.com/CoachDanCasey/status/2016576799249973252",
+    "auto_tags": [
+      "Power",
+      "Iso",
+      "Duo",
+      "3rd Down"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "id": "x-2016563960007315833",
@@ -6685,7 +9585,13 @@
       "formation": ""
     },
     "play_diagram": "",
-    "twitter_url": "https://x.com/CoachDanCasey/status/2016563960007315833"
+    "twitter_url": "https://x.com/CoachDanCasey/status/2016563960007315833",
+    "auto_tags": [
+      "Counter",
+      "Option"
+    ],
+    "tag_confidence": "high",
+    "run_or_pass": "run"
   },
   {
     "id": "x-2015908918547857613",
@@ -6701,6 +9607,13 @@
       "formation": ""
     },
     "play_diagram": "",
-    "twitter_url": "https://x.com/CoachDanCasey/status/2015908918547857613"
+    "twitter_url": "https://x.com/CoachDanCasey/status/2015908918547857613",
+    "auto_tags": [
+      "Power",
+      "Gadget",
+      "Motion"
+    ],
+    "tag_confidence": "medium",
+    "run_or_pass": "run"
   }
 ]
