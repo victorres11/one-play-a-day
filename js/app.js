@@ -109,7 +109,7 @@ class PlayGallery {
 
     // Close modal handlers
     const closeModal = () => {
-      backdrop.setAttribute('aria-hidden', 'true');
+      backdrop.classList.remove('active');
       this.currentTaggingPlay = null;
     };
 
@@ -192,7 +192,7 @@ class PlayGallery {
     this.renderTagModalOptions('');
     
     // Show modal
-    backdrop.setAttribute('aria-hidden', 'false');
+    backdrop.classList.add('active');
     searchInput.focus();
   }
 
