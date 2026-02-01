@@ -781,7 +781,23 @@ class PlayGallery {
       return;
     }
 
-    container.innerHTML = playsToShow.map(play => this.createPlayCard(play)).join('');
+    // Split plays by quarter if play object includes quarter info (e.g., play.quarter)
+    let quarterSections = {};
+    playsToShow.forEach(play => {
+      const q = play.quarter || 1; // Default to Q1 if not present
+      if (!quarterSections[q]) quarterSections[q] = [];
+      quarterSections[q].push(play);
+    });
+
+    // Compose HTML by quarter
+    let cardsHtml = '';
+    Object.keys(quarterSections).sort((a,b)=>a-b).forEach(q => {
+      cardsHtml += `<div class=\"quarter-section\"><h3>Q${q}</h3><div class=\"quarter-narrative\">${this.generateQuarterNarrative(Number(q))}</div>`;
+      cardsHtml += quarterSections[q].map(play => this.createPlayCard(play)).join('');
+      cardsHtml += '</div>';
+    });
+
+    container.innerHTML = cardsHtml;
 
     // Set up lazy loading for videos on this page
     const videos = container.querySelectorAll('video[data-src]');
@@ -850,6 +866,17 @@ class PlayGallery {
     
     const playId = this.getPlayId(play);
 
+    // Penalty detection: check for penalty tags
+    const PENALTY_TAGS = [
+      'Penalty', 'PI', 'Pass Interference', 'Holding', 'Personal Foul', 
+      'Unsportsmanlike', 'Offside', 'False Start', 'Flag', 'Face Mask', 
+      'Roughing', 'Delay of Game', 'Encroachment', 'Illegal', 'Targeting', 'Disqualified'
+    ];
+    // Lowercase for robust matching
+    const allTags = (play.auto_tags || []).concat(this.getTagsForPlay(play) || []).map(t => (t || '').toLowerCase());
+    const hasPenalty = allTags.some(tag => PENALTY_TAGS.some(penTag => tag.includes(penTag.toLowerCase())));
+    const penaltyIconHTML = hasPenalty ? `<span title="Penalty" class="penalty-flag" style="margin-left:8px;color:red;font-size:1.5em;">🚩</span>` : '';
+
     return `
       <article class="play-card ${sourceClass}" data-play-id="${playId}">
         <div class="card-header">
@@ -859,6 +886,7 @@ class PlayGallery {
             <span class="play-date">${date}</span>
             ${twitterLink}
             <button class="tag-btn" data-play-id="${playId}" title="Tag this play">🏷️</button>
+            ${penaltyIconHTML}
           </div>
           <h2 class="play-title">${this.escapeHtml(play.title)}</h2>
           ${tagsHTML}
@@ -880,10 +908,10 @@ class PlayGallery {
         </div>
 
         <div class="video-section">
+          ${youtubeEmbedHTML}
           <div class="videos-container ${containerClass}">
             ${videoHTML}
           </div>
-
           <div class="diagram-wrapper">
             <span class="diagram-label">Play Diagram</span>
             <img 
@@ -941,3 +969,39 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('prev-btn').addEventListener('click', () => gallery.prevPage());
   document.getElementById('next-btn').addEventListener('click', () => gallery.nextPage());
 });
+
+    // If provided: support optional YouTube URL and timestamp fields for inline embeds
+    const hasYouTube = !!play.youtube_url;
+    let youtubeEmbedHTML = '';
+    if (hasYouTube) {
+      let videoId = '';
+      const match = play.youtube_url && play.youtube_url.match(/[?&]v=([^&]+)/);
+      if (match) {
+        videoId = match[1];
+      } else if (play.youtube_url && play.youtube_url.includes('youtu.be/')) {
+        videoId = play.youtube_url.split('youtu.be/')[1].split(/[&#?]/)[0];
+      }
+      let startTime = 0;
+      if (typeof play.youtube_timestamp === 'number') {
+        startTime = play.youtube_timestamp;
+      } else if (play.youtube_url && play.youtube_url.includes('t=')) {
+        const tMatch = play.youtube_url.match(/[?&]t=(\d+)/);
+        if (tMatch) startTime = Number(tMatch[1]);
+      }
+      if (videoId) {
+        youtubeEmbedHTML = `<div class=\"youtube-embed-wrapper\">\n          <iframe width=\"420\" height=\"236\"\n            src=\"https://www.youtube.com/embed/${videoId}${startTime ? '?start=' + startTime : ''}\"\n            title=\"YouTube video player\"\n            frameborder=\"0\"\n            allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\"\n            allowfullscreen></iframe>\n        </div>`;
+      }
+    }
+  // ========== Narrative/Storytelling Stub ==========
+  // In v2, this would call LLM or advanced narrative generator.
+  // Here we simply hardcode a sample for demo/testing.
+  generateQuarterNarrative(quarter) {
+    // TODO: LLM-generated logic; for now just dummy text per quarter
+    const demos = {
+      1: "Quarter 1: Both teams started slow. Defenses set the tone early, with key 3rd down stops and a field position battle.",
+      2: "Quarter 2: Offenses found rhythm mid-way as Indiana hit a 40-yard TD, only for Miami to answer late. Critical penalty swung momentum before halftime.",
+      3: "Quarter 3: Miami took control after a controversial call but Indiana struck back with explosive plays and a big turnover.",
+      4: "Quarter 4: The finish delivered drama—a game-winning drive, lead changes, and a walk-off FG attempt decided the champion."
+    };
+    return demos[quarter] || "No summary available for this quarter.";
+  }
