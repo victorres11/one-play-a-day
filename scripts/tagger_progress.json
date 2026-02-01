@@ -1,0 +1,4423 @@
+{
+  "processed": [
+    "739",
+    "738",
+    "737",
+    "736",
+    "735",
+    "734",
+    "733",
+    "732",
+    "731",
+    "730",
+    "729",
+    "728",
+    "727",
+    "726",
+    "725",
+    "724",
+    "723",
+    "722",
+    "721",
+    "720",
+    "719",
+    "718",
+    "717",
+    "716",
+    "715",
+    "714",
+    "713",
+    "712",
+    "711",
+    "710",
+    "709",
+    "708",
+    "707",
+    "706",
+    "705",
+    "704",
+    "703",
+    "702",
+    "701",
+    "700",
+    "699",
+    "698",
+    "697",
+    "696",
+    "695",
+    "694",
+    "693",
+    "692",
+    "691",
+    "690",
+    "689",
+    "688",
+    "687",
+    "686",
+    "685",
+    "684",
+    "683",
+    "682",
+    "681",
+    "680",
+    "679",
+    "678",
+    "677",
+    "676",
+    "675",
+    "674",
+    "673",
+    "672",
+    "671",
+    "670",
+    "669",
+    "668",
+    "667",
+    "666",
+    "665",
+    "664",
+    "663",
+    "662",
+    "661",
+    "660",
+    "659",
+    "658",
+    "657",
+    "656",
+    "655",
+    "654",
+    "653",
+    "652",
+    "651",
+    "650",
+    "649",
+    "648",
+    "647",
+    "646",
+    "645",
+    "644",
+    "643",
+    "642",
+    "641",
+    "640",
+    "639",
+    "638",
+    "637",
+    "636",
+    "635",
+    "634",
+    "633",
+    "632",
+    "631",
+    "630",
+    "629",
+    "628",
+    "627",
+    "626",
+    "625",
+    "624",
+    "623",
+    "622",
+    "621",
+    "620",
+    "619",
+    "618",
+    "617",
+    "616",
+    "615",
+    "614",
+    "613",
+    "612",
+    "611",
+    "610",
+    "609",
+    "608",
+    "607",
+    "606",
+    "605",
+    "604",
+    "603",
+    "602",
+    "601",
+    "600",
+    "599",
+    "598",
+    "597",
+    "596",
+    "595",
+    "594",
+    "593",
+    "592",
+    "591",
+    "590",
+    "589",
+    "588",
+    "587",
+    "586",
+    "585",
+    "584",
+    "583",
+    "582",
+    "581",
+    "580",
+    "579",
+    "578",
+    "577",
+    "576",
+    "575",
+    "574",
+    "573",
+    "572",
+    "571",
+    "570",
+    "569",
+    "568",
+    "567",
+    "566",
+    "565",
+    "564",
+    "563",
+    "562",
+    "554",
+    "553",
+    "552",
+    "551",
+    "550",
+    "549",
+    "548",
+    "547",
+    "546",
+    "545",
+    "544",
+    "543",
+    "542",
+    "541",
+    "540",
+    "539",
+    "538",
+    "537",
+    "536",
+    "535",
+    "534",
+    "533",
+    "532",
+    "531",
+    "530",
+    "529",
+    "528",
+    "527",
+    "526",
+    "525",
+    "524",
+    "523",
+    "522",
+    "521",
+    "520",
+    "519",
+    "518",
+    "517",
+    "516",
+    "515",
+    "514",
+    "513",
+    "512",
+    "511",
+    "510",
+    "509",
+    "508",
+    "507",
+    "506",
+    "505",
+    "504",
+    "503",
+    "502",
+    "501",
+    "499",
+    "498",
+    "497",
+    "496",
+    "495",
+    "494",
+    "493",
+    "492",
+    "491",
+    "490",
+    "489",
+    "488",
+    "487",
+    "486",
+    "485",
+    "484",
+    "483",
+    "482",
+    "481",
+    "480",
+    "479",
+    "478",
+    "477",
+    "476",
+    "475",
+    "474",
+    "473",
+    "472",
+    "471",
+    "470",
+    "469",
+    "468",
+    "467",
+    "466",
+    "465",
+    "464",
+    "463",
+    "462",
+    "461",
+    "460",
+    "459",
+    "458",
+    "457",
+    "456",
+    "455",
+    "454",
+    "453",
+    "452",
+    "451",
+    "450",
+    "449",
+    "448",
+    "447",
+    "446",
+    "445",
+    "444",
+    "443",
+    "442",
+    "441",
+    "440",
+    "439",
+    "438",
+    "437",
+    "436",
+    "435",
+    "434",
+    "433",
+    "432",
+    "431",
+    "430",
+    "429",
+    "428",
+    "427",
+    "426",
+    "425",
+    "424",
+    "423",
+    "422",
+    "421",
+    "420",
+    "419",
+    "418",
+    "417",
+    "416",
+    "415",
+    "414",
+    "413",
+    "412",
+    "411",
+    "410",
+    "409",
+    "408",
+    "407",
+    "406",
+    "405",
+    "404",
+    "403",
+    "402",
+    "401",
+    "400",
+    "399",
+    "398",
+    "397",
+    "396",
+    "395",
+    "394",
+    "393",
+    "392",
+    "391",
+    "390",
+    "389",
+    "388",
+    "387",
+    "386",
+    "385",
+    "384",
+    "383",
+    "382",
+    "381",
+    "380",
+    "379",
+    "378",
+    "377",
+    "376",
+    "375",
+    "374",
+    "373",
+    "372",
+    "371",
+    "370",
+    "369",
+    "368",
+    "367",
+    "366",
+    "365",
+    "364",
+    "363",
+    "362",
+    "361",
+    "360",
+    "359",
+    "358",
+    "357",
+    "356",
+    "355",
+    "354",
+    "353",
+    "352",
+    "351",
+    "350",
+    "349",
+    "348",
+    "347",
+    "346",
+    "345",
+    "344",
+    "x-2016895160508940779",
+    "x-2016576799249973252",
+    "x-2016563960007315833",
+    "x-2015908918547857613"
+  ],
+  "results": {
+    "739": {
+      "tags": [
+        "Mesh",
+        "OZ",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a mesh concept with potential for running lanes, which aligns well with an RPO strategy."
+    },
+    "738": {
+      "tags": [
+        "Screen",
+        "Motion",
+        "Trick"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a slip screen to the running back, utilizing motion and a trick play element given the orbit concept."
+    },
+    "737": {
+      "tags": [
+        "Power",
+        "Option",
+        "QB Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a 2-way pin and pull scheme with multiple offensive linemen, indicating a power running play with the possibility of a QB run option."
+    },
+    "736": {
+      "tags": [
+        "Scissors",
+        "RZ",
+        "GL",
+        "Counter",
+        "11p"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running back execution of a counter concept in the red zone during a goal line situation."
+    },
+    "735": {
+      "tags": [
+        "Shallow",
+        "RZ",
+        "GL",
+        "3rd Down",
+        "Empty"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is designed to exploit shallow routes in the red zone on a critical 3rd and goal situation using an empty formation."
+    },
+    "734": {
+      "tags": [
+        "Screen",
+        "Counter"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is a Tunnel Screen executed on the backside of a GT Counter, clearly emphasizing passing while utilizing a counter concept."
+    },
+    "733": {
+      "tags": [
+        "RPO",
+        "Iso",
+        "Trio Lt"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a running back insert iso concept within a run-pass option framework."
+    },
+    "732": {
+      "tags": [
+        "Power",
+        "Counter"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play describes a guard pull in a run formation, indicating a power running concept while keeping the Mike linebacker in the box."
+    },
+    "731": {
+      "tags": [
+        "Trick",
+        "Gadget"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The Hook & Ladder is a deceptive play that involves a pass to the running back followed by a lateral, fitting the description of both a trick and a gadget play."
+    },
+    "730": {
+      "tags": [
+        "Quick Game",
+        "Curl/Flat"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves the running back quickly running to the flat to receive a pass, indicating a quick passing concept."
+    },
+    "729": {
+      "tags": [
+        "Counter",
+        "QB Run",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a tight end lining up at quarterback to run a counter play, which is characteristic of a QB run from a bunch formation."
+    },
+    "728": {
+      "tags": [
+        "Boot",
+        "Motion",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a bootleg concept paired with a motion from the WR, indicating both a run and pass option."
+    },
+    "727": {
+      "tags": [
+        "Mesh",
+        "3rd Down",
+        "Short Yardage"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a Texas adjustment to RB mesh traffic, indicating a passing concept designed for a critical short yardage situation."
+    },
+    "726": {
+      "tags": [
+        "Screen",
+        "Bunch",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a screen pass with a bunch formation, suggesting a focus on short, quick throws while potentially utilizing RPO elements."
+    },
+    "725": {
+      "tags": [
+        "PA",
+        "Power",
+        "C-Gap"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a play-action (PA) with a focus on the C-gap, suggesting a passing attempt off the run-action."
+    },
+    "724": {
+      "tags": [
+        "Iso",
+        "Power",
+        "Duo",
+        "12p",
+        "Pistol"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is identified as a Double Iso, which is a running concept typically involving power blocking schemes, and the personnel and formation suggest a focus on a run play."
+    },
+    "723": {
+      "tags": [
+        "RZ",
+        "GL",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is designed to be effective in the red zone and goal line situations, utilizing motion to create a Cross Country Pylon Concept likely focused on a running play."
+    },
+    "722": {
+      "tags": [
+        "Screen",
+        "Trick",
+        "Gadget",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a Flea Flicker and a Throwback Screen, which are trick plays utilizing motion."
+    },
+    "721": {
+      "tags": [
+        "RPO",
+        "Motion",
+        "Quick Game",
+        "Vertical"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes a burst route indicative of a quick pass option, integrated within the design of an RPO, leveraging motion from the WR."
+    },
+    "720": {
+      "tags": [
+        "Power",
+        "RZ",
+        "GL",
+        "Bunch",
+        "Toss"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running situation from a goal line formation with a toss concept, utilizing an unbalanced set likely to create a numbers advantage."
+    },
+    "719": {
+      "tags": [
+        "Screen",
+        "3rd Down",
+        "Short Yardage"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is a False Pull Tunnel Screen designed to gain yards on a crucial 3rd & 4 situation."
+    },
+    "718": {
+      "tags": [
+        "Curl/Flat",
+        "Bench",
+        "Motion",
+        "12p",
+        "Deuce"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves curl routes with bench pump stems, indicating a passing route concept while utilizing motion."
+    },
+    "717": {
+      "tags": [
+        "PA",
+        "Flood",
+        "Motion",
+        "Bunch",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a play-action (PA) setup, utilizes a flood concept for route spacing, is executed from a bunch formation, and involves motion to create misdirection."
+    },
+    "716": {
+      "tags": [
+        "Flood"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is titled 'Switch Boundary Flood' and indicates a passing concept focused on creating space for receivers through route combinations."
+    },
+    "715": {
+      "tags": [
+        "Nickel",
+        "3rd Down",
+        "Heavy"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The mention of a blitz in a 3rd & 18 situation suggests a defensive formation likely anticipating a pass, although specific offensive schemes are not detailed."
+    },
+    "714": {
+      "tags": [
+        "Trick",
+        "Gadget",
+        "Motion",
+        "Screen",
+        "PA"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves multiple misdirection elements and a throwback screen, indicating a trick play primarily designed for a pass."
+    },
+    "713": {
+      "tags": [
+        "Quick Game",
+        "Bunch",
+        "PA"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The 'Gronk' Pass suggests a short, quick pass play involving a tight end from a bunch formation with play action elements."
+    },
+    "712": {
+      "tags": [
+        "PA",
+        "Vertical",
+        "Heavy"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes play action with a heavy personnel grouping, suggesting a focus on a deep passing attempt."
+    },
+    "711": {
+      "tags": [
+        "PA",
+        "Vertical",
+        "Max Protection"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play description suggests a passing play with max protection to take a deep shot, implying play action and a vertical route concept."
+    },
+    "710": {
+      "tags": [
+        "Boot",
+        "PA",
+        "TE",
+        "Vertical",
+        "Trips"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a tight end (TE) on a throwback post route after the quarterback executes a bootleg action, indicating a designed pass off play-action (PA) in a trips formation."
+    },
+    "709": {
+      "tags": [
+        "Option",
+        "RPO",
+        "Screen"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play features a running back utilizing the B-gap with a potential option for a pass to the tight end, indicating both run and pass potential."
+    },
+    "708": {
+      "tags": [
+        "PA",
+        "Boot",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The use of 'Bash Pass' suggests play-action elements and a boot leg type of movement, indicating a passing play with potential run-pass options."
+    },
+    "707": {
+      "tags": [
+        "PA",
+        "Dig"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a throwback dig route initiated from a play-action setup, indicating a passing concept using play-action tactics."
+    },
+    "706": {
+      "tags": [
+        "Trips",
+        "3rd Down",
+        "Gadget",
+        "Quick Game",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play employs a creative setup with trips formation and a shield slant, indicating a designed pass strategy with elements of a gadget approach."
+    },
+    "705": {
+      "tags": [
+        "Option",
+        "Motion",
+        "Empty"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The use of 'Empty' formation and 'Orbit' suggests a running option play with motion involved."
+    },
+    "704": {
+      "tags": [
+        "PA",
+        "TE",
+        "Boot",
+        "Vertical"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a play-action pass with a tight end leak and a wheel route, indicating a focus on deception and vertical passing."
+    },
+    "703": {
+      "tags": [
+        "3rd Down",
+        "Nickel",
+        "Dbl Mug"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play is a third down scenario with a nickel personnel indicating a likely passing situation, and the unique Tampa 2 variation suggests a pass-focused defensive strategy."
+    },
+    "702": {
+      "tags": [
+        "Counter",
+        "Trick",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a counter element and is designed as a deceptive play with a reverse, indicating trickery and motion in its execution."
+    },
+    "701": {
+      "tags": [
+        "Duo",
+        "GL",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running concept with a Duo blocking scheme from a bunch formation near the goal line."
+    },
+    "700": {
+      "tags": [
+        "PA",
+        "RPO",
+        "Short Yardage"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a leak route by the tight end likely following a play-action setup, specifically designed for a short yardage situation."
+    },
+    "699": {
+      "tags": [
+        "Screen",
+        "Orbit",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a slip screen executed to the running back, which is characteristic of a passing play design featuring motion elements."
+    },
+    "698": {
+      "tags": [
+        "Smash",
+        "Scissors",
+        "Option"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play utilizes the Flexbone formation with a focus on option concepts, combining Smash and Scissors elements."
+    },
+    "697": {
+      "tags": [
+        "Motion",
+        "Flood",
+        "Quick Game",
+        "Trips"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves motioning and a flood concept indicating a passing route rather than a running play."
+    },
+    "696": {
+      "tags": [
+        "RPO",
+        "Empty",
+        "Trap",
+        "QB Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play is an Empty formation indicating a running play with the quarterback involved in a trap concept as part of a run-pass option."
+    },
+    "695": {
+      "tags": [
+        "Trick",
+        "Gadget",
+        "PA"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a reverse throwback element, indicating a trick or gadget play that is primarily a pass."
+    },
+    "694": {
+      "tags": [
+        "Mesh",
+        "2PT",
+        "Trips"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a mesh concept combined with a backline pop corner route, indicating a passing strategy within a trips formation for a two-point conversion."
+    },
+    "693": {
+      "tags": [
+        "PA",
+        "Vertical",
+        "Dagger"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves max protection, indicating a passing scheme with a vertical route concept, commonly utilized in a 'dagger' strategy."
+    },
+    "692": {
+      "tags": [
+        "Counter",
+        "Screen"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a counter running action paired with an arrow screen, indicating a run-pass option concept."
+    },
+    "691": {
+      "tags": [
+        "Power",
+        "C-Gap Insert",
+        "Crossing Route",
+        "Short Yardage"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running concept targeting the C-gap with an accompanying crossing route, relevant for a short-yardage situation."
+    },
+    "690": {
+      "tags": [
+        "Option",
+        "QB Run",
+        "Heavy"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play features a Midline Option, which clearly indicates a primary running concept utilizing the quarterback as a ball carrier."
+    },
+    "689": {
+      "tags": [
+        "Flood",
+        "Post",
+        "Checkdown",
+        "Vertical"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play design features a flood concept with multiple receiver routes including double posts and a lead checkdown, indicating a passing strategy."
+    },
+    "688": {
+      "tags": [
+        "Trips",
+        "Flood",
+        "PA",
+        "Vertical",
+        "Quick Game"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a trips formation designed to create spacing for a crossing route, likely combined with a play-action element."
+    },
+    "687": {
+      "tags": [
+        "QB Run",
+        "Power",
+        "Trick",
+        "Vertical"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play features a fake QB power to mislead the defense, incorporating elements of a running play while also having vertical routes to stretch the field."
+    },
+    "686": {
+      "tags": [
+        "Power",
+        "PA",
+        "RPO",
+        "Trick",
+        "Short Yardage"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a fake dive, suggesting a play-action element, while the formation and situation indicate both a running and a passing threat."
+    },
+    "685": {
+      "tags": [
+        "Smash",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a Dagger concept which is often run in conjunction with a Smash route, indicating a focus on both passing and potential run options."
+    },
+    "684": {
+      "tags": [
+        "3rd Down",
+        "Bunch",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The situation on 3rd & 17 typically suggests a passing play, and the A-B Mug formation indicates possible motion or a complex route design encouraging passing options."
+    },
+    "683": {
+      "tags": [
+        "Counter",
+        "Motion",
+        "Gadget"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves motioning into a counter running concept, indicative of a designed run play with a twist."
+    },
+    "682": {
+      "tags": [
+        "Empty",
+        "Bunch",
+        "Mesh"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes an Empty formation with a Bunch alignment and features a Mesh concept, indicating a passing play."
+    },
+    "681": {
+      "tags": [
+        "Screen",
+        "Empty",
+        "Motion",
+        "Vertical"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play design involves a screen pass out of an empty formation with motion and utilizes a vertical route concept."
+    },
+    "680": {
+      "tags": [
+        "Screen",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is identified as a slip screen with a running back, indicating a passing play with motion involved in the formation."
+    },
+    "679": {
+      "tags": [
+        "Counter",
+        "Boot",
+        "3rd Down",
+        "GL",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a running counter play executed from a bunch formation on a goal-line situation."
+    },
+    "678": {
+      "tags": [
+        "Flood",
+        "Vertical",
+        "Trips",
+        "PA"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a Flood concept using a Nub Trips formation, which leans towards a passing strategy with vertical threats."
+    },
+    "677": {
+      "tags": [
+        "Mesh",
+        "3rd Down",
+        "RZ",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a mesh concept executed in a bunch formation during a crucial short-yardage situation in the red zone."
+    },
+    "676": {
+      "tags": [
+        "Flood",
+        "Bunch",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play features a flood concept with a bunch formation and utilizes an RPO approach based on the description of the offensive structure."
+    },
+    "675": {
+      "tags": [
+        "Smash",
+        "Shallow",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a Smash concept in combination with a Backside Shallow Cross, indicating a passing play with RPO elements."
+    },
+    "674": {
+      "tags": [
+        "Screen",
+        "RPO",
+        "Quick Game"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes a double screen and focuses on a quick pass to the 'Ninja' TE, indicating a passing concept with a screen element."
+    },
+    "673": {
+      "tags": [
+        "Counter",
+        "3rd Down",
+        "Short Yardage"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running concept with a counter element, particularly in a short-yardage situation on 3rd down."
+    },
+    "672": {
+      "tags": [
+        "Boot",
+        "RZ",
+        "GL",
+        "Trick"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a fake sweep and a bootleg concept designed to confuse the defense, indicative of a trick play within the red zone."
+    },
+    "671": {
+      "tags": [
+        "Screen",
+        "Trips",
+        "Short Yardage"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a tunnel screen concept utilizing the trips formation, making it a clear passing play in a short yardage situation."
+    },
+    "670": {
+      "tags": [
+        "Vertical",
+        "Flood",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a passing concept with a vertical route and a running back sail option, indicative of a pass play, potentially with run-pass option elements."
+    },
+    "669": {
+      "tags": [
+        "Counter",
+        "Power",
+        "Trey"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a running counter scheme using the tight end's position in a Trey formation."
+    },
+    "668": {
+      "tags": [
+        "OZ"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Toss scheme which is characteristic of Outside Zone (OZ) running plays."
+    },
+    "667": {
+      "tags": [
+        "Jet Sweep",
+        "Motion",
+        "Trick",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a jet sweep concept combined with a tight end pop pass, indicating a combination of running and passing elements with motion."
+    },
+    "666": {
+      "tags": [
+        "Vertical",
+        "Switch",
+        "Y-Cross"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a passing concept targeting the backside post on a switch route combined with a crossing pattern."
+    },
+    "665": {
+      "tags": [
+        "Power",
+        "Short Yardage"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a short-yardage situation utilizing the Wildcat formation, which typically emphasizes a power running style."
+    },
+    "664": {
+      "tags": [
+        "Counter",
+        "Bunch",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play utilizes a 'Freeze' concept likely indicating a counter action, and the Bunch formation suggests pre-snap motion elements."
+    },
+    "663": {
+      "tags": [
+        "PA",
+        "Vertical"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves an Under Center 7-Step Drop, which indicates a passing play, with deep bench routes that align with play-action (PA) concepts and vertical attacking routes."
+    },
+    "662": {
+      "tags": [
+        "Screen",
+        "Duo",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a running back chip screen which clearly indicates a passing concept, with motion implied by the double stack formation."
+    },
+    "661": {
+      "tags": [
+        "Option",
+        "QB Run",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves the Navy running a midline scheme with a slot insert, which is characteristic of option plays, and it utilizes a bunch formation."
+    },
+    "660": {
+      "tags": [
+        "OZ",
+        "Motion",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running back utilizing a tight end in motion to escort block for the running play, indicating a strong outside zone (OZ) concept and the use of a bunch formation."
+    },
+    "659": {
+      "tags": [
+        "RB Fast to the Flat",
+        "RZ",
+        "GL",
+        "Screen"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a running back in a quick route towards the sideline, indicating a passing concept focused in the goal line and red zone."
+    },
+    "658": {
+      "tags": [
+        "RPO",
+        "Trips",
+        "Vertical",
+        "Stick",
+        "Fade"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play features a running back option choice combined with a stick and fade route concept, indicating a run-pass option strategy."
+    },
+    "657": {
+      "tags": [
+        "Draw",
+        "3rd Down",
+        "Short Yardage"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a Sprint Draw designed to gain short yardage on a critical 3rd and 3 situation."
+    },
+    "656": {
+      "tags": [
+        "Screen",
+        "3rd Down",
+        "Heavy"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is a tunnel screen designed to leverage the false pull concept, executed in a heavy personnel formation on a critical 3rd down."
+    },
+    "655": {
+      "tags": [
+        "Screen",
+        "Trips",
+        "3rd Down",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a wide receiver screen concept with a trips formation and features push motion for timing."
+    },
+    "654": {
+      "tags": [
+        "PA",
+        "Vertical",
+        "Bunch",
+        "Deep Over"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a deep over route suggesting a play-action pass concept, utilizing the bunch formation for potential misdirection."
+    },
+    "653": {
+      "tags": [
+        "Boot",
+        "Shallow",
+        "PA",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is identified as a Half-Boot Shallow Sting, which clearly aligns with bootleg (Boot) and shallow route concepts in a bunch formation."
+    },
+    "652": {
+      "tags": [
+        "Counter",
+        "QB Run",
+        "Short Yardage"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves an unbalanced line setup for a running play designed to exploit a short yardage situation with a counter action and a quarterback run element."
+    },
+    "651": {
+      "tags": [
+        "Boot",
+        "3rd Down",
+        "QB Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves the quarterback reversing out, which is characteristic of a bootleg play, particularly in a short yardage situation on 3rd down."
+    },
+    "650": {
+      "tags": [
+        "Drive",
+        "TE",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play utilizes a 'Drive' concept with a TE variation and is executed in a running situation."
+    },
+    "649": {
+      "tags": [
+        "Screen",
+        "Quick Game",
+        "Motion",
+        "Vertical"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play described is a screen and go concept, indicating a quick passing route with a stack formation likely involving motion."
+    },
+    "648": {
+      "tags": [
+        "3rd Down",
+        "Trick",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a unique personnel group with a WR at RB and utilizes a TE route configuration that suggests a designed pass with trick formation elements."
+    },
+    "647": {
+      "tags": [
+        "Bunch",
+        "3rd Down",
+        "Motion",
+        "Switch"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a wide bunch formation with motion, commonly associated with passing plays on third down situations to create separation for receivers."
+    },
+    "646": {
+      "tags": [
+        "3rd Down",
+        "Trips",
+        "Vertical",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play focuses on a passing concept with a Sluggo route and a Glance & Go from the slot on a crucial short-yardage situation."
+    },
+    "645": {
+      "tags": [
+        "Screen",
+        "Motion",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a swing screen executed with orbit motion and utilizes a loose bunch formation."
+    },
+    "644": {
+      "tags": [
+        "RB",
+        "Screen",
+        "Curl/Flat"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a running back quickly moving to the flat for a potential reception, indicating a passing concept with a quick throw to the RB."
+    },
+    "643": {
+      "tags": [
+        "Counter",
+        "3rd Down",
+        "Bunch",
+        "QB Run",
+        "Gadget"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a counter action with multiple quarterbacks and a bunch formation, indicating a creative approach suitable for a 3rd down situation."
+    },
+    "642": {
+      "tags": [
+        "Counter",
+        "Option",
+        "QB Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a Counter Option run featuring the quarterback as a primary ball-carrier in a split backs formation."
+    },
+    "641": {
+      "tags": [
+        "Trick",
+        "Gadget",
+        "Motion",
+        "PA"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves multiple misdirections and complexities that classify it as a trick play, utilizing motion and a play-action (PA) element before a throwback screen pass."
+    },
+    "640": {
+      "tags": [
+        "PA",
+        "Vertical",
+        "Flood",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes play action to set up a vertical route combination, indicating a passing strategy designed to exploit the defense."
+    },
+    "639": {
+      "tags": [
+        "Iso",
+        "PA",
+        "Flood"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a play action (PA) concept combined with an iso running scheme and a fullback sailing into a passing route, indicating a pass play."
+    },
+    "638": {
+      "tags": [
+        "Power",
+        "RPO",
+        "Motion",
+        "Trick"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a Jet Power Read concept suggesting a run option with additional passing capability, supported by the shift from Flexbone and the presence of motion."
+    },
+    "637": {
+      "tags": [
+        "Screen",
+        "3rd Down",
+        "Gadget"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a tunnel screen, which is a passing concept designed to create a quick gain, particularly on a long down like 3rd & 21."
+    },
+    "636": {
+      "tags": [
+        "Counter",
+        "3rd Down",
+        "Short Yardage"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a Counter run on a critical 3rd & 3 situation, typical of short yardage scenarios."
+    },
+    "635": {
+      "tags": [
+        "Counter",
+        "Motion",
+        "Trick",
+        "Gadget"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a counter concept with motion and has elements of a trick or gadget play."
+    },
+    "634": {
+      "tags": [
+        "Bunch",
+        "Dash",
+        "Counter"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Dash concept, which is a running play designed to exploit spatial advantages created by the bunch formation."
+    },
+    "633": {
+      "tags": [
+        "Counter",
+        "Bunch",
+        "Trick",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a reverse concept with players in a bunch formation, which is typically associated with counter-type running plays and incorporates motion for deception."
+    },
+    "632": {
+      "tags": [
+        "Boot",
+        "Flood",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a bootleg concept with a flooding route, clearly indicating a passing play originating from a Bunch formation."
+    },
+    "631": {
+      "tags": [
+        "3rd Down",
+        "Bunch"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a defensive strategy (Corner Cat Blitz) indicating a high-pressure situation on a crucial play, likely resulting in a passing scenario."
+    },
+    "630": {
+      "tags": [
+        "Counter",
+        "Option",
+        "QB Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a counter action with a quarterback read option, indicating a run-oriented strategy."
+    },
+    "629": {
+      "tags": [
+        "Counter",
+        "3rd Down",
+        "Short Yardage"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is designed as a running option in a short yardage situation using a counter concept from an unbalanced formation."
+    },
+    "628": {
+      "tags": [
+        "OZ",
+        "Bunch",
+        "Screen",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a running buck sweep concept with a bubble screen option in a bunch formation, indicating the potential for both run and pass elements."
+    },
+    "627": {
+      "tags": [
+        "Screen",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is a Dash Angle Screen, which clearly indicates a passing concept focused on getting the ball to a receiver behind the line of scrimmage."
+    },
+    "626": {
+      "tags": [
+        "RPO",
+        "Motion",
+        "Trips"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a running TE leak combined with a RB wheel route, suggesting a run-pass option concept within a trips formation."
+    },
+    "625": {
+      "tags": [
+        "Bunch",
+        "RPO",
+        "Draw"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play focuses on utilizing a bunch formation to create spacing and options for a run-pass option, which aligns with the RPO and draw concept."
+    },
+    "624": {
+      "tags": [
+        "PA",
+        "Power",
+        "Dual Rt"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a play-action (PA) toss with a power read element, suggesting it utilizes both run and pass options."
+    },
+    "623": {
+      "tags": [
+        "3rd Down",
+        "Nickel",
+        "Tampa 2"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play occurs in a 3rd & 14 situation, suggesting a likely passing scenario, with the defense utilizing a Tampa 2 coverage."
+    },
+    "622": {
+      "tags": [
+        "Counter",
+        "Power",
+        "Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves an interior counter run designed to kick out a defensive player, indicating a strong running focus with counter and power blocking concepts."
+    },
+    "621": {
+      "tags": [
+        "Boot",
+        "Shallow",
+        "Flood"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a bootleg with a tight end running a shallow route in a flood concept, indicating a passing play."
+    },
+    "620": {
+      "tags": [
+        "RZ",
+        "RPO",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a deceptive concept in the red zone, likely utilizing a run-pass option paired with motion to confuse the defense."
+    },
+    "619": {
+      "tags": [
+        "PA",
+        "Quick Game",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The unique Tampa 2 contour in defense suggests a focus on pass coverage, indicating a likely passing play with potential for play-action and quick passing concepts."
+    },
+    "618": {
+      "tags": [
+        "Drive",
+        "Motion",
+        "3rd Down",
+        "Vertical"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a wide receiver motioning out of the backfield to run a drive concept while utilizing vertical elements, specifically in a critical 3rd down situation."
+    },
+    "617": {
+      "tags": [
+        "Quick Game",
+        "Curl/Flat",
+        "Bunch",
+        "Vertical"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a passing concept with a Dash route, which indicates quick releases and curl routes from the bunch formation."
+    },
+    "616": {
+      "tags": [
+        "OZ",
+        "Motion",
+        "Heavy"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a wide zone running scheme with a receiver motioning to block a defensive end, indicating a strong running play."
+    },
+    "615": {
+      "tags": [
+        "Counter",
+        "Option",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves misdirection and a potential run/pass option with the quarterback, typical of counter and RPO concepts."
+    },
+    "614": {
+      "tags": [
+        "Duo",
+        "Power",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play features a Duo scheme with running backs executing a double wrap, indicating a strong emphasis on running the ball with power and motion elements."
+    },
+    "613": {
+      "tags": [
+        "Counter",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a running play utilizing a counter concept, and the personnel and formation suggest a power running approach."
+    },
+    "612": {
+      "tags": [
+        "OZ",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a fly sweep, which is a variant of outside zone (OZ) run with pre-snap motion."
+    },
+    "611": {
+      "tags": [
+        "Shallow",
+        "Post",
+        "Vertical",
+        "PA"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a passing concept with a double post route combined with shallow crossing routes, indicating a passing strategy rather than a run."
+    },
+    "610": {
+      "tags": [
+        "Quick Game",
+        "PA",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play, featuring a corner route and a 2-minute situation suggests a quick passing concept, possibly including play action or run-pass option elements."
+    },
+    "609": {
+      "tags": [
+        "Counter",
+        "Power",
+        "11p"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a running play utilizing a counter concept with a personnel grouping indicating a running focus."
+    },
+    "608": {
+      "tags": [
+        "OZ",
+        "PA",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves an outside zone concept with a pop pass after motioning the wing back."
+    },
+    "607": {
+      "tags": [
+        "Boot",
+        "Delay",
+        "PA"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a bootleg concept combined with a delayed route, which indicates a pass play built off of play-action."
+    },
+    "606": {
+      "tags": [
+        "Empty",
+        "Curl/Flat",
+        "Vertical",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a shift to an empty formation, targeting deep curl routes against a Tampa 2 defense, suggesting a likely passing play."
+    },
+    "605": {
+      "tags": [
+        "PA",
+        "Bunch",
+        "ISO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes play action off a bunch formation, suggesting a pass intent rather than a straightforward run."
+    },
+    "604": {
+      "tags": [
+        "Trick",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Wildcat formation and a reverse, which are both indicative of trick plays and motion dynamics."
+    },
+    "603": {
+      "tags": [
+        "Power",
+        "Iso",
+        "OZ"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The 'Max Wham' protection suggests a focus on power running schemes, and the use of a bear front typically aligns with running plays."
+    },
+    "602": {
+      "tags": [
+        "Counter",
+        "Power",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play incorporates a Same-Side G/Y Counter design that is typically used in conjunction with a post/wheel slide option, indicating both a run and a potential pass strategy."
+    },
+    "601": {
+      "tags": [
+        "OZ",
+        "Motion",
+        "Sweep"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves using orbit motion to execute a buck sweep, which is a variation of outside zone running."
+    },
+    "600": {
+      "tags": [
+        "Flood",
+        "RPO",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a flood concept with a running back and uses the nub tight end in motion, suggesting the potential for a run-pass option."
+    },
+    "599": {
+      "tags": [
+        "Motion",
+        "Vertical",
+        "3rd Down"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play uses RB shuffle motion and a choice vertical route, indicating a passing concept, especially on a critical 3rd down."
+    },
+    "598": {
+      "tags": [
+        "RPO",
+        "Iso",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a running insert iso concept combined with a run-pass option for the quarterback."
+    },
+    "597": {
+      "tags": [
+        "PA",
+        "Trick",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a quarterback throwing a pass after a toss, indicating a play-action (PA) element, and the unique setup suggests a trick play utilizing the Bunch formation."
+    },
+    "596": {
+      "tags": [
+        "Screen",
+        "Shallow",
+        "Empty"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a shallow screen pass executed from an empty formation, indicating a passing play with a specific screen concept."
+    },
+    "595": {
+      "tags": [
+        "Trick",
+        "Gadget",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a reverse, which is a trick play utilizing a bunch formation to create misdirection."
+    },
+    "594": {
+      "tags": [
+        "RZ",
+        "Vertical",
+        "PA"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a 'snag & go' route in the high red zone, indicating a passing concept with potential for vertical routes off of play action."
+    },
+    "593": {
+      "tags": [
+        "OZ",
+        "Power",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a defensive scheme fitting against a running concept and suggests options for both run and RPO elements."
+    },
+    "592": {
+      "tags": [
+        "RPO",
+        "Stretch",
+        "Trips"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a stretch concept with a run-pass option for the quarterback, highlighted by the trips formation."
+    },
+    "591": {
+      "tags": [
+        "Mesh",
+        "3rd Down",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a mesh concept indicating a possible run-pass option with a focus on late action involving the running back."
+    },
+    "590": {
+      "tags": [
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a running play utilizing a Power concept out of an I formation with specific personnel and formation details."
+    },
+    "589": {
+      "tags": [
+        "OZ",
+        "RPO",
+        "Trips"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a locked outside zone run concept with a run-pass option, and the formation features three receivers lined up on the left."
+    },
+    "588": {
+      "tags": [
+        "Power",
+        "Option",
+        "Jet"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play features a running concept with unbalanced line and jet motion, suggesting a power-style run with an option element."
+    },
+    "587": {
+      "tags": [
+        "Flood",
+        "Bunch",
+        "3rd Down",
+        "Option"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a Chip Flood concept typically associated with passing, along with a running back choice element, indicating a Run Pass Option."
+    },
+    "586": {
+      "tags": [
+        "Counter",
+        "21p",
+        "I-Formation"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a running play utilizing a counter concept from an I-Formation with specific personnel."
+    },
+    "585": {
+      "tags": [
+        "RPO",
+        "Screen",
+        "Mesh"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a Creeper Pressure scheme, which often sets up for RPO concepts to exploit the defense's responses."
+    },
+    "584": {
+      "tags": [
+        "PA",
+        "QB Run",
+        "Counter"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is primarily a QB counter using play action while incorporating a running back on a late rail route."
+    },
+    "583": {
+      "tags": [
+        "OZ"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a defense shift to counter an outside zone run strategy, indicating a focus on run defense against this specific type of offensive play."
+    },
+    "582": {
+      "tags": [
+        "Option",
+        "QB Run",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Flexbone Midline Option, which emphasizes the quarterback's decision-making on a run play utilizing option principles."
+    },
+    "581": {
+      "tags": [
+        "3rd Down",
+        "Nickel",
+        "Zone"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is a defensive alignment indicating a focus on coverage likely in response to a passing scenario on third down."
+    },
+    "580": {
+      "tags": [
+        "Screen",
+        "Jet",
+        "Motion",
+        "Trick"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a throwback screen off a jet reverse action, clearly indicating a passing concept with motion and trickery."
+    },
+    "579": {
+      "tags": [
+        "Trap",
+        "Power",
+        "IZ"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Tackle Over Trap concept, indicating a running play utilizing power blocking principles."
+    },
+    "578": {
+      "tags": [
+        "3rd Down",
+        "Trips",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play is designed for a passing concept with a specific route combination, executed on a 3rd down situation within a Trips formation."
+    },
+    "577": {
+      "tags": [
+        "Boot",
+        "Vertical",
+        "Out & Up"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a bootleg concept with a passing route that transitions into an out-and-up pattern."
+    },
+    "576": {
+      "tags": [
+        "Empty",
+        "RZ",
+        "PA"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play uses an empty formation indicating a passing intent, and is executed in the red zone where play-action (PA) is often employed."
+    },
+    "575": {
+      "tags": [
+        "Trick",
+        "Bunch",
+        "Gadget"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a double pass, which is a trick or gadget play utilizing a bunch formation."
+    },
+    "574": {
+      "tags": [
+        "Flood",
+        "Bunch",
+        "Trick",
+        "Short Yardage"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play incorporates a flooding concept with a bunch formation and is designed for a short-yardage situation, employing a trick element with the fake reverse."
+    },
+    "573": {
+      "tags": [
+        "RPO",
+        "Short Yardage",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Sugar Huddle and a Spider/Leak concept which indicates a designed run play with potential for quick decision-making, characteristic of RPOs and short yardage situations."
+    },
+    "572": {
+      "tags": [
+        "Power",
+        "Short Yardage",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running power scheme with a short yardage situation on 4th down, and the inclusion of the on-ball tight end suggests a motion element."
+    },
+    "571": {
+      "tags": [
+        "Power",
+        "Short Yardage",
+        "Heavy"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a short yardage situation using a Full House formation, which typically emphasizes power running."
+    },
+    "570": {
+      "tags": [
+        "3rd Down",
+        "Trips",
+        "Quick Game"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play is set on 3rd down with a trips formation, suggesting a passing concept, potentially utilizing quick routes."
+    },
+    "569": {
+      "tags": [
+        "Screen",
+        "Motion",
+        "Trips"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a filter screen targeting a tight end, with the formation utilizing a trips set which suggests the use of motion and screen concepts."
+    },
+    "568": {
+      "tags": [
+        "OZ",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play utilizes outside zone principles with a motion element, which aligns with the outside zone running concept."
+    },
+    "567": {
+      "tags": [
+        "PA",
+        "Boot",
+        "Shallow",
+        "Trips"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play suggests a pass concept with a play-action (PA) look, involving a bootleg and utilizing the trips formation for spacing, focusing on a shallow route to the tight end."
+    },
+    "566": {
+      "tags": [
+        "Trip",
+        "RPO",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The formation 'Nub Trips Lt' suggests the potential for both run and pass options, and RPO fits well with the personnel and play context."
+    },
+    "565": {
+      "tags": [
+        "Nickel",
+        "Motion",
+        "Exotic",
+        "Cover 6"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The defense is set up in a Nickel formation with an exotic rotation for a pass defense scheme like Cover 6, suggesting a play action or pass may follow."
+    },
+    "564": {
+      "tags": [
+        "Option",
+        "QB Run",
+        "Trips"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a speed option with two quarterbacks, utilizing a trips formation, which aligns clearly with running concepts."
+    },
+    "563": {
+      "tags": [
+        "Choice",
+        "Backside",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a Tight End (TE) choice route, indicating a passing concept, while the use of a swirl implies motion and misdirection."
+    },
+    "562": {
+      "tags": [
+        "Counter",
+        "Option",
+        "QB Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a counter option concept with the quarterback following the running back, clearly indicating a run-focused strategy."
+    },
+    "554": {
+      "tags": [
+        "Fly Sweep",
+        "PA",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a fly sweep concept with a pass element, indicated by the play title and the use of motion."
+    },
+    "553": {
+      "tags": [
+        "Screen",
+        "Counter"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves executing a tunnel screen, which is a passing concept, on the backside of a counter run scheme."
+    },
+    "552": {
+      "tags": [
+        "OZ",
+        "Power",
+        "Counter",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play features a split zone concept, suggesting a combination of power running and the potential for a run-pass option."
+    },
+    "551": {
+      "tags": [
+        "Counter"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play description indicates a running play utilizing a counter scheme."
+    },
+    "550": {
+      "tags": [
+        "Power",
+        "OZ",
+        "Iso"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a fullback running in an I-Formation, suggesting a power running concept."
+    },
+    "549": {
+      "tags": [
+        "Trap",
+        "Power",
+        "OZ"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The 'Crunch' play with an emphasis on Influence/Wham/Trap concepts suggests a focus on trap blocking schemes, while the personnel and formation indicate a running play."
+    },
+    "548": {
+      "tags": [
+        "Screen",
+        "3rd Down",
+        "Counter"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a tunnel screen which is a passing concept, and it's executed on a 3rd down situation with a counter action."
+    },
+    "547": {
+      "tags": [
+        "Mesh",
+        "RPO",
+        "Draw"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a running concept with a mesh route design, suggesting a run-pass option execution."
+    },
+    "546": {
+      "tags": [
+        "Power",
+        "Heavy",
+        "RZ"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play utilizes a heavy personnel package to execute a running concept focused on leverage and power."
+    },
+    "545": {
+      "tags": [
+        "Trap",
+        "Smash"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a pressure scheme and a cover concept indicating a focus on both a trapping defensive alignment as well as a potential passing component."
+    },
+    "544": {
+      "tags": [
+        "Counter",
+        "Wildcat",
+        "3rd Down"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Wildcat formation with a Counter run concept on a crucial 3rd down situation."
+    },
+    "543": {
+      "tags": [
+        "Smash",
+        "Vertical",
+        "Slot",
+        "Fade"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The Y-Cross with F/S Slot Fade Smash indicates a passing play structure focused on creating mismatches and leverage."
+    },
+    "542": {
+      "tags": [
+        "Trap",
+        "Power",
+        "Duo"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is identified as a long trap, indicating a focus on trapping techniques and power running concepts."
+    },
+    "541": {
+      "tags": [
+        "OZ",
+        "Power",
+        "Counter",
+        "Trips",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running scheme with misdirection elements, suggesting a combination of outside zone (OZ) and power principles, along with the trips formation indicating potential for counter and RPO concepts."
+    },
+    "540": {
+      "tags": [
+        "Motion",
+        "Smash",
+        "RPO",
+        "Empty"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The use of two quarterbacks in an empty formation with motion suggests a blend of run-pass options, particularly with the double smash concept indicated."
+    },
+    "539": {
+      "tags": [
+        "Power",
+        "QB Run",
+        "Option"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a power running scheme using two quarterbacks, which indicates a strong emphasis on the run game with option principles."
+    },
+    "538": {
+      "tags": [
+        "OZ",
+        "Counter",
+        "Power"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The use of two quarterbacks and six offensive linemen in a split zone formation suggests a heavy running concept, specifically utilizing power and counter elements."
+    },
+    "537": {
+      "tags": [
+        "Option",
+        "QB Run",
+        "Trips"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running Freeze Speed Option, indicating a clear focus on a running concept with a quarterback run element, executed from a trips formation."
+    },
+    "536": {
+      "tags": [
+        "Boot",
+        "Flood",
+        "QB Run",
+        "Motion",
+        "Trick"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a dual quarterback setup executing a running action with a sweeping motion and a bootleg concept, clearly indicating a run-based play with elements of deception."
+    },
+    "535": {
+      "tags": [
+        "Mesh",
+        "Trips",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is centered around a mesh concept commonly used in passing plays, with trips formation indicating multiple receiving options."
+    },
+    "534": {
+      "tags": [
+        "QB Run",
+        "Pressure",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a defensive pressure strategy with the 3T focused on spying the quarterback, which suggests a potential QB run scenario."
+    },
+    "533": {
+      "tags": [
+        "Power",
+        "Trap",
+        "Bunch",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Tackle Over formation and a Long Trap Power concept, indicating a focus on running plays, while the RPO aspect suggests a potential for reading the defense."
+    },
+    "532": {
+      "tags": [
+        "Screen",
+        "Vertical",
+        "Trips",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a running back balloon screen and utilizes a trips formation, indicating both a passing concept and motion."
+    },
+    "531": {
+      "tags": [
+        "Pressure",
+        "3rd Down",
+        "Nickel"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a defensive pressure scheme and is likely aimed at disrupting the quarterback's passing opportunities on a crucial down."
+    },
+    "530": {
+      "tags": [
+        "OZ",
+        "Heavy",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play utilizes a running concept with a toss to the outside leveraging heavy personnel, indicating a focus on power running."
+    },
+    "529": {
+      "tags": [
+        "Boot",
+        "Flood",
+        "QB Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Wildcat formation with a focus on a quarterback run while incorporating bootleg and flood concepts."
+    },
+    "528": {
+      "tags": [
+        "Screen",
+        "Trick",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves faking a screen to the running back and executing a screen pass to the tight end, utilizing motion in the formation."
+    },
+    "527": {
+      "tags": [
+        "Pressure",
+        "3rd Down",
+        "Nickel",
+        "Dbl Mug",
+        "B-Gap"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play focuses on Nickel personnel utilizing pressure through the B-gap in a defensive context rather than a specific offensive play."
+    },
+    "526": {
+      "tags": [
+        "RPO",
+        "Screen",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a running back wheel route and a tight end leak, suggesting a pass with possible options for run/pass decisions."
+    },
+    "525": {
+      "tags": [
+        "OZ",
+        "Motion",
+        "Trick"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a fly sweep, which typically incorporates outside zone principles and motion, characterized as a trick play due to its creative approach."
+    },
+    "524": {
+      "tags": [
+        "Iso",
+        "OZ"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a toss and a fullback isolation, indicating a strong running focus with outside zone principles."
+    },
+    "523": {
+      "tags": [
+        "Trap",
+        "Power",
+        "OZ"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a trap scheme with power blocking, typical for a running play using 11 personnel in a double formation."
+    },
+    "522": {
+      "tags": [
+        "Vertical",
+        "Bunch",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a vertical passing concept from a bunch formation with a running back seam route, indicating a potential RPO approach."
+    },
+    "521": {
+      "tags": [
+        "Counter",
+        "Power",
+        "Heavy"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a counter run scheme with pulling blockers, indicating a power running concept within a heavy personnel formation."
+    },
+    "520": {
+      "tags": [
+        "Flood",
+        "RZ",
+        "GL"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a Flood concept indicating a passing action, particularly in a red zone or goal line situation."
+    },
+    "519": {
+      "tags": [
+        "Boot",
+        "PA",
+        "Z-CTR",
+        "Counter",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a bootleg mechanism which suggests a pass, and the Z-CTR indicates a counter route, likely working in conjunction with a play-action setup."
+    },
+    "518": {
+      "tags": [
+        "3rd Down",
+        "Turbo Dime",
+        "Pressure"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a defensive pressure scheme and is likely set up to stop a passing attack on a crucial down."
+    },
+    "517": {
+      "tags": [
+        "Option",
+        "QB Run",
+        "Counter"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a running play utilizing a triple option concept with a focus on the quarterback running the football."
+    },
+    "516": {
+      "tags": [
+        "Duo",
+        "OZ",
+        "Nickel",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play title suggests a running Duo concept with a focus on a slot insert against a nickel defense, indicating a primary run play."
+    },
+    "515": {
+      "tags": [
+        "Power",
+        "Boot",
+        "Flood"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a power run element followed by a bootleg play designed to flood the backside with receivers."
+    },
+    "514": {
+      "tags": [
+        "Short Yardage",
+        "Heavy",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a short yardage situation and utilizes a run-pass option with the running back executing a seam route from a heavy formation."
+    },
+    "513": {
+      "tags": [
+        "Trick",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The Corner Cat Blitz implies a deceptive defensive alignment that pressures the quarterback, often associated with disruptive or unexpected defensive plays."
+    },
+    "512": {
+      "tags": [
+        "Screen",
+        "TE",
+        "Smash"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play description indicates a screen pass designed for the tight end, utilizing a smash concept."
+    },
+    "511": {
+      "tags": [
+        "Mesh",
+        "Power",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running back mesh concept with a powerful running attack strategy utilizing motion in the split backs formation."
+    },
+    "510": {
+      "tags": [
+        "QB Run",
+        "Empty",
+        "Bunch",
+        "Pin & Pull"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a quarterback run out of an empty bunch formation, primarily focusing on the pin and pull concept."
+    },
+    "509": {
+      "tags": [
+        "PA",
+        "Quick Game"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The inverted Tampa 2 coverage likely invites a play-action pass or a quick pass play to exploit the defense's alignment."
+    },
+    "508": {
+      "tags": [
+        "Screen",
+        "RZ",
+        "12p",
+        "Nub",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a filter screen targeting a running back in the red zone, utilizing 12 personnel and likely involves motion for deception."
+    },
+    "507": {
+      "tags": [
+        "RZ",
+        "Red Zone",
+        "Power",
+        "Iso",
+        "Counter"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play focuses on Red Zone concepts with running plays designed to gain short yardage in a high-pressure scoring situation."
+    },
+    "506": {
+      "tags": [
+        "Option",
+        "QB Run",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a triple option concept featuring the quarterback as a key ball carrier, indicative of a run-oriented strategy."
+    },
+    "505": {
+      "tags": [
+        "Screen",
+        "PA",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a screen pass facilitated by play action and motion to the fly sweep wide receiver."
+    },
+    "504": {
+      "tags": [
+        "QB Run",
+        "Boot",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Wildcat formation with a quarterback run off a bootleg, and the motioning indicates a change in alignment."
+    },
+    "503": {
+      "tags": [
+        "PA",
+        "RPO",
+        "3rd Down"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes an inverted Cover 2 concept suggesting a focus on pass coverage, and the reference to 3rd down indicates a potential passing situation."
+    },
+    "502": {
+      "tags": [
+        "Iso",
+        "Power",
+        "Heavy"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a Wham Iso run designed to utilize the heavy personnel in a power running formation."
+    },
+    "501": {
+      "tags": [
+        "Boot",
+        "2PT",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a bootleg concept stemming from a reverse action with two quarterbacks, indicating a run-based strategy leveraging motion."
+    },
+    "499": {
+      "tags": [
+        "Trap",
+        "Option",
+        "PA"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a series of trap running plays, followed by an option and a play-action pass, indicating a run-pass option strategy."
+    },
+    "498": {
+      "tags": [
+        "OZ",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play utilizes wide zone principles with H-Back motion, clearly indicating a rushing concept."
+    },
+    "497": {
+      "tags": [
+        "Trick",
+        "Gadget",
+        "Pass"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a double pass, indicating both a trick play and a gadget formation, utilizing deceptive elements in the passing game."
+    },
+    "496": {
+      "tags": [
+        "Mills",
+        "Shallow",
+        "PA",
+        "Play Action"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a Mills concept combined with a Z-Shallow route, indicating a passing strategy with play action."
+    },
+    "495": {
+      "tags": [
+        "Motion",
+        "Shallow",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves motioning to a bunch formation to execute a shallow trail concept, indicating a running play."
+    },
+    "494": {
+      "tags": [
+        "Screen",
+        "Quick Game"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is identified as a WR Middle Screen, which clearly falls under the screen and quick game categories."
+    },
+    "493": {
+      "tags": [
+        "Drive",
+        "Vertical",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a Drive concept with a running back running a vertical route, suggesting a run-pass option strategy."
+    },
+    "492": {
+      "tags": [
+        "Option",
+        "Iso",
+        "QB Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a triple option look with a focus on running behind an iso blocking scheme."
+    },
+    "491": {
+      "tags": [
+        "Screen",
+        "Quick Game",
+        "Bunch",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is a screen pass that utilizes motion and the bunch formation to create space for the receiver."
+    },
+    "490": {
+      "tags": [
+        "PA",
+        "Vertical",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes a play-action concept with a vertical route and likely motion to enhance the deception."
+    },
+    "489": {
+      "tags": [
+        "Bunch",
+        "Blitz",
+        "2PT",
+        "3rd Down",
+        "Fire Zone"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a defensive scheme with a cornerback blitz and a fire zone coverage, suggesting it is a pass situation."
+    },
+    "488": {
+      "tags": [
+        "Power",
+        "PA",
+        "RPO",
+        "Motion",
+        "Vertical"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a power read option concept, utilizing play action with vertical routes and motion, indicating a run-pass option."
+    },
+    "487": {
+      "tags": [
+        "Option",
+        "Pass",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is a Triple Option Pass, indicating a passing play involving an option concept where the pitch man is a key element in the decision-making process."
+    },
+    "486": {
+      "tags": [
+        "Motion",
+        "Shallow",
+        "Cross",
+        "PA"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a passing concept with an exit motion leading to a shallow cross route, suggesting a focus on misdirection and passing."
+    },
+    "485": {
+      "tags": [
+        "Counter",
+        "Bunch",
+        "Trick"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a counter running scheme with a fake toss in a bunch formation, indicating both trickery and a running intent."
+    },
+    "484": {
+      "tags": [
+        "PA",
+        "Power",
+        "Vertical",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a play-action concept with a power run element while also incorporating a vertical route and a RB seam, indicating the potential for both run and pass options."
+    },
+    "483": {
+      "tags": [
+        "Power",
+        "Motion",
+        "Gadget"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running scheme with a lead block from the tight end and utilizes motion, indicative of a power running strategy."
+    },
+    "482": {
+      "tags": [
+        "Power",
+        "Option",
+        "QB Run",
+        "Short Yardage"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running scheme utilizing a center fold which suggests a power running concept, combined with an option for the QB to run."
+    },
+    "481": {
+      "tags": [
+        "RPO",
+        "Bunch"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a combination of running and passing elements typical of an RPO concept, executed from a bunch formation."
+    },
+    "480": {
+      "tags": [
+        "Boot",
+        "Flood",
+        "Bunch",
+        "PA"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is identified as a running boot flood off gap protection, which includes a play-action passing element and employs a bunch formation."
+    },
+    "479": {
+      "tags": [
+        "Screen",
+        "TE Delay",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a double screen pass with a tight end delay, suggesting a screen play concept and the possibility of a run-pass option."
+    },
+    "478": {
+      "tags": [
+        "Shallow",
+        "RPO",
+        "Quick Game"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play utilizes a shallow crossing route which aligns with RPO principles, allowing the quarterback to either hand off or throw quickly."
+    },
+    "477": {
+      "tags": [
+        "Boot",
+        "Counter",
+        "RPO",
+        "Trips",
+        "Power"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a boot action off a counter scheme with trips formation, indicating a run play that could lead to a pass option."
+    },
+    "476": {
+      "tags": [
+        "Screen",
+        "Trick",
+        "Gadget"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The 'Swinging Gate' formation suggests a trick play involving a screen pass concept, utilizing an unconventional alignment."
+    },
+    "475": {
+      "tags": [
+        "PA",
+        "Cross",
+        "Deep",
+        "Mesh"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The described 'Yankee' concept incorporates a post and cross route, suggesting a passing play with play action elements."
+    },
+    "474": {
+      "tags": [
+        "Screen",
+        "PA",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a tight end slow screen developed off a power read play action, indicating both the screen and play action elements clearly."
+    },
+    "473": {
+      "tags": [
+        "Screen",
+        "Bunch",
+        "Trick",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a fake reverse that leads into a swing screen, indicating a passing strategy with motion and a trick element due to the deceptive nature of the reverse."
+    },
+    "472": {
+      "tags": [
+        "Duo",
+        "Power",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Duo running scheme with personnel indicating a power run focus and includes the motion of the on-ball WR."
+    },
+    "471": {
+      "tags": [
+        "Option",
+        "QB Run",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a triple option concept with the quarterback running and includes a tight end motion to create leverage."
+    },
+    "470": {
+      "tags": [
+        "Vertical",
+        "Trips",
+        "2PT"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The Switch Double Post 'Yankee' Concept is a passing play that utilizes vertical routes from a trips formation against a 2-Man Under defense."
+    },
+    "469": {
+      "tags": [
+        "OZ",
+        "Motion",
+        "Gadget"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Wide Zone Lead concept with motion, indicating a focus on outside zone running with creative placement."
+    },
+    "468": {
+      "tags": [
+        "Screen",
+        "Motion",
+        "Gadget"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a tight end slip screen utilizing motion from the jet sweep action, indicating a passing concept with an element of trick or gadget play."
+    },
+    "467": {
+      "tags": [
+        "Boot",
+        "Flood",
+        "Vertical",
+        "RZ"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a Boot concept in the Red Zone with a vertical route by the running back, indicating a passing play designed to flood the zone."
+    },
+    "466": {
+      "tags": [
+        "OZ",
+        "QB Run",
+        "Trick"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play features a Wildcat formation with a sweep and a QB fake, indicating a designed run with elements of misdirection."
+    },
+    "465": {
+      "tags": [
+        "Mesh",
+        "Vertical",
+        "Empty",
+        "Quick Game"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a mesh route concept combined with vertical routes and utilizes an empty formation, indicating a passing play."
+    },
+    "464": {
+      "tags": [
+        "Empty",
+        "Screen",
+        "RPO",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves an empty formation with orbit motion and a bubble screen concept, indicating it is a run-pass option."
+    },
+    "463": {
+      "tags": [
+        "PA",
+        "RPO",
+        "Vertical",
+        "Flood"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a passing concept utilizing play-action and designed routes for the running back and tight end in a vertical and flooding manner."
+    },
+    "462": {
+      "tags": [
+        "Trick",
+        "Motion",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a deception element with the fake double team and a fullback wheel route, which suggests it is a trick play with motion and could utilize an RPO concept."
+    },
+    "461": {
+      "tags": [
+        "Counter",
+        "Screen",
+        "Motion",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play features a GT Counter run scheme along with a backside screen, indicating a run-pass option concept."
+    },
+    "460": {
+      "tags": [
+        "Boot",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a boot action which typically suggests a run-pass option, especially with the tight end leaking into the wheel route."
+    },
+    "459": {
+      "tags": [
+        "Boot",
+        "PA"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a boot action paired with a post/wheel route, indicating a play-action pass concept."
+    },
+    "458": {
+      "tags": [
+        "Empty",
+        "3rd Down",
+        "Trick",
+        "Gadget"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves an Empty formation and utilizes a Hook & Ladder, which is characteristic of a trick or gadget play on a crucial third down situation."
+    },
+    "457": {
+      "tags": [
+        "Option",
+        "QB Run",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Midline Triple Option, emphasizing quarterback running and options in the Flexbone formation."
+    },
+    "456": {
+      "tags": [
+        "Trap",
+        "Power",
+        "Heavy"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a running play utilizing a long trap scheme out of a heavy formation with extra offensive linemen."
+    },
+    "455": {
+      "tags": [
+        "Motion",
+        "Trips",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a running back wheel route and a tight end leak, suggesting an RPO concept with motion and trips formation for misdirection."
+    },
+    "454": {
+      "tags": [
+        "Power",
+        "Trap",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running scheme with a Power concept utilizing a Trap block in a Bunch formation."
+    },
+    "453": {
+      "tags": [
+        "Counter",
+        "Bunch",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a running play utilizing a Super Counter scheme with multiple pullers, and it is run from a Bunch formation."
+    },
+    "452": {
+      "tags": [
+        "Vertical",
+        "PA"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a straight drop with four vertical routes, indicating a passing concept with play-action (PA) involvement."
+    },
+    "451": {
+      "tags": [
+        "Flood",
+        "PA",
+        "QB Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes a fake toss to setup a boundary flood concept, indicating a play-action pass strategy following a run fake."
+    },
+    "450": {
+      "tags": [
+        "Counter",
+        "Empty",
+        "Bunch",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a counter action in an empty bunch formation, leading to a run to the wide receiver."
+    },
+    "449": {
+      "tags": [
+        "Power",
+        "Option",
+        "Trick",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a running tackle over formation combined with a fake toss, suggesting a mix of power run and an option element, while the 'switch verts' component indicates a trick play with motion concepts."
+    },
+    "448": {
+      "tags": [
+        "Bunch",
+        "Y-Cross",
+        "PA"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes a bunch formation with a Y-Cross route indicative of a passing concept, particularly with play-action elements."
+    },
+    "447": {
+      "tags": [
+        "Empty",
+        "Quick Game",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play features an empty formation suggestive of a quick passing option, potentially integrating run-pass options based on the defense's reaction."
+    },
+    "446": {
+      "tags": [
+        "Swing",
+        "Lead",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running concept with a lead block and swing action, indicating a focus on run execution."
+    },
+    "445": {
+      "tags": [
+        "RZ",
+        "PA",
+        "Flood",
+        "Trips",
+        "TE Leak"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a passing concept in the high red zone with a running back wheel route and a tight end leak, leveraging a trips formation and play-action."
+    },
+    "444": {
+      "tags": [
+        "Counter",
+        "Power",
+        "Motion",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a counter action with running formations and utilizes motion, suggesting a focus on a running play."
+    },
+    "443": {
+      "tags": [
+        "Trick",
+        "Gadget",
+        "PA"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a trick formation with a fake punt that transitions into a pass through a throwback concept, indicating a gadget play."
+    },
+    "442": {
+      "tags": [
+        "Flood",
+        "Empty",
+        "3rd Down"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes a Flood Concept from an Empty Quads formation, indicating a passing strategy often employed on critical downs."
+    },
+    "441": {
+      "tags": [
+        "Option",
+        "QB Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a midline option where the quarterback reads the defense and decides whether to keep the ball or pitch it, indicating a clear running play."
+    },
+    "440": {
+      "tags": [
+        "Zone Read",
+        "QB Run",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running zone read concept with a quarterback run, and the tackle fold adjustment indicates a potential read option element."
+    },
+    "439": {
+      "tags": [
+        "Power",
+        "Lead",
+        "Bunch"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play utilizes a lead block with a run concept from a bunch formation, suggesting a power running strategy."
+    },
+    "438": {
+      "tags": [
+        "OZ",
+        "Power",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a frontside running concept with possible pass options, indicative of a run-pass option strategy."
+    },
+    "437": {
+      "tags": [
+        "Trick",
+        "Gadget",
+        "PA"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a reverse flea flicker, which is a trick play with a delay concept, indicating both gadget and play-action elements."
+    },
+    "436": {
+      "tags": [
+        "Empty",
+        "Bunch",
+        "Motion",
+        "Mesh"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The formation is an empty bunch with motion, suggesting a passing concept, particularly with a focus on mesh routes."
+    },
+    "435": {
+      "tags": [
+        "Screen",
+        "Trick",
+        "Gadget"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves faking a smoke screen and executing a RB dash screen, indicating a deceptive passing play."
+    },
+    "434": {
+      "tags": [
+        "Flood",
+        "PA",
+        "Trips"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes a Flood concept off of play action, indicating it is designed for a pass, and the Slant Trips formation supports the tag for Trips."
+    },
+    "433": {
+      "tags": [
+        "Boot",
+        "Trips",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is a boot concept and utilizes a formation with three receivers, indicating a focus on a passing play."
+    },
+    "432": {
+      "tags": [
+        "Vertical",
+        "Flood",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play title suggests a passing concept with vertical routes and a flood concept, while 'RPO' indicates a run-pass option aspect."
+    },
+    "431": {
+      "tags": [
+        "Counter",
+        "Boot",
+        "PA",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a counter concept with a boot action by the QB designed to throw a pass to a leaking TE, clearly indicating a passing play with play-action elements."
+    },
+    "430": {
+      "tags": [
+        "Counter",
+        "Power",
+        "Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Shuffle G/H Counter action with a tackle arc, clearly indicating a running play dynamic."
+    },
+    "429": {
+      "tags": [
+        "Counter",
+        "PA",
+        "Smash",
+        "Bunch"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a counter run action to set up a pass off a play-action to the H-Back, and the Smash concept is executed in the passing scheme with the Bunch formation."
+    },
+    "428": {
+      "tags": [
+        "Toss",
+        "Pin & Pull",
+        "Bunch",
+        "Counter",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a deceptive running scheme utilizing motion and a toss concept, which aligns with the idea of a counter while utilizing a bunch formation."
+    },
+    "427": {
+      "tags": [
+        "Screen",
+        "Bunch",
+        "Trick"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a fake swing screen and a middle screen setup, which are both screen concepts executed using a bunch formation."
+    },
+    "426": {
+      "tags": [
+        "OZ",
+        "Motion",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a direct snap and a buck sweep, which is characteristic of outside zone (OZ) running schemes, and the motion indicates an attempt to create a numbers advantage."
+    },
+    "425": {
+      "tags": [
+        "Screen",
+        "Trips",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a filter screen to the H-Back in a trips formation, indicating a pass play with screen elements."
+    },
+    "424": {
+      "tags": [
+        "Bunch",
+        "Screen",
+        "RB Fast to Flat",
+        "TE Leak"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes a tight grouping of personnel to execute a fast pass to the running back in the flat with a tight end leaking into an open area."
+    },
+    "423": {
+      "tags": [
+        "PA",
+        "Mesh",
+        "Deep",
+        "TE Leak",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a passing concept with elements of play action and a mesh route, indicating a design focused on vertical and horizontal threats, while incorporating a tight end leak."
+    },
+    "422": {
+      "tags": [
+        "OZ",
+        "RPO",
+        "Bunch"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a running back wheel route and utilizes a bunch formation, suggesting a designed run-pass option."
+    },
+    "421": {
+      "tags": [
+        "Duo",
+        "QB Run",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running quarterback and a running back following through a gap, indicating a focus on a duo-style run with power elements."
+    },
+    "420": {
+      "tags": [
+        "Counter",
+        "Power",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a counter action with an emphasis on utilizing both running and passing options."
+    },
+    "419": {
+      "tags": [
+        "Screen",
+        "Mesh",
+        "3rd Down"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is a cleverly designed Mesh Screen intended for a short gain on a critical third down."
+    },
+    "418": {
+      "tags": [
+        "OZ",
+        "Motion",
+        "Trick"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves shifting formations and executing a fly sweep, indicating a run with motion and a trick aspect."
+    },
+    "417": {
+      "tags": [
+        "PA",
+        "Flood",
+        "Pass"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a Play Action Flood concept with multiple out breakers, indicating a clear passing play."
+    },
+    "416": {
+      "tags": [
+        "RPO",
+        "Iso",
+        "Insert"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a running insert iso concept combined with a run-pass option for the quarterback."
+    },
+    "415": {
+      "tags": [
+        "Counter",
+        "Motion",
+        "Screen"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a counter concept with motion and is designed as a tunnel screen, indicating a passing play."
+    },
+    "414": {
+      "tags": [
+        "Bunch",
+        "Motion",
+        "PA",
+        "Stick"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The use of a Diamond Bunch formation and motion suggests a focus on passing concepts with play-action elements."
+    },
+    "413": {
+      "tags": [
+        "Power",
+        "Motion",
+        "Empty"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a power run scheme utilizing an empty backfield and motion to set up the shovel pass."
+    },
+    "412": {
+      "tags": [
+        "PA",
+        "Vertical",
+        "Flood",
+        "Trips"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play design involves a passing concept with multiple route combinations featuring a post, wheel route, and a leak, indicating a play-action nature from a trips formation."
+    },
+    "411": {
+      "tags": [
+        "Screen",
+        "Motion",
+        "Vertical"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves an H-Back utilizing exit motion, along with a screen and go concept, indicating a passing play focused on exploiting space vertically."
+    },
+    "410": {
+      "tags": [
+        "Boot",
+        "Flood",
+        "Motion",
+        "Trips"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play design involves a bootleg concept with a flooding route, and the motion indicates a passing scheme."
+    },
+    "409": {
+      "tags": [
+        "OZ",
+        "Power",
+        "Trips",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a wide zone running concept with an H-back executing a double team, indicating a power run from a trips formation."
+    },
+    "408": {
+      "tags": [
+        "PA",
+        "Flood",
+        "Option"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a play action (PA) concept with a flood route designed for passing, while also incorporating an option element for flexibility."
+    },
+    "407": {
+      "tags": [
+        "Mesh",
+        "Vertical",
+        "Dagger"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a Dagger concept focused on vertical routes paired with an underneath mesh, indicating a passing strategy."
+    },
+    "406": {
+      "tags": [
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play utilizes a Power scheme in an A-Gap running formation, indicating a strong emphasis on rushing the ball."
+    },
+    "405": {
+      "tags": [
+        "Bunch",
+        "Mesh",
+        "RPO",
+        "Vertical",
+        "PA"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a bunch formation with mesh concepts and possible vertical routes, indicating a run-pass option setup."
+    },
+    "404": {
+      "tags": [
+        "Mesh",
+        "Bunch",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play features a mesh concept in a bunch formation, suggesting a run-pass option approach."
+    },
+    "403": {
+      "tags": [
+        "Motion",
+        "Jet",
+        "Power",
+        "Gadget"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves an unbalanced running formation with jet motion, suggesting a run-based strategy with elements of misdirection or trickery."
+    },
+    "402": {
+      "tags": [
+        "Flood",
+        "Vertical",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes a double post route concept combined with a sail route, indicating a passing strategy with elements that can suggest an RPO."
+    },
+    "401": {
+      "tags": [
+        "PA",
+        "Boot",
+        "Flood"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a play-action concept and includes a bootleg and a flooding route pattern into the boundary."
+    },
+    "400": {
+      "tags": [
+        "Empty",
+        "Vertical"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play features an Empty formation with a vertical route concept, indicating a clear passing strategy."
+    },
+    "399": {
+      "tags": [
+        "QB Run",
+        "PA",
+        "RPO",
+        "TE Delay"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a quarterback run (QB Follow) that can lead to a pass option (Pop Pass) while also including a delay route from a tight end, indicating a designed RPO concept."
+    },
+    "398": {
+      "tags": [
+        "PA",
+        "Vertical",
+        "TE Leak",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a 'Dash' concept, which incorporates play-action and vertical routes, along with a tight end leak, indicating a passing focus."
+    },
+    "397": {
+      "tags": [
+        "Vertical",
+        "PA",
+        "3rd Down"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes a 4 vertical route concept suggested by the title and is likely designed for passing situations, especially on a 3rd down."
+    },
+    "396": {
+      "tags": [
+        "Empty",
+        "Option",
+        "Power",
+        "QB Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a speed option which utilizes empty formations and includes a power concept with the quarterback as a ball carrier."
+    },
+    "395": {
+      "tags": [
+        "Curl/Flat",
+        "Quick Game",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play design involves converting the route to a curl, which aligns with quick passing concepts and could involve an RPO element."
+    },
+    "394": {
+      "tags": [
+        "Flood",
+        "Trips",
+        "PA"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play title indicates a passing concept (Flood) run from a trips formation, suggesting a focus on creating space for a pass."
+    },
+    "393": {
+      "tags": [
+        "Duo",
+        "C-Gap",
+        "Power"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a C-Gap Fold, which is characteristic of a Duo running play focused on offensive line power blocking."
+    },
+    "392": {
+      "tags": [
+        "Option",
+        "QB Run",
+        "Power",
+        "Midline",
+        "Center Fold"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a running play involving a midline read and a center fold action, indicating a designed run primarily for the quarterback."
+    },
+    "391": {
+      "tags": [
+        "PA",
+        "Curl/Flat",
+        "Bunch"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a passing concept with a Y-Cross route, suggesting play action and potentially a curl route, while the formation indicates a possible bunch alignment."
+    },
+    "390": {
+      "tags": [
+        "Texas Trail",
+        "Return Route",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a running back executing a Texas trail route while incorporating a return element, suggesting a run-pass option strategy."
+    },
+    "389": {
+      "tags": [
+        "Option",
+        "QB Run",
+        "Power",
+        "Midline"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a quarterback option run through the midline, emphasizing a power running concept."
+    },
+    "388": {
+      "tags": [
+        "Power",
+        "QB Run",
+        "Trips"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a quarterback power run from a Nub Trips formation, clearly emphasizing the Power concept and the QB's involvement in the run."
+    },
+    "387": {
+      "tags": [
+        "RPO",
+        "Dig",
+        "Choice",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play utilizes a running concept with options for the receiver on a dig and choice route, indicating a run-pass option style."
+    },
+    "386": {
+      "tags": [
+        "Flood",
+        "Vertical",
+        "Curl/Flat",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a passing concept with double posts and a sail route, indicating a vertical attack with additional movement from receivers."
+    },
+    "385": {
+      "tags": [
+        "Counter",
+        "QB Run",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running counter scheme with an emphasis on the quarterback's read options."
+    },
+    "384": {
+      "tags": [
+        "PA",
+        "Vertical",
+        "Deep Over"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is a play-action (PA) concept designed to create a deep passing opportunity, particularly emphasizing a vertical route and a deep over route."
+    },
+    "383": {
+      "tags": [
+        "Screen",
+        "Trap",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is identified as a screen pass to a wide receiver, utilizing a trap blocking scheme and motion to set up the play."
+    },
+    "382": {
+      "tags": [
+        "RPO",
+        "Motion",
+        "Post",
+        "Vertical",
+        "Screen"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves elements of a running post/wheel route combined with a slide concept, suggesting options for both run and pass through the RPO approach."
+    },
+    "381": {
+      "tags": [
+        "RZ",
+        "Snag & Go",
+        "PA",
+        "3rd Down"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is executed in the red zone and utilizes play-action passing concepts, making it a clear passing play."
+    },
+    "380": {
+      "tags": [
+        "Flood",
+        "Boot",
+        "Quick Game"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a Flood concept combined with a boot action, indicating a passing play utilizing quick game principles."
+    },
+    "379": {
+      "tags": [
+        "Counter",
+        "Rail Route",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play features a running back counter with a frontside rail route, utilizing motion to create an offensive advantage."
+    },
+    "378": {
+      "tags": [
+        "RB B-Gap Wheel",
+        "Boot",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running back executed in the B-gap with movement suggesting a wheel route, which can be seen as part of a boot concept."
+    },
+    "377": {
+      "tags": [
+        "PA",
+        "Jet",
+        "Motion",
+        "Gadget"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves play-action (PA) with a creative motion and design, indicating a passing play utilizing a trick or gadget concept."
+    },
+    "376": {
+      "tags": [
+        "Screen",
+        "Boot",
+        "Pass"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a throwback screen concept, indicating a pass play that uses boot action."
+    },
+    "375": {
+      "tags": [
+        "Boot",
+        "Motion",
+        "PA",
+        "Post/Wheel"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a boot action and utilizes post/wheel routes, indicating a focus on a passing concept with motion."
+    },
+    "374": {
+      "tags": [
+        "Power",
+        "Screen",
+        "Trick",
+        "Gadget"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is a Power Flea Flicker that includes a tight end screen, making it a play-action pass with trick elements."
+    },
+    "373": {
+      "tags": [
+        "PA",
+        "Vertical",
+        "Boot",
+        "Trick"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a play action element with a post route and a fullback wheel, indicating a pass concept with creative deception."
+    },
+    "372": {
+      "tags": [
+        "Counter",
+        "Motion",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a Counter scheme with motion to enhance deception and incorporates a pulling tight end, indicating a running play focused on misdirection."
+    },
+    "371": {
+      "tags": [
+        "Power",
+        "QB Run",
+        "Empty",
+        "Motion",
+        "Option"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play features a power concept with a dual quarterback setup in an empty formation, incorporating elements of motion and option as part of the execution."
+    },
+    "370": {
+      "tags": [
+        "Boot",
+        "Flood",
+        "PA"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is identified as a 'Dash Flood' using a boot concept, which typically indicates a pass after rolling out, with the flood pattern suggesting a focus on creating passing opportunities."
+    },
+    "369": {
+      "tags": [
+        "Power",
+        "Jet",
+        "RPO",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "rpo",
+      "reasoning": "The play involves a creative shift to facilitate a power read action with movement, indicating a run-pass option."
+    },
+    "368": {
+      "tags": [
+        "Boot",
+        "Trick",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play features a boot action with a fake reverse, indicating a trick play that involves motion."
+    },
+    "367": {
+      "tags": [
+        "Screen",
+        "RPO",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a running formation with a slip screen setup, indicating a pass play with motion involved."
+    },
+    "366": {
+      "tags": [
+        "Counter",
+        "Motion",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a G/H Counter concept with a formation that utilizes motion, which are both explicitly described in the play title and context."
+    },
+    "365": {
+      "tags": [
+        "Counter",
+        "QB Run",
+        "Bubble"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a QB running counter and utilizing bubble routes, indicating a strong running action."
+    },
+    "364": {
+      "tags": [
+        "OZ",
+        "Lead",
+        "Swing",
+        "Power"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play is a running concept with a strong outside zone and a lead block, indicating a run scheme."
+    },
+    "363": {
+      "tags": [
+        "Flood",
+        "PA",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is a passing concept utilizing a flooding route combination and likely incorporates motion to create mismatches."
+    },
+    "362": {
+      "tags": [
+        "Power",
+        "Option",
+        "Jet",
+        "Scissors"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play highlights a running scheme focused on a power concept utilizing jet motion and a scissors action."
+    },
+    "361": {
+      "tags": [
+        "Flood",
+        "Short Yardage"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play is centered around the 'Flood' concept, suggesting a passing strategy, and it may often be employed in short yardage situations."
+    },
+    "360": {
+      "tags": [
+        "2PT",
+        "Motion",
+        "Quick Game"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a touch pass concept with motion leading to a quick execution aimed at scoring a two-point conversion."
+    },
+    "359": {
+      "tags": [
+        "Iso",
+        "RPO",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play is identified as an Insert Iso which indicates a power running scheme combined with the RPO concept."
+    },
+    "358": {
+      "tags": [
+        "Option",
+        "QB Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a speed option concept with the quarterback running the ball, utilizing a false pull to mislead the defense."
+    },
+    "357": {
+      "tags": [
+        "Duo",
+        "C-Gap",
+        "Motion",
+        "Z-Receiver"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running concept that utilizes a duo blocking scheme with motion from the Z-receiver, indicating it is primarily a run play."
+    },
+    "356": {
+      "tags": [
+        "Flood",
+        "Motion",
+        "Quick Game"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a creative execution of Flood Spacing, which indicates a passing concept utilizing motion to create space."
+    },
+    "355": {
+      "tags": [
+        "Screen",
+        "OZ",
+        "RPO"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a tunnel screen, which is a passing concept, executed on the backside of a wide zone lead, indicating the use of outside zone principles."
+    },
+    "354": {
+      "tags": [
+        "Screen",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a swing/tunnel screen, which is a passing strategy utilizing motion to create space for the receiver."
+    },
+    "353": {
+      "tags": [
+        "Screen",
+        "RPO",
+        "Motion"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a slip screen utilizing motion to set up the throwback to the running back."
+    },
+    "352": {
+      "tags": [
+        "Screen",
+        "Shallow",
+        "Quick Game"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is a shallow screen, which clearly indicates a passing concept designed for quick gains."
+    },
+    "351": {
+      "tags": [
+        "Screen",
+        "PA",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play is characterized by a tight end slip screen which utilizes play-action (PA) and is executed on the backside of a power read concept."
+    },
+    "350": {
+      "tags": [
+        "Power",
+        "PA",
+        "Empty",
+        "QB Run"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play utilizes a power read approach from an empty formation with a play action element, clearly indicating both a run and potential pass option."
+    },
+    "349": {
+      "tags": [
+        "Motion",
+        "PA",
+        "Y-Cross",
+        "3rd Down"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play involves a creative use of motion to facilitate a passing route (Y-Cross) on a critical down."
+    },
+    "348": {
+      "tags": [
+        "Empty",
+        "Bunch",
+        "Vertical",
+        "Orbit",
+        "4-Verts"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "pass",
+      "reasoning": "The play features a formation with an empty backfield and involves vertical routes, suggesting a passing concept."
+    },
+    "347": {
+      "tags": [
+        "Motion",
+        "Short Yardage",
+        "Shallow",
+        "Draw"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play features a running motion with a short yardage situation and a shallow trail route, indicating a designed run."
+    },
+    "346": {
+      "tags": [
+        "PA",
+        "Vertical",
+        "Flood"
+      ],
+      "confidence": "high",
+      "run_or_pass": "pass",
+      "reasoning": "The play utilizes play action (PA) to set up a vertical and flooding concept for passing options."
+    },
+    "345": {
+      "tags": [
+        "Counter",
+        "Power",
+        "QB Run",
+        "RPO"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a running counter scheme with QB involvement and a bubble option for a quick pass."
+    },
+    "344": {
+      "tags": [
+        "Option",
+        "QB Run",
+        "Power"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is a running option play involving the quarterback, using a tackle arc to execute a freeze option effectively."
+    },
+    "x-2016895160508940779": {
+      "tags": [
+        "RPO",
+        "QB Run",
+        "Empty"
+      ],
+      "confidence": "high",
+      "run_or_pass": "rpo",
+      "reasoning": "The play is an RPO with an empty backfield set that involves a quarterback run option."
+    },
+    "x-2016576799249973252": {
+      "tags": [
+        "Power",
+        "Iso",
+        "Duo",
+        "3rd Down"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play description suggests a focus on running plays with emphasis on blocking schemes that typically feature power running strategies against a 3-4 defense."
+    },
+    "x-2016563960007315833": {
+      "tags": [
+        "Counter",
+        "Option"
+      ],
+      "confidence": "high",
+      "run_or_pass": "run",
+      "reasoning": "The play is centered around a counter running scheme with an option element for the quarterback."
+    },
+    "x-2015908918547857613": {
+      "tags": [
+        "Power",
+        "Gadget",
+        "Motion"
+      ],
+      "confidence": "medium",
+      "run_or_pass": "run",
+      "reasoning": "The play involves a power running scheme with motion elements and a trick aspect that indicates creativity in execution."
+    }
+  }
+}

@@ -788,9 +788,13 @@ class PlayGallery {
     videos.forEach(video => this.videoObserver.observe(video));
 
     // Set up tag button handlers
-    container.querySelectorAll('.tag-btn').forEach(btn => {
+    const tagBtns = container.querySelectorAll('.tag-btn');
+    console.log('Attaching tag handlers to', tagBtns.length, 'buttons');
+    tagBtns.forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.preventDefault();
+        e.stopPropagation();
+        console.log('Tag button clicked:', btn.dataset.playId);
         const playId = btn.dataset.playId;
         const play = this.allPlays.find(p => this.getPlayId(p) === playId);
         if (play) {
@@ -798,6 +802,7 @@ class PlayGallery {
         }
       });
     });
+    console.log('Tag handlers attached');
 
     this.updatePagination();
     
