@@ -91,6 +91,15 @@ python -m http.server 8000
 
 Visit `http://localhost:8000`
 
+## Contributing
+
+**All pull requests should target the `main` branch.**
+
+1. Create a feature branch from `main`
+2. Make your changes
+3. Open a PR against `main`
+4. Vercel will create a preview deployment for review
+
 ## Deployment
 
 ```bash
