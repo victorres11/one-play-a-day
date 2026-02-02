@@ -855,6 +855,17 @@ class PlayGallery {
     
     const playId = this.getPlayId(play);
 
+    const diagramHTML = (play.play_diagram && play.play_diagram.trim().length > 0) ? `
+      <div class="diagram-wrapper">
+        <span class="diagram-label">Play Diagram</span>
+        <img 
+          src="${play.play_diagram}" 
+          alt="Play diagram for ${this.escapeHtml(play.title)}"
+          class="play-diagram"
+          loading="lazy">
+      </div>
+    ` : '';
+
     return `
       <article class="play-card ${sourceClass}" data-play-id="${playId}">
         <div class="card-header">
@@ -888,15 +899,7 @@ class PlayGallery {
           <div class="videos-container ${containerClass}">
             ${videoHTML}
           </div>
-
-          <div class="diagram-wrapper">
-            <span class="diagram-label">Play Diagram</span>
-            <img 
-              src="${play.play_diagram}" 
-              alt="Play diagram for ${this.escapeHtml(play.title)}"
-              class="play-diagram"
-              loading="lazy">
-          </div>
+          ${diagramHTML}
         </div>
       </article>
     `;
