@@ -406,7 +406,7 @@ class PlayGallery {
           let team = match[2].trim();
           // Normalize some team names
           team = this.normalizeTeamName(team);
-          this.teamMap.set(play.play_number, team);
+          this.teamMap.set(this.getPlayId(play), team);
           teamSet.add(team);
         }
       }
@@ -431,7 +431,7 @@ class PlayGallery {
   }
 
   getTeamForPlay(play) {
-    return this.teamMap.get(play.play_number) || '';
+    return this.teamMap.get(this.getPlayId(play)) || '';
   }
 
   buildPlayCallerLookup() {
