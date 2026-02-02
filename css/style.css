@@ -690,6 +690,18 @@ video {
   border-left: 4px solid #1da1f2;
 }
 
+/* Reduce Twitter play video size to 60% */
+.play-card.source-twitter .video-wrapper {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.play-card.source-twitter .video-wrapper video {
+  width: 100%;
+  height: auto;
+}
+
 .play-card.source-twitter .play-number {
   background: linear-gradient(135deg, #1da1f2, #0d8ecf);
 }
