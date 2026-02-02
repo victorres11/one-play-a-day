@@ -937,3 +937,18 @@ video {
   gap: 0.35rem;
   margin-top: 0.5rem;
 }
+.tweet-id-link {
+  font-size: 0.85rem;
+  font-family: monospace;
+  color: #1da1f2;
+  text-decoration: underline dotted;
+  margin-left: 2px;
+  opacity: 0.75;
+  cursor: pointer;
+  transition: opacity 0.2s, color 0.2s;
+}
+.tweet-id-link:hover {
+  opacity: 1;
+  color: #0d8ecf;
+  text-decoration: underline solid;
+}
