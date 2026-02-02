@@ -845,7 +845,21 @@ class PlayGallery {
     const isTwitter = play.source === 'twitter' || (play.id && play.id.startsWith('x-'));
     const playIdDisplay = isTwitter ? 'X' : `#${play.play_number}`;
     const sourceClass = isTwitter ? 'source-twitter' : 'source-email';
-    const twitterLink = play.twitter_url ? `<a href="${play.twitter_url}" target="_blank" class="twitter-link" title="View on X">🔗</a>` : '';
+    // If Twitter, extract tweet ID from the URL (digits after /status/)
+    let tweetId = '';
+    if (play.twitter_url) {
+      const match = play.twitter_url.match(/status\/(\d+)/);
+      if (match) tweetId = match[1];
+    }
+
+    // Twitter link icon and tweet ID display
+    let twitterLink = '';
+    if (play.twitter_url) {
+      twitterLink = `<a href="${play.twitter_url}" target="_blank" class="twitter-link" title="View on X">🔗</a>`;
+      if (tweetId) {
+        twitterLink += ` <a href="${play.twitter_url}" target="_blank" class="tweet-id-link" title="Open tweet">${tweetId}</a>`;
+      }
+    }
 
     // Get user tags for this play
     const userTags = this.getTagsForPlay(play);
