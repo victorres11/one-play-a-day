@@ -353,7 +353,9 @@ class PlayGallery {
 
   async loadPlays() {
     const response = await fetch('plays.json');
-    this.allPlays = await response.json();
+    let plays = await response.json();
+    // Filter out Twitter plays (keep only email-sourced plays for cleaner content)
+    this.allPlays = plays.filter(p => p.source !== 'twitter' && !(p.id && p.id.startsWith('x-')));
     // Sort by date descending (newest first), then by play_number/id within same date
     this.allPlays.sort((a, b) => {
       // Primary: sort by date descending
