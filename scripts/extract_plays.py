@@ -407,8 +407,8 @@ def load_plays_json():
 
 def save_plays_json(plays):
     """Save plays.json"""
-    # Sort by play_number descending
-    plays.sort(key=lambda p: p["play_number"], reverse=True)
+    # Sort by play_number descending (Twitter plays without play_number go to end)
+    plays.sort(key=lambda p: p.get("play_number", 0), reverse=True)
     
     with open(PLAYS_JSON, 'w') as f:
         json.dump(plays, f, indent=2)

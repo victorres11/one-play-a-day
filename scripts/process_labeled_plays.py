@@ -127,7 +127,7 @@ def main():
         if play:
             # Save incrementally
             current_plays = load_plays_json()
-            current_numbers = {p["play_number"] for p in current_plays}
+            current_numbers = {p.get("play_number") for p in current_plays if p.get("play_number")}
             if play["play_number"] not in current_numbers:
                 current_plays.append(play)
                 save_plays_json(current_plays)
