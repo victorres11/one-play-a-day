@@ -1,5 +1,127 @@
 [
   {
+    "play_number": 750,
+    "date": "2026-02-14",
+    "title": "2025 Oklahoma Defense running a Mike Plug Simulated Pressure (3 Safety - Tampa 2)",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/750_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/750_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 9",
+      "personnel": "Penny",
+      "formation": "5-1-5"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/750_diagram.jpg"
+  },
+  {
+    "play_number": 749,
+    "date": "2026-02-14",
+    "title": "2021 Michigan State running Duo with a WR Search Block",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/749_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/749_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 6",
+      "personnel": "12p",
+      "formation": "Bunch Rt Closer"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/749_diagram.jpg"
+  },
+  {
+    "play_number": 748,
+    "date": "2026-02-14",
+    "title": "2018 Washington State (Mike Leach) running 3x1 Mesh Dagger",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/748_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/748_angle2.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/748_angle3.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "10p",
+      "formation": "Ace Rt Laser"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/748_diagram.png"
+  },
+  {
+    "play_number": 747,
+    "date": "2026-02-14",
+    "title": "2025 Ohio State Shift + Motion into C-Gap Power",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/747_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/747_angle2.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/747_angle3.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "12p",
+      "formation": "Diamond to Trey Stack"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/747_diagram.jpg"
+  },
+  {
+    "play_number": 746,
+    "date": "2026-02-14",
+    "title": "2026 Seahawks running TE Blast Motion into C-Gap Insert Corner",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/746_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/746_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "12p",
+      "formation": "Ace Rt Blast"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/746_diagram.jpg"
+  },
+  {
+    "play_number": 745,
+    "date": "2026-02-14",
+    "title": "2023 Notre Dame running Counter \u201cSolid\u201d out of 13p",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/745_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/745_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & GL",
+      "personnel": "13p",
+      "formation": "Buddy Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/745_diagram.jpg"
+  },
+  {
+    "play_number": 744,
+    "date": "2026-02-14",
+    "title": "2022 North Carolina running Switch Snag out of Bunch",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/744_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/744_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Bunch Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/744_diagram.jpg"
+  },
+  {
+    "play_number": 743,
+    "date": "2026-02-14",
+    "title": "2024 Jacksonville State running Zone Read with a Double Wing Bluff",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/743_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/743_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "12p",
+      "formation": "Double Wing Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/743_diagram.png"
+  },
+  {
     "play_number": 742,
     "date": "2026-02-03",
     "title": "2013 Auburn running a clean rep of Same-Side G/H Counter off Tempo",
@@ -9505,6 +9627,248 @@
     ],
     "tag_confidence": "high",
     "run_or_pass": "run"
+  },
+  {
+    "play_number": 343,
+    "date": "2026-02-14",
+    "title": "2019 Georgia Southern (Bob DeBesse) running Counter Option from Pistol Maryland-I",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/343_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/343_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/343_diagram.png"
+  },
+  {
+    "play_number": 342,
+    "date": "2026-02-14",
+    "title": "2021 Furman running Counter Option out of a Full House Backfield",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/342_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/342_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/342_diagram.png"
+  },
+  {
+    "play_number": 325,
+    "date": "2026-02-14",
+    "title": "2023 Lions running TE Leak out of 12 Personnel (1 RB, 2 TE) Double Wing",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/325_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/325_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "(1 RB, 2 TE) Double Wing \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c",
+      "formation": ""
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/325_diagram.png"
+  },
+  {
+    "play_number": 324,
+    "date": "2026-02-14",
+    "title": "2023 Idaho running TE Leak off Double Post/Wheel Action",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/324_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/324_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/324_diagram.png"
+  },
+  {
+    "play_number": 320,
+    "date": "2026-02-14",
+    "title": "2020 UCLA motioning into Screen &amp; Go on the Frontside of Y-Cross",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/320_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/320_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/320_diagram.png"
+  },
+  {
+    "play_number": 308,
+    "date": "2026-02-14",
+    "title": "2023 Sacramento State running Double Wing Counter \u201cCriss Cross\u201d",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/308_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/308_angle2.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/308_angle3.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/308_diagram.png"
+  },
+  {
+    "play_number": 307,
+    "date": "2026-02-14",
+    "title": "2021 Tulane with a creative way to run Mesh Rail in the Low Red Zone",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/307_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/307_angle2.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/307_angle3.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": "into the Boundary) with change of strength motion to 2x2."
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/307_diagram.png"
+  },
+  {
+    "play_number": 304,
+    "date": "2026-02-14",
+    "title": "2020 Ohio State throwing the Backside Post on Y-Cross",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/304_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/304_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/304_diagram.png"
+  },
+  {
+    "play_number": 303,
+    "date": "2026-02-14",
+    "title": "2023 Colorado School of Mines (D2) motioning into G/H Counter with a Slot Fade RPO",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/303_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/303_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/303_diagram.png"
+  },
+  {
+    "play_number": 256,
+    "date": "2026-02-14",
+    "title": "2023 Houston Texans running a Play Action RB \u201cFilter\u201d Screen in the Low Red Zone",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/256_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/256_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/256_diagram.png"
+  },
+  {
+    "play_number": 255,
+    "date": "2026-02-14",
+    "title": "2022 SMU using Tempo to run FIB Bunch (Formation into the Boundary) Switch Verts",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/255_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/255_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": "into the Boundary) Switch Verts \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/255_diagram.png"
+  },
+  {
+    "play_number": 254,
+    "date": "2026-02-14",
+    "title": "1976 BYU running a \u201cScissors\u201d Flood Concept",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/254_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/254_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/254_diagram.png"
+  },
+  {
+    "play_number": 253,
+    "date": "2026-02-14",
+    "title": "2022 Utah running \u201cShock\u201d or Y-Stick with a Slot Fade from #2",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/253_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/253_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/253_diagram.png"
+  },
+  {
+    "play_number": 252,
+    "date": "2026-02-14",
+    "title": "2019 Wisconsin running a TE Middle Screen (GCG) off Fake Orbit Sweep",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/252_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/252_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/252_diagram.png"
+  },
+  {
+    "play_number": 221,
+    "date": "2026-02-14",
+    "title": "2019 UCF tempo to Nub Trips FIB (Formation into the Boundary) Post/Wheel",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/221_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/221_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": "into the Boundary) Post/Wheel \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c \u200c"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/221_diagram.png"
+  },
+  {
+    "play_number": 187,
+    "date": "2026-02-14",
+    "title": "2023 Montana running Empty PA Jet Power Read with a",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/187_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/187_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "",
+      "formation": ""
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/187_diagram.jpeg"
   },
   {
     "id": "x-2018066944142852521",

@@ -308,7 +308,7 @@ def convert_gif_to_mp4(gif_path, mp4_path):
     """Convert GIF to MP4 using ffmpeg"""
     try:
         subprocess.run([
-            "/usr/bin/ffmpeg",
+            "/opt/homebrew/bin/ffmpeg",
             "-i", str(gif_path),
             "-movflags", "faststart",
             "-pix_fmt", "yuv420p",
