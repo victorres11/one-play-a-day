@@ -1,5 +1,96 @@
 [
   {
+    "play_number": 756,
+    "date": "2026-02-23",
+    "title": "2022 William &amp; Mary running a Reverse Flea Flicker + TE Delayed Wheel",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/756_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/756_angle2.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/756_angle3.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "12p",
+      "formation": "Nub Trey Lt."
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/756_diagram.jpg"
+  },
+  {
+    "play_number": 755,
+    "date": "2026-02-23",
+    "title": "2014 USC (Steve Sarkisian) running Mesh Rail + Traffic",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/755_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/755_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "4th & 3",
+      "personnel": "20p",
+      "formation": "Split Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/755_diagram.jpg"
+  },
+  {
+    "play_number": 754,
+    "date": "2026-02-23",
+    "title": "2025 Houston running Power Read Play Action with a Post/Wheel",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/754_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/754_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 10",
+      "personnel": "21p",
+      "formation": "Bundle Rt Liz"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/754_diagram.jpg"
+  },
+  {
+    "play_number": 753,
+    "date": "2026-02-23",
+    "title": "2016 Redskins running TE Leak Wheel",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/753_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/753_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "13p",
+      "formation": "Bundle Rt Liz"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/753_diagram.jpg"
+  },
+  {
+    "play_number": 752,
+    "date": "2026-02-23",
+    "title": "2022 49ers shifting to Bunch to run 4-Strong Lead Swing + Drift",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/752_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/752_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "21p",
+      "formation": "Buzz to Bunch Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/752_diagram.jpg"
+  },
+  {
+    "play_number": 751,
+    "date": "2026-02-23",
+    "title": "2025 USC running GT Counter with a Backside Arrow Screen",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/751_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/751_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 6",
+      "personnel": "11p",
+      "formation": "Nub Trips Rt Hip"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/751_diagram.jpg"
+  },
+  {
     "play_number": 750,
     "date": "2026-02-14",
     "title": "2025 Oklahoma Defense running a Mike Plug Simulated Pressure (3 Safety - Tampa 2)",
