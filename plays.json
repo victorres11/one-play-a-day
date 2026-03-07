@@ -1,5 +1,140 @@
 [
   {
+    "play_number": 765,
+    "date": "2026-03-07",
+    "title": "2025 Utah running \u201cBash\u201d (Back Away) QB C/G Counter",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/765_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/765_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 10",
+      "personnel": "12p XL",
+      "formation": "Empty Brick Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/765_diagram.jpg"
+  },
+  {
+    "play_number": 764,
+    "date": "2026-03-07",
+    "title": "2025 Rams running Boot with a Throwback Cross/Corner",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/764_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/764_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "13p",
+      "formation": "Rip to East Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/764_diagram.jpg"
+  },
+  {
+    "play_number": 763,
+    "date": "2026-03-07",
+    "title": "2023 South Dakota State running Empty Flip G/H Counter",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/763_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/763_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Bunch Lt Away"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/763_diagram.jpg"
+  },
+  {
+    "play_number": 762,
+    "date": "2026-03-07",
+    "title": "2023 South Carolina running G/H Counter Bluff to Arrow Screen",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/762_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/762_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 5",
+      "personnel": "11p",
+      "formation": "Dual Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/762_diagram.jpg"
+  },
+  {
+    "play_number": 761,
+    "date": "2026-03-07",
+    "title": "2025 Georgia Tech running Quads Midline Read (Read the Shaded Nose)",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/761_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/761_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "10p",
+      "formation": "FUB Quads Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/761_diagram.jpg"
+  },
+  {
+    "play_number": 760,
+    "date": "2026-03-07",
+    "title": "2023 Western Kentucky running Wildcat Counter Criss-Cross (XX)",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/760_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/760_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 3",
+      "personnel": "12p",
+      "formation": "Shift to Wildcat Bunch Lt."
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/760_diagram.jpg"
+  },
+  {
+    "play_number": 759,
+    "date": "2026-03-07",
+    "title": "2025 Ohio State Defense running Dime \u201cSmash\u201d with a 3 Deep, 3 Under Fire Zone",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/759_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/759_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "3rd & 8",
+      "personnel": "Dime",
+      "formation": "Odd Mug"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/759_diagram.jpg"
+  },
+  {
+    "play_number": 758,
+    "date": "2026-03-07",
+    "title": "2025 Tulsa running \u201cBash\u201d (Back Away) QB Lead Zone out of Full House",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/758_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/758_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "21p",
+      "formation": "House Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/758_diagram.jpg"
+  },
+  {
+    "play_number": 757,
+    "date": "2026-03-07",
+    "title": "2013 49ers using 7-OL to run Spider Pass off Counter Action",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/757_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/757_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & GL",
+      "personnel": "23p XL",
+      "formation": "Heavy Rt Liz"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/757_diagram.jpg"
+  },
+  {
     "play_number": 756,
     "date": "2026-02-23",
     "title": "2022 William &amp; Mary running a Reverse Flea Flicker + TE Delayed Wheel",
