@@ -1,5 +1,80 @@
 [
   {
+    "play_number": 770,
+    "date": "2026-03-14",
+    "title": "2024 Penn State running Wildcat G/H Counter + RB Rail",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/770_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/770_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "3rd & 5",
+      "personnel": "12p",
+      "formation": "Unbalanced FIB Wildcat"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/770_diagram.jpg"
+  },
+  {
+    "play_number": 769,
+    "date": "2026-03-14",
+    "title": "2025 Texas State motioning into a Numbers Advantage on Split Zone Bluff",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/769_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/769_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 8",
+      "personnel": "12p",
+      "formation": "Nub Trips Rt Laser"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/769_diagram.jpg"
+  },
+  {
+    "play_number": 768,
+    "date": "2026-03-14",
+    "title": "2025 Mizzou getting to \u201cHank\u201d Route Distribution with a TE Swirl Route",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/768_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/768_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Nub Trips Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/768_diagram.jpg"
+  },
+  {
+    "play_number": 767,
+    "date": "2026-03-14",
+    "title": "2025 Packers running Shallow Sting out of 21p",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/767_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/767_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "21p",
+      "formation": "Nub Split Rt Tear"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/767_diagram.jpg"
+  },
+  {
+    "play_number": 766,
+    "date": "2026-03-14",
+    "title": "2021 Purdue getting to \u201cHank\u201d Route Distribution on Shallow Trail",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/766_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/766_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "4th & 1",
+      "personnel": "11p",
+      "formation": "East Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/766_diagram.jpg"
+  },
+  {
     "play_number": 765,
     "date": "2026-03-07",
     "title": "2025 Utah running \u201cBash\u201d (Back Away) QB C/G Counter",
