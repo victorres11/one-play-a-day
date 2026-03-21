@@ -1,5 +1,81 @@
 [
   {
+    "play_number": 775,
+    "date": "2026-03-21",
+    "title": "2018 Chargers running Mesh Sail with an Omaha Pump Alert",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/775_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/775_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "3rd & 4",
+      "personnel": "11p",
+      "formation": "Trio Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/775_diagram.jpg"
+  },
+  {
+    "play_number": 774,
+    "date": "2026-03-21",
+    "title": "2025 Montana running using FIB to isolate the RB on Choice",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/774_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/774_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Wide Bunch Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/774_diagram.jpg"
+  },
+  {
+    "play_number": 773,
+    "date": "2026-03-21",
+    "title": "2025 Bears settling a Post Route when the FS Pinned Down the Cross",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/773_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/773_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "12p",
+      "formation": "Shift to Full House"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/773_diagram.jpg"
+  },
+  {
+    "play_number": 772,
+    "date": "2026-03-21",
+    "title": "2025 Cowboys running a Drive Cross Concept",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/772_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/772_angle2.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/772_angle3.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Short to Bunch Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/772_diagram.jpg"
+  },
+  {
+    "play_number": 771,
+    "date": "2026-03-21",
+    "title": "2025 Oklahoma flying into G/H Counter with a Post-Snap RB Flip",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/771_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/771_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "FIB Trips Rt Zap"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/771_diagram.jpg"
+  },
+  {
     "play_number": 770,
     "date": "2026-03-14",
     "title": "2024 Penn State running Wildcat G/H Counter + RB Rail",
