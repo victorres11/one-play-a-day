@@ -1,5 +1,20 @@
 [
   {
+    "play_number": 776,
+    "date": "2026-04-04",
+    "title": "2021 49ers running Split Flow + Lead Zone",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/776_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/776_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "21p",
+      "formation": "I Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/776_diagram.jpg"
+  },
+  {
     "play_number": 775,
     "date": "2026-03-21",
     "title": "2018 Chargers running Mesh Sail with an Omaha Pump Alert",
