@@ -9,6 +9,7 @@ import subprocess
 import sys
 import re
 import os
+import base64
 from pathlib import Path
 from datetime import datetime
 import argparse
@@ -90,10 +91,53 @@ def search_emails(max_results=50):
         return []
 
 
+def _decode_gmail_part_data(data):
+    """Decode Gmail base64url message part content."""
+    if not data:
+        return ""
+    padded = data + "=" * (-len(data) % 4)
+    return base64.urlsafe_b64decode(padded).decode('utf-8', errors='replace')
+
+
+def _find_html_part(payload):
+    """Find the first text/html part in a Gmail payload tree."""
+    if not payload:
+        return None
+    if payload.get("mimeType") == "text/html":
+        return payload
+    for part in payload.get("parts", []) or []:
+        found = _find_html_part(part)
+        if found:
+            return found
+    return None
+
+
 def get_email_content(email_id):
-    """Fetch full email content"""
+    """Fetch full email HTML content when available, with plain-text fallback."""
     logger.info(f"Fetching email {email_id}...")
-    return run_gog_command(["gmail", "get", email_id])
+    output = run_gog_command(["gmail", "get", email_id, "--json"])
+    if not output:
+        return None
+
+    try:
+        data = json.loads(output)
+    except json.JSONDecodeError:
+        return output
+
+    message = data.get("message", {})
+    payload = message.get("payload", {})
+    html_part = _find_html_part(payload)
+    if html_part:
+        html = _decode_gmail_part_data((html_part.get("body") or {}).get("data"))
+        if html:
+            return html
+
+    body = data.get("body")
+    if body:
+        return body
+
+    text_body = _decode_gmail_part_data((payload.get("body") or {}).get("data"))
+    return text_body or None
 
 
 def extract_play_number(subject):

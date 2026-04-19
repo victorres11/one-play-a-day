@@ -27,6 +27,10 @@ logging.basicConfig(
 )
 
 
+class GogAuthError(RuntimeError):
+    """Raised when gog OAuth is expired or revoked."""
+
+
 def run_gog_command(args):
     """Run a gog command and return output"""
     cmd = ["gog"] + args
@@ -41,11 +45,17 @@ def run_gog_command(args):
         return output
     except subprocess.CalledProcessError as e:
         logger.error(f"gog command failed: {' '.join(cmd)}")
+        error_msg = ""
         try:
             error_msg = e.stderr.decode('utf-8', errors='replace')
             logger.error(f"Error: {error_msg}")
-        except:
+        except Exception:
             pass
+
+        lowered = error_msg.lower()
+        if "invalid_grant" in lowered or "expired or revoked" in lowered or "token has been expired" in lowered:
+            raise GogAuthError(error_msg.strip() or "gog OAuth token expired or revoked")
+
         return None
 
 
@@ -94,7 +104,13 @@ def main():
     logger.info(f"Loaded {len(existing_plays)} existing plays")
     
     # Search for labeled emails
-    emails = search_labeled_emails()
+    try:
+        emails = search_labeled_emails()
+    except GogAuthError as e:
+        logger.error("Gmail auth failed. Re-auth needed: run `gog auth add victorres11@gmail.com`")
+        logger.error(str(e))
+        return 2
+
     if not emails:
         logger.info("No unread emails to process")
         return 0

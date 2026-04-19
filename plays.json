@@ -1,5 +1,80 @@
 [
   {
+    "play_number": 795,
+    "date": "2026-04-19",
+    "title": "2024 Louisville running a PA RB Wheel + TE Leak",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/795_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/795_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & GL",
+      "personnel": "11p",
+      "formation": "Deuce Rt Razor"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/795_diagram.png"
+  },
+  {
+    "play_number": 794,
+    "date": "2026-04-19",
+    "title": "2017 Chiefs with a creative way to get to Boundary Flood",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/794_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/794_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 19",
+      "personnel": "11p",
+      "formation": "Deuce Lt Jet"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/794_diagram.jpg"
+  },
+  {
+    "play_number": 793,
+    "date": "2026-04-19",
+    "title": "2018 Colts running TE Scissors in the High Red Zone",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/793_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/793_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 8",
+      "personnel": "12p",
+      "formation": "TE/Wing Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/793_diagram.jpg"
+  },
+  {
+    "play_number": 792,
+    "date": "2026-04-19",
+    "title": "2025 Bears running Wave + Juke",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/792_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/792_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "3rd & 5",
+      "personnel": "11p",
+      "formation": "Loose Bunch Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/792_diagram.png"
+  },
+  {
+    "play_number": 791,
+    "date": "2026-04-19",
+    "title": "2019 Oklahoma running Extended Triple Option",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/791_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/791_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Dual Lt Laser"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/791_diagram.jpg"
+  },
+  {
     "play_number": 776,
     "date": "2026-04-04",
     "title": "2021 49ers running Split Flow + Lead Zone",
