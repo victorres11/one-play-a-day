@@ -1,5 +1,155 @@
 [
   {
+    "play_number": 805,
+    "date": "2026-05-02",
+    "title": "2024 Commanders shifting from Pistol to run Buck Sweep",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/805_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/805_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Nub Crowd Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/805_diagram.jpg"
+  },
+  {
+    "play_number": 804,
+    "date": "2026-05-02",
+    "title": "2010 Packers running a PSO (Pass/Screen Option) with Y-Stick + RB Slip Screen",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/804_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/804_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Trey Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/804_diagram.jpg"
+  },
+  {
+    "play_number": 803,
+    "date": "2026-05-02",
+    "title": "2025 Kennesaw State running Sprint G/RB Counter off WR Tear Motion",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/803_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/803_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "10p",
+      "formation": "Split Rt Tear"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/803_diagram.jpg"
+  },
+  {
+    "play_number": 802,
+    "date": "2026-05-02",
+    "title": "2025 Mississippi State running Wide Zone with an On-Ball TE Bluff Arrow",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/802_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/802_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 9",
+      "personnel": "11p",
+      "formation": "Nub Trips Rt Laser"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/802_diagram.jpg"
+  },
+  {
+    "play_number": 801,
+    "date": "2026-05-02",
+    "title": "2025 Broncos running Wave (Dbl Post + Deep Over) off Spinner Action",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/801_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/801_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Deuce Rt Robot"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/801_diagram.png"
+  },
+  {
+    "play_number": 800,
+    "date": "2026-05-02",
+    "title": "2016 Chargers running Mesh with a Backside Shallow Sting",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/800_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/800_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "3rd & 2",
+      "personnel": "11p",
+      "formation": "Bunch Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/800_diagram.png"
+  },
+  {
+    "play_number": 799,
+    "date": "2026-05-02",
+    "title": "2025 Ole Miss running Switch Slot Dagger with a Backside Bite",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/799_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/799_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "",
+      "personnel": "10p",
+      "formation": "Trips Lt Z-Closer"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/799_diagram.jpg"
+  },
+  {
+    "play_number": 798,
+    "date": "2026-05-02",
+    "title": "2024 Idaho running Jet + Reverse + Flea Flicker + Throwback Screen",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/798_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/798_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Deuce Lt Jet"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/798_diagram.jpg"
+  },
+  {
+    "play_number": 797,
+    "date": "2026-05-02",
+    "title": "2025 Broncos running Dash Pass with a Slot Hiccup",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/797_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/797_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 10",
+      "personnel": "11p",
+      "formation": "Rip to Trips Rt Close"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/797_diagram.jpg"
+  },
+  {
+    "play_number": 796,
+    "date": "2026-05-02",
+    "title": "2025 Virginia running Switch Verts off Toss Power Read Action (+ Lead Swing)",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/796_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/796_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "FUB Bunch Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/796_diagram.jpg"
+  },
+  {
     "play_number": 795,
     "date": "2026-04-19",
     "title": "2024 Louisville running a PA RB Wheel + TE Leak",
