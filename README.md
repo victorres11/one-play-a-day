@@ -6,7 +6,7 @@ A searchable database of daily football plays, sourced from Coach Dan Casey's "O
 
 ## Overview
 
-One Play a Day showcases curated football plays with multiple camera angles, play diagrams, and detailed breakdowns. Each play includes formation details, personnel packages, and situational context (down & distance).
+One Play a Day showcases curated football plays with multiple camera angles, play diagrams, and detailed breakdowns. Each play includes formation details, personnel packages, and situational context (down & distance)
 
 ## Features
 
