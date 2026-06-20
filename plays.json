@@ -1,5 +1,80 @@
 [
   {
+    "play_number": 810,
+    "date": "2026-05-09",
+    "title": "1992 Delaware Wing-T running \u201cSally&#34;",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/810_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/810_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "30p",
+      "formation": "Flex Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/810_diagram.jpg"
+  },
+  {
+    "play_number": 809,
+    "date": "2026-05-09",
+    "title": "2016 Giants running Spacing with a Hitch &amp; Go",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/809_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/809_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Nub Trips Lt Z-Walk"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/809_diagram.png"
+  },
+  {
+    "play_number": 808,
+    "date": "2026-05-09",
+    "title": "2022 Houston running Slot Dagger on 3rd &amp; Long",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/808_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/808_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "3rd & 14",
+      "personnel": "10p",
+      "formation": "Ace to Trips Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/808_diagram.jpg"
+  },
+  {
+    "play_number": 807,
+    "date": "2026-05-09",
+    "title": "2019 Tulane running Boot Flood with a Pylon off Counter Action",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/807_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/807_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Bunch Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/807_diagram.jpg"
+  },
+  {
+    "play_number": 806,
+    "date": "2026-05-09",
+    "title": "2025 Jaguars running the FB Sail off Play Action",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/806_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/806_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Bunch to I Rt Laser"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/806_diagram.jpg"
+  },
+  {
     "play_number": 805,
     "date": "2026-05-02",
     "title": "2024 Commanders shifting from Pistol to run Buck Sweep",
