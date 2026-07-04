@@ -1,5 +1,605 @@
 [
   {
+    "play_number": 850,
+    "date": "2026-07-04",
+    "title": "2024 Army running Heavy QB Follow",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/850_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/850_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "32p",
+      "formation": "Heavy Flex Rip"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/850_diagram.png"
+  },
+  {
+    "play_number": 849,
+    "date": "2026-07-04",
+    "title": "2025 West Virginia running a Heavy Single Wing Dive",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/849_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/849_angle2.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/849_angle3.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & GL",
+      "personnel": "XLp",
+      "formation": "Hammer Lt"
+    },
+    "play_diagram": ""
+  },
+  {
+    "play_number": 848,
+    "date": "2026-07-04",
+    "title": "2024 Lions running Slot Dagger out of Empty with a RB Shallow on the Move",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/848_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/848_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "3rd & 3",
+      "personnel": "11p",
+      "formation": "Empty Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/848_diagram.jpg"
+  },
+  {
+    "play_number": 847,
+    "date": "2026-07-04",
+    "title": "2025 Wake Forest running a Flea Flicker with Rebound Backfield Action",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/847_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/847_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 10",
+      "personnel": "21p",
+      "formation": "GoGo Unbalanced"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/847_diagram.jpg"
+  },
+  {
+    "play_number": 846,
+    "date": "2026-07-04",
+    "title": "2012 Texans running TE Hiccup out of 22p",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/846_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/846_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 9",
+      "personnel": "22p",
+      "formation": "I Rt Hug"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/846_diagram.png"
+  },
+  {
+    "play_number": 845,
+    "date": "2026-06-28",
+    "title": "2023 Oregon running Shallow Trail with a Frontside RB Shuffle Rail",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/845_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/845_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "3rd & 6",
+      "personnel": "11p",
+      "formation": "Bunch Lt Y-Solo H-Shuffle"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/845_diagram.jpg"
+  },
+  {
+    "play_number": 844,
+    "date": "2026-06-28",
+    "title": "2023 Mizzou running Lead Zone Weak",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/844_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/844_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 4",
+      "personnel": "11p",
+      "formation": "Trips Rt Y-Home"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/844_diagram.jpg"
+  },
+  {
+    "play_number": 843,
+    "date": "2026-06-28",
+    "title": "2025 Furman (FCS) running Dash with a Post/Curl",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/843_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/843_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 10",
+      "personnel": "11p",
+      "formation": "Deuce Rt Razor"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/843_diagram.png"
+  },
+  {
+    "play_number": 842,
+    "date": "2026-06-28",
+    "title": "2018 Packers running Sluggo",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/842_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/842_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2ns & 10",
+      "personnel": "11p",
+      "formation": "Trips Lt On"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/842_diagram.PNG"
+  },
+  {
+    "play_number": 841,
+    "date": "2026-06-28",
+    "title": "2025 Bears running a TE Pitch to QB, Throwback to TE Double Pass",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/841_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/841_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "12p",
+      "formation": "Empty Bunch Lt Y-Under"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/841_diagram.jpg"
+  },
+  {
+    "play_number": 840,
+    "date": "2026-06-28",
+    "title": "Untitled Play",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/840_angle1.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & GL",
+      "personnel": "X23p",
+      "formation": "Tackle Over Double Wing"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/840_diagram.jpg"
+  },
+  {
+    "play_number": 839,
+    "date": "2026-06-28",
+    "title": "2025 Oregon running Flood off Gap Play Action",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/839_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/839_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 7",
+      "personnel": "21p",
+      "formation": "Splt Lt Hip"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/839_diagram.jpg"
+  },
+  {
+    "play_number": 838,
+    "date": "2026-06-28",
+    "title": "2017 Chiefs running TE Leak Wheel out of 13p",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/838_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/838_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 1",
+      "personnel": "13p",
+      "formation": "Tribe Rt Y-Walk"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/838_diagram.jpg"
+  },
+  {
+    "play_number": 837,
+    "date": "2026-06-28",
+    "title": "1951 Michigan State (Biggie Munn) running Single Wing Spinner + \u201cMega\u201d Wing Counter",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/837_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/837_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 6",
+      "personnel": "42p?",
+      "formation": "Notre Dame Box Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/837_diagram.jpg"
+  },
+  {
+    "play_number": 836,
+    "date": "2026-06-28",
+    "title": "2025 Harvard running Waggle with a Stutter Throwback",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/836_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/836_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "12p",
+      "formation": "Nub Truce Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/836_diagram.jpg"
+  },
+  {
+    "play_number": 835,
+    "date": "2026-06-28",
+    "title": "2025 Austin Peay running a Tunnel Screen on the Backside of Wide Zone",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/835_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/835_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "12p",
+      "formation": "FUB West Lt Razor"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/835_diagram.jpg"
+  },
+  {
+    "play_number": 834,
+    "date": "2026-06-28",
+    "title": "2025 49ers running RB Mesh Traffic with a Texas Route",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/834_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/834_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "3rd & 4",
+      "personnel": "11p",
+      "formation": "F-Walk to Deuce Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/834_diagram.png"
+  },
+  {
+    "play_number": 833,
+    "date": "2026-06-28",
+    "title": "2025 Louisville using RB Tear Motion to Run Counter out of Pistol",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/833_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/833_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "21p",
+      "formation": "Weak Rt Off"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/833_diagram.png"
+  },
+  {
+    "play_number": 832,
+    "date": "2026-06-28",
+    "title": "2024 Browns running a Spinner Dart Triple Option",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/832_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/832_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Troop Lt F Orbit"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/832_diagram.jpg"
+  },
+  {
+    "play_number": 831,
+    "date": "2026-06-28",
+    "title": "2025 Old Dominion running \u201cBash\u201d QB GT Counter",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/831_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/831_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 13",
+      "personnel": "11p",
+      "formation": "Ace Wide"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/831_diagram.jpg"
+  },
+  {
+    "play_number": 830,
+    "date": "2026-06-28",
+    "title": "2001 Seahawks running Buck Sweep out of Split Backs",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/830_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/830_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "21p",
+      "formation": "Red Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/830_diagram.jpg"
+  },
+  {
+    "play_number": 829,
+    "date": "2026-06-28",
+    "title": "2025 Western Carolina running Stick + Spacing (Pump)",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/829_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/829_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Vice Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/829_diagram.jpg"
+  },
+  {
+    "play_number": 828,
+    "date": "2026-06-28",
+    "title": "2025 Rhode Island running Snag + Bow",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/828_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/828_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 7",
+      "personnel": "11p",
+      "formation": "Nub Wide Bunch Lt Walk"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/828_diagram.jpg"
+  },
+  {
+    "play_number": 827,
+    "date": "2026-06-28",
+    "title": "2022 Texas running a Gap Pass RB Throwback Screen",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/827_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/827_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 5",
+      "personnel": "11p",
+      "formation": "Dual Rt Orbit"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/827_diagram.jpg"
+  },
+  {
+    "play_number": 826,
+    "date": "2026-06-28",
+    "title": "2025 Tarleton State running a cool mix of Y-Cross &amp; Gronk Pass",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/826_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/826_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 8",
+      "personnel": "11p",
+      "formation": "Deuce Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/826_diagram.jpg"
+  },
+  {
+    "play_number": 825,
+    "date": "2026-06-28",
+    "title": "2018 Patriots running Double Post with a RB Scissors in the Red Zone",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/825_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/825_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "3rd & 4",
+      "personnel": "11p",
+      "formation": "Dual Rt Closer"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/825_diagram.jpg"
+  },
+  {
+    "play_number": 824,
+    "date": "2026-06-28",
+    "title": "2018 Steelers running Mesh out of Bunch",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/824_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/824_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Bunch Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/824_diagram.jpg"
+  },
+  {
+    "play_number": 823,
+    "date": "2026-06-28",
+    "title": "2022 North Dakota State running A-Gap Power out of 22p",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/823_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/823_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st",
+      "personnel": "22p",
+      "formation": "I Wing Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/823_diagram.png"
+  },
+  {
+    "play_number": 822,
+    "date": "2026-06-28",
+    "title": "2025 Idaho State running Dash Flood with a Mardi Gras Read",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/822_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/822_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 6",
+      "personnel": "11p",
+      "formation": "Trips Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/822_diagram.png"
+  },
+  {
+    "play_number": 821,
+    "date": "2026-06-28",
+    "title": "2006 John Curtis (LA) running Inside Veer with a Backside Fold?",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/821_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/821_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 15",
+      "personnel": "21p",
+      "formation": "Split Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/821_diagram.jpg"
+  },
+  {
+    "play_number": 820,
+    "date": "2026-06-28",
+    "title": "2018 Ravens running a Center Fold on Mid Zone",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/820_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/820_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Trey Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/820_diagram.jpg"
+  },
+  {
+    "play_number": 819,
+    "date": "2026-06-28",
+    "title": "2021 Bills running Mesh Rail out of Bunch",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/819_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/819_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Squeeze to Nub Bunch Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/819_diagram.jpg"
+  },
+  {
+    "play_number": 818,
+    "date": "2026-06-28",
+    "title": "2021 Packers running Snag with a WR running Choice from the Backfield",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/818_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/818_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 6",
+      "personnel": "10p",
+      "formation": "Red Rt + \u201cH\u201d Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/818_diagram.png"
+  },
+  {
+    "play_number": 817,
+    "date": "2026-06-28",
+    "title": "2019 LSU running Stick + Lucy (Slant until you can&#39;t.)",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/817_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/817_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Empty Token Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/817_diagram.jpg"
+  },
+  {
+    "play_number": 816,
+    "date": "2026-06-28",
+    "title": "2017 Rams running Weak Zone to the Open B-Gap",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/816_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/816_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "11p",
+      "formation": "Rip to Deuce Rt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/816_diagram.jpg"
+  },
+  {
+    "play_number": 815,
+    "date": "2026-06-28",
+    "title": "2016 Falcons running Split Flow Boot out of 13p",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/815_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/815_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "13p",
+      "formation": "West Rt Tite Slot"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/815_diagram.png"
+  },
+  {
+    "play_number": 814,
+    "date": "2026-06-28",
+    "title": "2017 Saints running Shallow Trail out of 20p",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/814_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/814_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "4th & 5",
+      "personnel": "20p",
+      "formation": "Split Rt Closer"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/814_diagram.jpg"
+  },
+  {
+    "play_number": 813,
+    "date": "2026-06-28",
+    "title": "2025 UC Davis running Dash Flood with a Post/Corner Pylon",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/813_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/813_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "3rd & 12",
+      "personnel": "11p",
+      "formation": "Dual Lt Y-Pin"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/813_diagram.png"
+  },
+  {
+    "play_number": 812,
+    "date": "2026-06-28",
+    "title": "1995 Nebraska running Lead Option out of Power-I",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/812_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/812_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "1st & 10",
+      "personnel": "30p",
+      "formation": "Power-I Lt"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/812_diagram.jpg"
+  },
+  {
+    "play_number": 811,
+    "date": "2026-06-28",
+    "title": "2018 Chargers running a TE Screen out of 13p",
+    "angles": [
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/811_angle1.mp4",
+      "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/811_angle2.mp4"
+    ],
+    "play_details": {
+      "down_and_distance": "2nd & 4",
+      "personnel": "13p",
+      "formation": "West Lt Tite"
+    },
+    "play_diagram": "https://pub-ac439fcb4c2f43a19d0737740b2f013f.r2.dev/media/811_diagram.jpg"
+  },
+  {
     "play_number": 810,
     "date": "2026-05-09",
     "title": "1992 Delaware Wing-T running \u201cSally&#34;",
